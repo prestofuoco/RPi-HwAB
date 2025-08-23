@@ -5,6 +5,113 @@
 	(uuid "5f97deb1-48ca-4b14-9543-8f2f4bb64e83")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FPGA_Xilinx_Artix7:XC7A35T-FGG484"
 			(pin_names
 				(offset 1.016)
@@ -8639,9 +8746,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 245.11 142.24)
+		(end 278.13 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 085abd82-dcbb-47c2-8e2e-c13a96b519b0)
+	)
+	(rectangle
+		(start 245.11 118.11)
+		(end 278.13 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4756ec10-647c-400d-b8ef-5a981d8c8d80)
+	)
 	(text "Power sequencing: \n\n1. VCCINT, VCCBRAM, MGTAVCC\n2. VCCAUX\n3. MGTAVTT\n4. VCCO"
 		(exclude_from_sim no)
-		(at 217.17 88.9 0)
+		(at 246.38 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8649,6 +8780,16 @@
 			(justify left)
 		)
 		(uuid "6e0d63ac-a0c9-44b8-a6b8-2e4ebeea39b1")
+	)
+	(text "test points"
+		(exclude_from_sim no)
+		(at 250.19 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "816cd4fa-2d2e-40a6-9fc2-678d395e37cd")
 	)
 	(junction
 		(at 100.33 113.03)
@@ -10184,6 +10325,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 148.59) (xy 265.43 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3301a264-13c3-465b-899a-6af3a2deaaa4")
+	)
+	(wire
+		(pts
 			(xy 34.29 87.63) (xy 41.91 87.63)
 		)
 		(stroke
@@ -10994,7 +11145,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 149.86) (xy 261.62 149.86)
+			(xy 259.08 105.41) (xy 266.7 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11131,6 +11282,16 @@
 			(type default)
 		)
 		(uuid "7b8d5e80-fc2d-432d-8c7b-f8adc607ebd7")
+	)
+	(wire
+		(pts
+			(xy 260.35 151.13) (xy 265.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baa5b59-9ad5-4c98-b6c0-3a07bc46edaa")
 	)
 	(wire
 		(pts
@@ -11294,7 +11455,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 152.4) (xy 261.62 152.4)
+			(xy 259.08 107.95) (xy 266.7 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11984,13 +12145,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 144.78) (xy 261.62 144.78)
+			(xy 259.08 100.33) (xy 266.7 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc3ddd4e-2687-4728-8258-91c7af748148")
+	)
+	(wire
+		(pts
+			(xy 260.35 153.67) (xy 265.43 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf05c6a-bd19-4899-ba31-b2345ff45cc7")
 	)
 	(wire
 		(pts
@@ -12131,6 +12302,16 @@
 			(type default)
 		)
 		(uuid "c9259237-ec6f-4a19-b545-978a37fc4f6e")
+	)
+	(wire
+		(pts
+			(xy 260.35 146.05) (xy 265.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99c794c-c54c-400f-bae1-3607401a0539")
 	)
 	(wire
 		(pts
@@ -12494,6 +12675,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 156.21) (xy 265.43 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17b65b4-4806-4981-989f-ee8e06faf172")
+	)
+	(wire
+		(pts
 			(xy 172.72 99.06) (xy 166.37 99.06)
 		)
 		(stroke
@@ -12624,7 +12815,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 147.32) (xy 261.62 147.32)
+			(xy 259.08 102.87) (xy 266.7 102.87)
 		)
 		(stroke
 			(width 0)
@@ -12714,7 +12905,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 154.94) (xy 261.62 154.94)
+			(xy 259.08 110.49) (xy 266.7 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12814,7 +13005,7 @@
 	)
 	(hierarchical_label "+1V8_FD"
 		(shape input)
-		(at 261.62 147.32 0)
+		(at 266.7 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12825,7 +13016,7 @@
 	)
 	(hierarchical_label "+1V0_MGT"
 		(shape input)
-		(at 261.62 152.4 0)
+		(at 266.7 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12836,7 +13027,7 @@
 	)
 	(hierarchical_label "+1V0_FD"
 		(shape input)
-		(at 261.62 144.78 0)
+		(at 266.7 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,7 +13038,7 @@
 	)
 	(hierarchical_label "+2V5_FD"
 		(shape input)
-		(at 261.62 149.86 0)
+		(at 266.7 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12858,7 +13049,7 @@
 	)
 	(hierarchical_label "+1V2_MGT"
 		(shape input)
-		(at 261.62 154.94 0)
+		(at 266.7 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12866,6 +13057,73 @@
 			(justify left)
 		)
 		(uuid "c79235cf-d925-4da6-b5dd-ed3bfce02021")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07799eca-3b8c-4eb6-80bb-be7234234f23")
+		(property "Reference" "1V0"
+			(at 270.51 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3baa3742-44ef-41ed-ac00-1af840c7bd7e")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "1V0")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12935,6 +13193,73 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
+		(at 260.35 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f86dcd1-5f24-49a5-9f56-fc308064693f")
+		(property "Reference" "#PWR023"
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8_FD"
+			(at 256.54 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb006cd-7893-4cb1-b038-baddc423c80a")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 196.85 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12994,6 +13319,140 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b4f2ee6-a5c6-4b46-a17d-ebb8089219f1")
+		(property "Reference" "2V5"
+			(at 270.51 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66004ca-2e7b-428a-9cde-5d3284135416")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "2V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e999bc5-e2ab-403b-b65f-71daed4103c3")
+		(property "Reference" "M1V2"
+			(at 270.51 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54a95213-8688-4319-bf6d-2c68153d09fe")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "M1V2")
 					(unit 1)
 				)
 			)
@@ -14475,7 +14934,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 254 144.78 90)
+		(at 259.08 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14484,7 +14943,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a877388-1e11-42e9-a47f-39ec69b9518d")
 		(property "Reference" "#PWR020"
-			(at 257.81 144.78 0)
+			(at 262.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,7 +14952,7 @@
 			)
 		)
 		(property "Value" "+1V0_FD"
-			(at 250.19 144.7799 90)
+			(at 255.27 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,7 +14961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 144.78 0)
+			(at 259.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 144.78 0)
+			(at 259.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14520,7 +14979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 254 144.78 0)
+			(at 259.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,8 +15000,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62c3c454-02fd-47bd-bb2b-5b4b42155341")
+		(property "Reference" "M1V0"
+			(at 270.51 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c555258e-7a3a-4bd8-b08a-3569576d74e9")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "M1V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
-		(at 254 154.94 90)
+		(at 259.08 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14551,7 +15077,7 @@
 		(fields_autoplaced yes)
 		(uuid "688aa623-b082-4a06-a727-656d37c74f30")
 		(property "Reference" "#PWR03"
-			(at 257.81 154.94 0)
+			(at 262.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14560,7 +15086,7 @@
 			)
 		)
 		(property "Value" "+1V2_MGT"
-			(at 250.19 154.9399 90)
+			(at 255.27 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,7 +15095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 154.94 0)
+			(at 259.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +15104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 154.94 0)
+			(at 259.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +15113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 254 154.94 0)
+			(at 259.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14609,7 +15135,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 254 152.4 90)
+		(at 259.08 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14618,7 +15144,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c65b2c2-4b4c-4aad-9bf2-0ea12614f96c")
 		(property "Reference" "#PWR019"
-			(at 257.81 152.4 0)
+			(at 262.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +15153,7 @@
 			)
 		)
 		(property "Value" "+1V0_MGT"
-			(at 250.19 152.3999 90)
+			(at 255.27 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14636,7 +15162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 152.4 0)
+			(at 259.08 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +15171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 152.4 0)
+			(at 259.08 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +15180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 254 152.4 0)
+			(at 259.08 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14669,6 +15195,73 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 260.35 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc469a7-70e6-4605-b3d7-ca77aebf12a0")
+		(property "Reference" "#PWR010"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V0_FD"
+			(at 256.54 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 260.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f274ab2-dfdc-4534-8e47-4b9dfb31ac6d")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14742,6 +15335,73 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
+		(at 260.35 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88705775-9522-4055-b023-32fc954b6fa4")
+		(property "Reference" "#PWR026"
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2_MGT"
+			(at 256.54 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5564855-098a-4beb-b296-30ac923ff3b1")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 100.33 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14808,7 +15468,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 254 147.32 90)
+		(at 259.08 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14817,7 +15477,7 @@
 		(fields_autoplaced yes)
 		(uuid "9af8ad55-4521-4a3e-9da8-9946798793f1")
 		(property "Reference" "#PWR021"
-			(at 257.81 147.32 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14826,7 +15486,7 @@
 			)
 		)
 		(property "Value" "+1V8_FD"
-			(at 250.19 147.3199 90)
+			(at 255.27 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +15495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 147.32 0)
+			(at 259.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14844,7 +15504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 147.32 0)
+			(at 259.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14853,7 +15513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 254 147.32 0)
+			(at 259.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14875,16 +15535,16 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 254 149.86 90)
+		(at 260.35 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b82cf38e-adf2-40ed-9faa-c61330fa3ef0")
-		(property "Reference" "#PWR022"
-			(at 257.81 149.86 0)
+		(uuid "a355d733-b779-474f-b5e1-d9f73d05a84f")
+		(property "Reference" "#PWR025"
+			(at 264.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,8 +15552,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5_FD"
-			(at 250.19 149.8599 90)
+		(property "Value" "+1V0_MGT"
+			(at 256.54 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +15562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 149.86 0)
+			(at 260.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +15571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 149.86 0)
+			(at 260.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +15580,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 254 149.86 0)
+			(at 260.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "958ddc80-2650-4b68-8aa5-64176ca03973")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 259.08 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82cf38e-adf2-40ed-9faa-c61330fa3ef0")
+		(property "Reference" "#PWR022"
+			(at 262.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V5_FD"
+			(at 255.27 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16480,6 +17207,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 260.35 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8525beb-bead-441c-bcfb-f2090822b823")
+		(property "Reference" "#PWR024"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V5_FD"
+			(at 256.54 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 260.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad8da32-5193-433b-97c5-cb423816d7f5")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
 		(at 67.31 102.87 0)
 		(unit 9)
@@ -17948,6 +18742,73 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f87c2ebf-da61-46d3-8d35-085d1744fe78")
+		(property "Reference" "1V8"
+			(at 270.51 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74e7a15-88fe-466d-b0a9-a6f7878f41dd")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0b49ba4a-009a-499f-8ab2-0eb031fe8200"
+					(reference "1V8")
 					(unit 1)
 				)
 			)
