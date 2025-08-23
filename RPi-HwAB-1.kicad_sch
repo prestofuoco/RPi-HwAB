@@ -17841,7 +17841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga-mgt.kicad_sch"
+		(property "Sheetfile" "fpga-3.kicad_sch"
 			(at 83.82 142.8246 0)
 			(effects
 				(font
@@ -17879,7 +17879,7 @@
 		)
 	)
 	(sheet
-		(at -2.54 -31.75)
+		(at 67.31 -31.75)
 		(size 24.13 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17895,7 +17895,7 @@
 		)
 		(uuid "6950ed9d-07bc-48b4-b7cb-d07910134e16")
 		(property "Sheetname" "FPGA 2"
-			(at -2.54 -32.4616 0)
+			(at 67.31 -32.4616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17903,8 +17903,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga-15.kicad_sch"
-			(at -2.54 -9.5754 0)
+		(property "Sheetfile" "fpga-2.kicad_sch"
+			(at 67.31 -9.5754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17921,7 +17921,7 @@
 		)
 	)
 	(sheet
-		(at -41.91 -15.24)
+		(at 40.64 -29.21)
 		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17937,7 +17937,7 @@
 		)
 		(uuid "74df7e7f-18cd-4565-8339-2ea0b43d6ca3")
 		(property "Sheetname" "FPGA 1"
-			(at -41.91 -15.9516 0)
+			(at 40.64 -29.9216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17946,7 +17946,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-1.kicad_sch"
-			(at -41.91 4.3946 0)
+			(at 40.64 -9.5754 0)
 			(effects
 				(font
 					(size 1.27 1.27)

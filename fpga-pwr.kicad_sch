@@ -8639,6 +8639,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power sequencing: \n"
+		(exclude_from_sim no)
+		(at 234.95 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e0d63ac-a0c9-44b8-a6b8-2e4ebeea39b1")
+	)
 	(junction
 		(at 100.33 113.03)
 		(diameter 0)
