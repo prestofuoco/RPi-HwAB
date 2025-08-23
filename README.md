@@ -72,7 +72,7 @@ while the project is in the early stages, contributions are welcome, especially 
 
 ## 📄 license
 
-this project is licensed under the [mit license](license.txt). see the `license.txt` file for details.
+this project is licensed under the [mit license](LICENSE).
 
 ## 📧 contact
 
