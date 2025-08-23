@@ -621,6 +621,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus
+		(pts
+			(xy 33.02 106.68) (xy 52.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83af3165-61f9-4d58-846e-2b17365bb696")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 33.02 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e1f0d4f-9ee5-4e17-91d0-245321ba3fc2")
+	)
 	(symbol
 		(lib_id "Sensor_Temperature:MCP9804_DFN")
 		(at 130.81 54.61 0)
@@ -631,7 +652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c4cf09-218a-456f-912f-1895d76e6eef")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 146.05 48.1898 0)
 			(effects
 				(font
@@ -704,7 +725,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/010325a2-ae86-4ae0-96e8-1d16e8e45471"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -720,7 +741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb0174b2-45fe-4216-8a7d-1b2bb11519d1")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 73.66 36.83 0)
 			(effects
 				(font
@@ -817,7 +838,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/010325a2-ae86-4ae0-96e8-1d16e8e45471"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)

@@ -1230,6 +1230,17 @@
 		)
 		(uuid "1b9fe45e-64ea-49c6-8696-f66459687a62")
 	)
+	(hierarchical_label "+5V0"
+		(shape input)
+		(at 101.6 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ef4d129-2178-4e03-9524-9de1d0f6a7e9")
+	)
 	(hierarchical_label "+1V0_MGT"
 		(shape output)
 		(at 195.58 113.03 0)
@@ -1284,7 +1295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ce71d58-0ba3-4515-84a5-39259c70fb67")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 82.55 21.59 0)
 			(effects
 				(font
@@ -1477,7 +1488,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
