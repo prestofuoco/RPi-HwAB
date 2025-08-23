@@ -36,7 +36,7 @@ this project is currently focused on hardware development.
 
 ### 1. pcb design
 
-the kicad/altium project files can be found in the `pcb/` directory. this is the primary area of development right now. we welcome feedback and contributions on the schematic and layout.
+the kicad project files can be found in the `pcb/` directory. this is the primary area of development right now. we welcome feedback and contributions on the schematic and layout.
 
 ### 2. future steps (post-hardware)
 
