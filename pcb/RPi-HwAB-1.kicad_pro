@@ -657,8 +657,12 @@
       "Root"
     ],
     [
-      "20a31476-4eec-4a3e-82d2-9314270dc40b",
-      "FPGA 3"
+      "f9ebb56c-78c7-42ac-bc19-ccbf788f5318",
+      "Main Power"
+    ],
+    [
+      "010325a2-ae86-4ae0-96e8-1d16e8e45471",
+      "Sensors"
     ],
     [
       "0b49ba4a-009a-499f-8ab2-0eb031fe8200",
@@ -671,6 +675,10 @@
     [
       "6950ed9d-07bc-48b4-b7cb-d07910134e16",
       "FPGA 2"
+    ],
+    [
+      "20a31476-4eec-4a3e-82d2-9314270dc40b",
+      "FPGA 3"
     ]
   ],
   "text_variables": {}
