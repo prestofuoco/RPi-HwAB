@@ -2,4 +2,4 @@
 currently designing power supplies
 
 ### top-level schematic as of august 24, 2025
-<img width="829" height="590" alt="image" src="https://github.com/user-attachments/assets/f44dea43-28a5-417b-88ea-d4b30e97cda4" />
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/414c766d-620b-48a9-b79c-73f1f6b078a9" />
