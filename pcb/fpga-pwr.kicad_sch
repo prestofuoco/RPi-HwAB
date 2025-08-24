@@ -9116,7 +9116,7 @@
 		(uuid "66cb2932-a13c-4b74-b105-cdf1ab9aa578")
 	)
 	(junction
-		(at 17.78 52.07)
+		(at 20.32 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66d008ba-e551-49c5-be20-2139806c1b36")
@@ -9320,7 +9320,7 @@
 		(uuid "9693d4d6-93c2-4f0c-9a86-ada38dfc871c")
 	)
 	(junction
-		(at 17.78 54.61)
+		(at 20.32 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98469934-3dee-4229-a062-4c3285b43e0c")
@@ -9781,7 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 52.07) (xy 41.91 52.07)
+			(xy 20.32 52.07) (xy 41.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10771,7 +10771,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 54.61) (xy 17.78 52.07)
+			(xy 20.32 54.61) (xy 20.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -11071,7 +11071,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 52.07) (xy 17.78 50.8)
+			(xy 20.32 52.07) (xy 20.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11351,7 +11351,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 57.15) (xy 41.91 57.15)
+			(xy 20.32 57.15) (xy 41.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -12211,7 +12211,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 57.15) (xy 17.78 54.61)
+			(xy 20.32 57.15) (xy 20.32 54.61)
 		)
 		(stroke
 			(width 0)
@@ -12601,7 +12601,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 54.61) (xy 41.91 54.61)
+			(xy 20.32 54.61) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -18689,7 +18689,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 17.78 50.8 0)
+		(at 20.32 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18698,7 +18698,7 @@
 		(fields_autoplaced yes)
 		(uuid "f30ee6f2-a907-4c98-b31f-144f082c8514")
 		(property "Reference" "#PWR09"
-			(at 17.78 54.61 0)
+			(at 20.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,7 +18707,7 @@
 			)
 		)
 		(property "Value" "+1V0_FD"
-			(at 17.78 45.72 0)
+			(at 20.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18715,7 +18715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 50.8 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18724,7 +18724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 50.8 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18733,7 +18733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 17.78 50.8 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
