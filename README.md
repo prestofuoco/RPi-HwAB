@@ -55,6 +55,7 @@ once the pcb is finalized and fabricated, development will shift to:
 ├── examples/         # (planned) example projects (host-side code)
 ├── fpga_src/         # (planned) verilog/vhdl source code for the fpga
 ├── pcb/              # (active development) kicad/altium project files
+│   └── simulations/  # ltspice simulation files
 ├── scripts/          # (planned) installation and helper scripts
 ├── utils/            # (planned) host-side utility programs
 └── readme.md         # this file
