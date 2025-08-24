@@ -1727,6 +1727,22 @@
 		(color 0 0 0 0)
 		(uuid "de5a62ae-203f-41a0-a9db-c02cac76150b")
 	)
+	(junction
+		(at 36.83 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb2e72fd-c50b-4486-b79c-d789cc29fbf9")
+	)
+	(wire
+		(pts
+			(xy 26.67 25.4) (xy 36.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0835e89f-5e29-4614-9d2f-9dbf545945ce")
+	)
 	(wire
 		(pts
 			(xy 60.96 25.4) (xy 85.09 25.4)
@@ -1769,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 25.4) (xy 50.8 25.4)
+			(xy 36.83 25.4) (xy 50.8 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2017,6 +2033,17 @@
 			(justify right)
 		)
 		(uuid "0e31fc7a-0376-47a9-b357-b28320defc39")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 26.67 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6cf1ab-ba92-4b9a-93db-c70ae135eaba")
 	)
 	(hierarchical_label "SCL1"
 		(shape input)
@@ -2302,7 +2329,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 25.4 0)
+		(at 36.83 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2311,7 +2338,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b3a891c-b26f-4e84-8ccd-ab67b18669ff")
 		(property "Reference" "#PWR027"
-			(at 20.32 29.21 0)
+			(at 36.83 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2347,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 20.32 20.32 0)
+			(at 36.83 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 25.4 0)
+			(at 36.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 25.4 0)
+			(at 36.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 25.4 0)
+			(at 36.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

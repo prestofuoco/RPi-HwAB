@@ -8294,36 +8294,85 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus
+	(wire
 		(pts
-			(xy 71.12 29.21) (xy 71.12 39.37)
+			(xy 48.26 30.48) (xy 57.15 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01e45208-51a3-4f24-a05d-c70801800ef6")
+		(uuid "3420ae7b-6bec-4f80-9af6-a4c2cd4f726d")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 85.09 29.21) (xy 71.12 29.21)
+			(xy 48.26 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aabc439d-e820-4426-a3e0-a7863c28cc8b")
+		(uuid "4e488acd-633c-4769-b46a-560950c770e4")
 	)
-	(hierarchical_label "JTAG"
-		(shape bidirectional)
-		(at 85.09 29.21 0)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1866ae-87eb-42be-b129-03431d83b7f8")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.1) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d866d968-2553-4cc4-91bb-42d4221ecb9b")
+	)
+	(label "TDO"
+		(at 57.15 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "32ec0b4f-1fa2-4d03-aaef-b56593ba99f6")
+		(uuid "045f1396-df2e-49cb-a145-bd69f36a3521")
+	)
+	(label "TCK"
+		(at 57.15 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0be28245-5795-479d-bb78-5d351feb165e")
+	)
+	(label "TMS"
+		(at 57.15 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10647b35-7351-40cd-956a-1dbe4a435309")
+	)
+	(label "TDI"
+		(at 57.15 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a75cf5fc-5db0-499b-8660-b4502ab56ba7")
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
