@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "5f97deb1-48ca-4b14-9543-8f2f4bb64e83")
 	(paper "A4")
+	(title_block
+		(title "RPi HwAB HAT+")
+		(date "2025-08-23")
+		(rev "01")
+		(company "Andre S Winkel")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

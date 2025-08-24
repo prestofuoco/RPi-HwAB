@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "153962dc-b119-435a-b65a-a410b9f22ce9")
 	(paper "A4")
+	(title_block
+		(title "RPi HwAB HAT+")
+		(date "2025-08-23")
+		(rev "01")
+		(company "Andre S Winkel")
+	)
 	(lib_symbols
 		(symbol "Connector:TC2050"
 			(exclude_from_sim no)

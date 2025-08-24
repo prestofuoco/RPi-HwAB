@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "733621fc-41cb-41fa-9d40-b8564ddaad30")
 	(paper "A4")
+	(title_block
+		(title "RPi HwAB HAT+")
+		(date "2025-08-23")
+		(rev "01")
+		(company "Andre S Winkel")
+	)
 	(lib_symbols
 		(symbol "Regulator_Switching:ADP5054"
 			(exclude_from_sim no)
@@ -1219,6 +1225,193 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_entry
+		(at 60.96 68.58)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21428b4d-e581-445a-b735-0888dac1f736")
+	)
+	(bus_entry
+		(at 60.96 43.18)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5841b362-69e6-4dc6-87df-ea35ae4e2033")
+	)
+	(bus_entry
+		(at 60.96 83.82)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1baaa7-d598-4ad0-97b3-b7fac2c2c86b")
+	)
+	(bus_entry
+		(at 60.96 58.42)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4f03db-fa4b-4813-bcbe-f4236c04432f")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd6fa80-f523-45d6-a762-8ad2ec63c833")
+	)
+	(bus
+		(pts
+			(xy 58.42 55.88) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f31426-d76a-4a55-8e31-f4252b8e84bf")
+	)
+	(bus
+		(pts
+			(xy 58.42 40.64) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b248953-bd01-4d6f-9cfd-3451c9534401")
+	)
+	(bus
+		(pts
+			(xy 58.42 66.04) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857fee93-cdd3-44b6-8cc3-1749669cd5c4")
+	)
+	(wire
+		(pts
+			(xy 60.96 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cc606b-09a2-4d91-9a13-7fe35a97cec9")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f147a2e-dfed-4833-a0ce-ce5d5ac99fea")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f3ee0e-61bc-451a-82ef-220425c805cc")
+	)
+	(bus
+		(pts
+			(xy 58.42 81.28) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c138309f-965c-44a6-bf68-44b00213377e")
+	)
+	(wire
+		(pts
+			(xy 60.96 58.42) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73de964-7bc0-43aa-a21e-58873ca69084")
+	)
+	(bus
+		(pts
+			(xy 44.45 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3e1337-d589-4ff2-82d2-d1d60ed62415")
+	)
+	(label "EN2"
+		(at 80.01 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c980111-2987-4824-9e47-f99dbb3f9565")
+	)
+	(label "EN4"
+		(at 80.01 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f7ecf30-4727-4c5b-8059-edf9de7f1f59")
+	)
+	(label "EN3"
+		(at 80.01 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2c63162-6a69-4e08-b21b-437e903a0de0")
+	)
+	(label "EN1"
+		(at 80.01 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbe05808-081c-421f-9a06-dcb59dc76b33")
+	)
+	(hierarchical_label "PWRGD"
+		(shape output)
+		(at 144.78 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b286d1b-d835-4a91-a892-e96edeadbc54")
+	)
 	(hierarchical_label "+1V8_FD"
 		(shape output)
 		(at 195.58 107.95 0)
@@ -1251,6 +1444,17 @@
 			(justify left)
 		)
 		(uuid "38663934-b1bc-4972-a7b0-815df725f224")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 44.45 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3939beac-b069-4cc5-abbb-b1359016f0cc")
 	)
 	(hierarchical_label "+1V0_FD"
 		(shape output)
@@ -1285,9 +1489,20 @@
 		)
 		(uuid "97e79696-4723-4b8d-a76c-1d8aca091228")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 101.6 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b76eabbe-2a73-4132-a5b0-a9d35526e96a")
+	)
 	(symbol
 		(lib_id "Regulator_Switching:ADP5054")
-		(at 82.55 49.53 0)
+		(at 110.49 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1296,7 +1511,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ce71d58-0ba3-4515-84a5-39259c70fb67")
 		(property "Reference" "U2"
-			(at 82.55 21.59 0)
+			(at 110.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1519,7 @@
 			)
 		)
 		(property "Value" "ADP5054"
-			(at 82.55 24.13 0)
+			(at 110.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1527,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm"
-			(at 115.57 93.98 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1536,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf"
-			(at 54.61 31.75 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1545,7 @@
 			)
 		)
 		(property "Description" "250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C, QFN-48"
-			(at 82.55 49.53 0)
+			(at 110.49 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
