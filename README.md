@@ -22,7 +22,7 @@ currently, the focus is on the **pcb design and layout**. the `pcb/` directory c
 
 * a raspberry pi 5
 * the final version of this xc7a fpga hat+ board
-* a reliable power supply for the raspberry pi 5 (5v/5a recommended)
+* a reliable por supply for the raspberry pi 5 (5v/5a recommended)
 
 ### software (provisional)
 
@@ -36,7 +36,7 @@ this project is currently focused on hardware development.
 
 ### 1. pcb design
 
-the kicad project files can be found in the `pcb/` directory. this is the primary area of development right now. we welcome feedback and contributions on the schematic and layout.
+the kicad project files can be found in the `pcb/` directory. this is the primary area of development right now. i welcome feedback and contributions on the schematic and layout.
 
 ### 2. future steps (post-hardware)
 
