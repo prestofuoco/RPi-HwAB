@@ -53,7 +53,9 @@ once the pcb is finalized and fabricated, development will shift to:
 ├── bitstreams/       # (planned) pre-compiled fpga bitstream files
 ├── docs/             # (planned) detailed documentation and datasheets
 ├── examples/         # (planned) example projects (host-side code)
-├── fpga_src/         # (planned) verilog/vhdl source code for the fpga
+├── fpga_src/         # (backlog) verilog/vhdl source code for the fpga
+│   └── RPi-HwAB-1/   # main vivado project files
+│   └── test/         # pinout verification/experimentation
 ├── pcb/              # (active development) kicad/altium project files
 │   └── simulations/  # ltspice simulation files
 ├── scripts/          # (planned) installation and helper scripts
