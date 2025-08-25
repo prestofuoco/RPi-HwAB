@@ -8296,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 57.15 30.48)
+			(xy 48.26 30.48) (xy 63.5 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8306,7 +8306,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 57.15 33.02)
+			(xy 48.26 33.02) (xy 63.5 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8316,7 +8316,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 57.15 35.56)
+			(xy 48.26 35.56) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8326,7 +8326,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 57.15 38.1)
+			(xy 48.26 38.1) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8373,6 +8373,50 @@
 			(justify right bottom)
 		)
 		(uuid "a75cf5fc-5db0-499b-8660-b4502ab56ba7")
+	)
+	(hierarchical_label "TDI"
+		(shape input)
+		(at 63.5 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13977be9-17d7-46f0-a16c-15ca36ef86fd")
+	)
+	(hierarchical_label "TDO"
+		(shape output)
+		(at 63.5 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a8ebc7e-1853-4800-8674-9cb7ff62a9fd")
+	)
+	(hierarchical_label "TCK"
+		(shape bidirectional)
+		(at 63.5 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b84fde2-bcec-4cd7-b396-bde19806aee6")
+	)
+	(hierarchical_label "TMS"
+		(shape bidirectional)
+		(at 63.5 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66294763-7c43-4338-a0c9-45ad5ffd2bfe")
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
