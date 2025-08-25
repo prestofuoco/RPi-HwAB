@@ -704,6 +704,10 @@
     [
       "20a31476-4eec-4a3e-82d2-9314270dc40b",
       "FPGA 3"
+    ],
+    [
+      "ff6e7552-6baf-4a10-ad8a-5877f8d5d2f6",
+      "Decoupling"
     ]
   ],
   "text_variables": {}

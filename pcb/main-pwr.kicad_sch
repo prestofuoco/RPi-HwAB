@@ -1350,6 +1350,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "vout = vref * (1 + rtop/rbot)"
+		(exclude_from_sim no)
+		(at 83.82 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d69b49c7-a43f-47db-ae0e-049bd9f297b0")
+	)
 	(junction
 		(at 71.12 53.34)
 		(diameter 0)
@@ -2046,6 +2056,98 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "U2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 44.45)
+		(size 13.97 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff6e7552-6baf-4a10-ad8a-5877f8d5d2f6")
+		(property "Sheetname" "Decoupling"
+			(at 194.31 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decoupling.kicad_sch"
+			(at 194.31 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+1V0_FD" output
+			(at 194.31 48.26 180)
+			(uuid "89b6592c-9ad5-42d2-bda8-a601035d3faf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V0_MGT" output
+			(at 194.31 50.8 180)
+			(uuid "9cfb8f8a-6c21-467a-85b6-fc6e2f386249")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V2_MGT" output
+			(at 194.31 53.34 180)
+			(uuid "91fe59b4-e1f3-445e-8181-e4c7c89324fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V8_FD" output
+			(at 194.31 55.88 180)
+			(uuid "9c3dd87d-b60d-4f5f-9177-e0475da3acdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+2V5_FD" output
+			(at 194.31 58.42 180)
+			(uuid "0db3895f-e75b-41d0-af4f-3bbb86b8bfe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(page "8")
 				)
 			)
 		)

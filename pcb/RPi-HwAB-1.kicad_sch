@@ -3313,7 +3313,7 @@
 	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
-		(at 179.07 180.34 0)
+		(at 177.8 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)

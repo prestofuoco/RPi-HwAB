@@ -8435,17 +8435,27 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 77.47) (xy 240.03 77.47)
+			(xy 139.7 142.24) (xy 166.37 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a2483ac-d583-4d24-8aca-4494ba395039")
+		(uuid "2bebc5a7-ca56-4b68-ba40-9a8146c70aef")
 	)
 	(wire
 		(pts
-			(xy 213.36 74.93) (xy 240.03 74.93)
+			(xy 162.56 76.2) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a083b14-8a53-4ed7-a8db-cd5e6f2defe3")
+	)
+	(wire
+		(pts
+			(xy 200.66 53.34) (xy 227.33 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8455,27 +8465,27 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 240.03 82.55)
+			(xy 162.56 53.34) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4599b9b4-a320-4937-a61f-67ff3e4ee59d")
+		(uuid "45c58024-6a88-4ea9-b41d-c3a965696344")
 	)
 	(wire
 		(pts
-			(xy 213.36 69.85) (xy 240.03 69.85)
+			(xy 162.56 78.74) (xy 179.07 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fe79474-8fdf-40c0-8d1f-8509f3d58b4d")
+		(uuid "881dbd45-d8e5-4132-8acb-3ed408ad0bc0")
 	)
 	(wire
 		(pts
-			(xy 213.36 67.31) (xy 240.03 67.31)
+			(xy 200.66 76.2) (xy 227.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8485,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 59.69) (xy 240.03 59.69)
+			(xy 162.56 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8495,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 62.23) (xy 240.03 62.23)
+			(xy 162.56 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8505,36 +8515,76 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 85.09) (xy 240.03 85.09)
+			(xy 139.7 139.7) (xy 166.37 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ceee869e-d9dd-4f7f-a72a-7116e6cc1e9f")
+		(uuid "b1fec235-a606-452f-b20e-d4e91d92ce5d")
 	)
 	(wire
 		(pts
-			(xy 213.36 90.17) (xy 240.03 90.17)
+			(xy 139.7 147.32) (xy 166.37 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8f898b4-9bcd-468a-a45e-11b0ca7cb3e4")
+		(uuid "d91182c9-9d54-462c-a0bb-918b2107c64d")
 	)
 	(wire
 		(pts
-			(xy 213.36 87.63) (xy 240.03 87.63)
+			(xy 186.69 55.88) (xy 227.33 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6fdf0fe-c94e-43a5-ad21-3491ef05b82a")
+		(uuid "eff52977-ae84-47ca-a92f-192925620b71")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 227.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0273106-0449-4c54-bb69-7f9c9de63a2c")
+	)
+	(wire
+		(pts
+			(xy 139.7 144.78) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fb1f02-cda7-4a6e-a9ac-411ea9483ec6")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb56a4b5-d5a0-4aac-93f2-5af2d97185bf")
+	)
+	(label "PCIE_RST_B"
+		(at 158.75 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15b4aef2-d297-44be-8b48-1d7a05a556cb")
 	)
 	(label "PCIE_CLK_P"
-		(at 232.41 59.69 180)
+		(at 181.61 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,18 +8593,18 @@
 		)
 		(uuid "1ea525d3-4d61-4ed5-82cb-166832c4fb4a")
 	)
-	(label "PCIE_RST_B"
-		(at 232.41 90.17 180)
+	(label "PCIE_CLKREQ_N"
+		(at 158.75 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "24507d47-2fb1-4b1a-bf04-a307914fb79b")
+		(uuid "2a60619a-93d9-4026-afa3-154f29a1c4ab")
 	)
 	(label "PCIE_RX_N"
-		(at 232.41 69.85 180)
+		(at 219.71 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8564,7 +8614,7 @@
 		(uuid "2eed89a1-cf34-4cc7-9b34-9579e0c92269")
 	)
 	(label "PCIE_TX_P"
-		(at 232.41 74.93 180)
+		(at 219.71 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8574,17 +8624,17 @@
 		(uuid "50baa9a7-509d-4c33-ac8c-3d7641b2d753")
 	)
 	(label "PCIE_DET_WAKE"
-		(at 232.41 85.09 180)
+		(at 158.75 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8649d7be-0d59-47d2-875d-90bad20a8f31")
+		(uuid "9921e57d-9a3e-4e77-809a-3542f4d955ff")
 	)
 	(label "PCIE_RX_P"
-		(at 232.41 67.31 180)
+		(at 219.71 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8593,8 +8643,18 @@
 		)
 		(uuid "9ccefaaa-0b85-4955-8e77-e0b698a6e08c")
 	)
+	(label "PCIE_PWR_EN"
+		(at 158.75 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc56f43e-e515-49a7-a916-72742da43fbe")
+	)
 	(label "PCIE_TX_N"
-		(at 232.41 77.47 180)
+		(at 219.71 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8604,7 +8664,7 @@
 		(uuid "bd560688-3a8b-408e-a45d-dd3690ee2f9f")
 	)
 	(label "PCIE_CLK_N"
-		(at 232.41 62.23 180)
+		(at 181.61 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8613,62 +8673,42 @@
 		)
 		(uuid "bde359d0-d93a-41ab-b998-b5655cd905ac")
 	)
-	(label "PCIE_CLKREQ_N"
-		(at 232.41 87.63 180)
+	(hierarchical_label "PCIE_RST_B"
+		(shape passive)
+		(at 166.37 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "bef769fb-c0a6-4868-9e0b-56157341dc0b")
-	)
-	(label "PCIE_PWR_EN"
-		(at 232.41 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c28c1878-c3e7-4ad7-87ad-10cf3e5efc28")
+		(uuid "0b0c54ad-a70c-44b8-a96e-68f8a346828d")
 	)
 	(hierarchical_label "PCIE_DET_WAKE"
 		(shape passive)
-		(at 240.03 85.09 0)
+		(at 166.37 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "58f13ad0-bba5-4d49-af95-e5cc71f5df32")
+		(uuid "53d715aa-18fa-4263-b559-b7178025e9ee")
 	)
 	(hierarchical_label "PCIE_CLKREQ_N"
 		(shape passive)
-		(at 240.03 87.63 0)
+		(at 166.37 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5fbc0b8d-7d34-455c-8f45-c6a6efd074fa")
-	)
-	(hierarchical_label "PCIE_RST_B"
-		(shape passive)
-		(at 240.03 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "690748fb-e383-4158-95e3-bce7b69ccd9c")
+		(uuid "5bb8b22f-3ade-4d41-99e2-4a1142c4662b")
 	)
 	(hierarchical_label "PCIE_CLK_N"
 		(shape bidirectional)
-		(at 240.03 62.23 0)
+		(at 189.23 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8679,7 +8719,7 @@
 	)
 	(hierarchical_label "PCIE_TX_N"
 		(shape input)
-		(at 240.03 77.47 0)
+		(at 227.33 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8690,7 +8730,7 @@
 	)
 	(hierarchical_label "PCIE_RX_N"
 		(shape output)
-		(at 240.03 69.85 0)
+		(at 227.33 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8699,9 +8739,20 @@
 		)
 		(uuid "923e3609-9993-48f5-8aee-e941fa95573f")
 	)
+	(hierarchical_label "PCIE_PWR_EN"
+		(shape passive)
+		(at 166.37 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be0ea4f3-a025-4eeb-a158-0bdfa9b058fc")
+	)
 	(hierarchical_label "PCIE_RX_P"
 		(shape output)
-		(at 240.03 67.31 0)
+		(at 227.33 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8710,20 +8761,9 @@
 		)
 		(uuid "d239aca9-17c8-43f5-8d48-bac7ea9a89b3")
 	)
-	(hierarchical_label "PCIE_PWR_EN"
-		(shape passive)
-		(at 240.03 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dba41af8-b731-4e5b-88c2-615631b063a7")
-	)
 	(hierarchical_label "PCIE_TX_P"
 		(shape input)
-		(at 240.03 74.93 0)
+		(at 227.33 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8734,7 +8774,7 @@
 	)
 	(hierarchical_label "PCIE_CLK_P"
 		(shape bidirectional)
-		(at 240.03 59.69 0)
+		(at 189.23 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8745,7 +8785,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 55.88 90)
+		(at 182.88 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8753,7 +8793,7 @@
 		(dnp no)
 		(uuid "0190328f-1b2c-408b-b3a7-e7ad9eee7775")
 		(property "Reference" "C5"
-			(at 175.26 54.61 90)
+			(at 179.07 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8801,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 184.15 54.61 90)
+			(at 187.96 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8809,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 54.9148 0)
+			(at 186.69 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 55.88 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8827,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 55.88 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,73 +8845,6 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/20a31476-4eec-4a3e-82d2-9314270dc40b"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19085017-26cc-4a8f-841d-f5a4079a8a06")
-		(property "Reference" "C6"
-			(at 175.26 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 184.15 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 59.9948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20540933-16d0-4522-b105-3cd330a53d3f")
-		)
-		(pin "1"
-			(uuid "8f102b6d-3c49-4a4b-90f1-787f9a4deb5a")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/20a31476-4eec-4a3e-82d2-9314270dc40b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10287,7 +10260,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 53.34 90)
+		(at 196.85 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10295,7 +10268,7 @@
 		(dnp no)
 		(uuid "7171001b-08e3-4dbb-b539-88057efb0fbe")
 		(property "Reference" "C2"
-			(at 166.37 52.07 90)
+			(at 193.04 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10276,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 175.26 52.07 90)
+			(at 201.93 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10284,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 173.99 52.3748 0)
+			(at 200.66 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 53.34 0)
+			(at 196.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 53.34 0)
+			(at 196.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,74 +10327,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cc549ae-00cf-4de5-a7f0-931c6c7a450d")
-		(property "Reference" "C7"
-			(at 175.26 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 184.15 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 65.0748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94704740-2e1c-418a-8eb1-6d63f1e8d91e")
-		)
-		(pin "1"
-			(uuid "7265919e-b6d3-4399-a143-2b3a90bfff88")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/20a31476-4eec-4a3e-82d2-9314270dc40b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 58.42 90)
+		(at 182.88 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10429,7 +10335,7 @@
 		(dnp no)
 		(uuid "8f7f539f-cd19-4139-8219-4dbc24d9e86b")
 		(property "Reference" "C3"
-			(at 166.37 57.15 90)
+			(at 179.07 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10343,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 175.26 57.15 90)
+			(at 187.96 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10351,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 173.99 57.4548 0)
+			(at 186.69 77.7748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +10360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 58.42 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10369,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 58.42 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +10394,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 63.5 90)
+		(at 196.85 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +10402,7 @@
 		(dnp no)
 		(uuid "de29a84b-8779-4e2a-a5b7-f1dc3dc17f8a")
 		(property "Reference" "C4"
-			(at 166.37 62.23 90)
+			(at 193.04 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10410,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 175.26 62.23 90)
+			(at 201.93 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10418,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 173.99 62.5348 0)
+			(at 200.66 52.3748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 63.5 0)
+			(at 196.85 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10436,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 170.18 63.5 0)
+			(at 196.85 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

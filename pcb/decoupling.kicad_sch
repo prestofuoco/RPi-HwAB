@@ -1,0 +1,69 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a0717211-f10b-46c5-862d-380e25d3f5f1")
+	(paper "A4")
+	(title_block
+		(title "RPi HwAB HAT+")
+		(date "2025-08-23")
+		(rev "01")
+		(company "Andre S Winkel")
+	)
+	(lib_symbols)
+	(hierarchical_label "+1V0_FD"
+		(shape input)
+		(at 63.5 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0571a1b3-ca97-4137-8e60-eaf1b46b0b47")
+	)
+	(hierarchical_label "+2V5_FD"
+		(shape input)
+		(at 63.5 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b48719d-5c0f-496c-8379-6654f6609e70")
+	)
+	(hierarchical_label "+1V2_MGT"
+		(shape input)
+		(at 63.5 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79daeb39-f272-4435-b96b-638cde51931d")
+	)
+	(hierarchical_label "+1V0_MGT"
+		(shape input)
+		(at 63.5 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b85177bf-a13f-4595-a64b-6c4a8dad0f92")
+	)
+	(hierarchical_label "+1V8_FD"
+		(shape input)
+		(at 63.5 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed0537e4-5afe-496e-933b-de26854b4da5")
+	)
+)
