@@ -108,7 +108,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -190,7 +190,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -282,7 +282,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -324,7 +324,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "5")
+					(page "7")
 				)
 			)
 		)

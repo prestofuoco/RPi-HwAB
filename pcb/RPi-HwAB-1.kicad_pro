@@ -709,16 +709,16 @@
       "FPGA"
     ],
     [
-      "010325a2-ae86-4ae0-96e8-1d16e8e45471",
-      "Sensors"
-    ],
-    [
       "94db1840-7840-4b32-9939-76c2575d480c",
       "FPGA Power"
     ],
     [
       "d1fe51bb-390e-4bc5-afb0-b85902b013c3",
       "Decoupling"
+    ],
+    [
+      "350bfe7d-9948-4ca7-a542-a75eb385def4",
+      "FPGA 1"
     ],
     [
       "ef42fd34-c1d8-421f-b8cb-1078e483aec9",
@@ -729,8 +729,8 @@
       "FPGA 3"
     ],
     [
-      "350bfe7d-9948-4ca7-a542-a75eb385def4",
-      "FPGA 1"
+      "010325a2-ae86-4ae0-96e8-1d16e8e45471",
+      "Sensors"
     ],
     [
       "6418cef5-c0d2-4573-8432-9553c4202f1e",
