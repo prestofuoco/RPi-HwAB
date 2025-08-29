@@ -1,0 +1,332 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a9e1bdfd-dc99-46a7-a35c-5f032316e715")
+	(paper "A4")
+	(title_block
+		(title "RPi HwAB HAT+")
+		(date "2025-08-23")
+		(rev "01")
+		(company "Andre S Winkel")
+	)
+	(lib_symbols)
+	(sheet
+		(at 166.37 73.66)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "143e814b-c088-43b0-8f2f-ada8c438e494")
+		(property "Sheetname" "FPGA 3"
+			(at 166.37 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-3.kicad_sch"
+			(at 166.37 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE_CLK_N" bidirectional
+			(at 166.37 80.01 180)
+			(uuid "bb7c13f2-da99-487b-8d45-4cf0e9964b04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_CLK_P" bidirectional
+			(at 166.37 77.47 180)
+			(uuid "44b8583f-7884-4c30-803e-0580ceeee25e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_N" output
+			(at 166.37 87.63 180)
+			(uuid "33ee8408-8c20-43b3-b721-8884637f5ee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TX_P" output
+			(at 166.37 85.09 180)
+			(uuid "62238bbf-dbd3-4d9c-b32f-559faec6a420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_N" input
+			(at 166.37 95.25 180)
+			(uuid "8f9ee461-f23d-46ff-8e32-2b6bfa9776f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_RX_P" input
+			(at 166.37 92.71 180)
+			(uuid "0abfc374-0da3-4fc8-a70d-34f83be46f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 81.28)
+		(size 20.32 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "350bfe7d-9948-4ca7-a542-a75eb385def4")
+		(property "Sheetname" "FPGA 1"
+			(at 231.14 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-1.kicad_sch"
+			(at 231.14 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TCK" bidirectional
+			(at 231.14 91.44 180)
+			(uuid "63dedf62-84d9-4401-9f29-8829abff4ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDI" input
+			(at 231.14 86.36 180)
+			(uuid "70373b12-6ecb-4bfe-8603-4795ec0ba3a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDO" output
+			(at 231.14 93.98 180)
+			(uuid "45267b29-ff2a-46ca-8de9-8b69837a044d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMS" bidirectional
+			(at 231.14 88.9 180)
+			(uuid "b9b9d687-ebad-4020-8f16-d2e06d61a167")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 76.2)
+		(size 24.13 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94db1840-7840-4b32-9939-76c2575d480c")
+		(property "Sheetname" "FPGA Power"
+			(at 82.55 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pwr.kicad_sch"
+			(at 82.55 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+1V0_FD" input
+			(at 82.55 82.55 180)
+			(uuid "1b8e9651-2979-4da3-82d5-39c9cb887529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V0_MGT" input
+			(at 82.55 96.52 180)
+			(uuid "11912bf4-3caa-4f56-861e-a78e8847f675")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V2_MGT" input
+			(at 82.55 99.06 180)
+			(uuid "0b74fbf9-cffc-4a4c-af07-85a9aa1ad577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+1V8_FD" input
+			(at 82.55 85.09 180)
+			(uuid "9a40f274-dcc7-48ca-bad4-1504870c710f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+2V5_FD" input
+			(at 82.55 87.63 180)
+			(uuid "a0ef4b40-caba-4bcb-9691-3e75d5be110d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 69.85)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef42fd34-c1d8-421f-b8cb-1078e483aec9")
+		(property "Sheetname" "FPGA 2"
+			(at 130.81 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-2.kicad_sch"
+			(at 130.81 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
+					(page "5")
+				)
+			)
+		)
+	)
+)

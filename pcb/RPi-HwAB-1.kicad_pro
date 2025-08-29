@@ -464,6 +464,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -521,6 +522,24 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Connectors/PCIE_CLK_N": [
+        "Differential"
+      ],
+      "/Connectors/PCIE_CLK_P": [
+        "Differential"
+      ],
+      "/Connectors/PCIE_RX_N": [
+        "Differential"
+      ],
+      "/Connectors/PCIE_RX_P": [
+        "Differential"
+      ],
+      "/Connectors/PCIE_TX_N": [
+        "Differential"
+      ],
+      "/Connectors/PCIE_TX_P": [
+        "Differential"
+      ],
       "/PCIE_CLK_N": [
         "Differential"
       ],
@@ -686,28 +705,36 @@
       "Main Power"
     ],
     [
+      "59d21473-a004-4514-8090-fd93db818925",
+      "FPGA"
+    ],
+    [
       "010325a2-ae86-4ae0-96e8-1d16e8e45471",
       "Sensors"
     ],
     [
-      "0b49ba4a-009a-499f-8ab2-0eb031fe8200",
+      "94db1840-7840-4b32-9939-76c2575d480c",
       "FPGA Power"
     ],
     [
-      "74df7e7f-18cd-4565-8339-2ea0b43d6ca3",
-      "FPGA 1"
+      "d1fe51bb-390e-4bc5-afb0-b85902b013c3",
+      "Decoupling"
     ],
     [
-      "6950ed9d-07bc-48b4-b7cb-d07910134e16",
+      "ef42fd34-c1d8-421f-b8cb-1078e483aec9",
       "FPGA 2"
     ],
     [
-      "20a31476-4eec-4a3e-82d2-9314270dc40b",
+      "143e814b-c088-43b0-8f2f-ada8c438e494",
       "FPGA 3"
     ],
     [
-      "ff6e7552-6baf-4a10-ad8a-5877f8d5d2f6",
-      "Decoupling"
+      "350bfe7d-9948-4ca7-a542-a75eb385def4",
+      "FPGA 1"
+    ],
+    [
+      "6418cef5-c0d2-4573-8432-9553c4202f1e",
+      "Connectors"
     ]
   ],
   "text_variables": {}
