@@ -83,4 +83,4 @@ andre winkel 14 [at] gmail [dot] com
 
 andre [dot] winkel [at] email [dot] ucr [dot] edu
 
-project link: [https://github.com/prestofuoco/rpi-hwab-1](https://github.com/prestofuoco/rpi-hwab-1)
+project link: [https://github.com/prestofuoco/rpi-hwab-1](https://github.com/prestofuoco/rpi-hwab)
