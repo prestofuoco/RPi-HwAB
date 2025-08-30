@@ -572,54 +572,54 @@
 				(justify left top)
 			)
 		)
-		(pin "+1V0_FD" input
-			(at 19.05 25.4 180)
-			(uuid "1b8e9651-2979-4da3-82d5-39c9cb887529")
+		(pin "1V0_FD" input
+			(at 43.18 30.48 0)
+			(uuid "feed5f68-e17d-44ad-999b-b8c549c8feea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "+1V0_MGT" input
-			(at 19.05 39.37 180)
-			(uuid "11912bf4-3caa-4f56-861e-a78e8847f675")
+		(pin "1V0_MGT" input
+			(at 43.18 33.02 0)
+			(uuid "7daad9e4-26bc-4ae1-a296-cf8cb15032a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "+1V2_MGT" input
-			(at 19.05 41.91 180)
-			(uuid "0b74fbf9-cffc-4a4c-af07-85a9aa1ad577")
+		(pin "1V2_MGT" input
+			(at 43.18 35.56 0)
+			(uuid "996403bc-6402-4d0f-b78b-e7bc59d278a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "+1V8_FD" input
-			(at 19.05 27.94 180)
-			(uuid "9a40f274-dcc7-48ca-bad4-1504870c710f")
+		(pin "1V8_FD" input
+			(at 43.18 38.1 0)
+			(uuid "a0d5f1bc-dafa-40ca-8698-1419b257f8b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "+2V5_FD" input
-			(at 19.05 30.48 180)
-			(uuid "a0ef4b40-caba-4bcb-9691-3e75d5be110d")
+		(pin "2V5_FD" input
+			(at 43.18 40.64 0)
+			(uuid "85eb0274-cf00-46e1-82be-ebe6843ff391")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
