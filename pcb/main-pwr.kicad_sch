@@ -2994,7 +2994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237a6905-b645-49a6-8e45-815fe39756d6")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 161.29 50.8 90)
 			(effects
 				(font
@@ -3055,7 +3055,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ff7ff7-8340-4eca-9fd7-e02dd173847f")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 171.45 66.0399 0)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3210,7 +3210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b32682b7-6b35-4567-831d-9a7fd2125ef5")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 187.96 52.0699 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4bfbe90-3353-41a8-859e-19fd2eb477b9")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 187.96 59.6899 0)
 			(effects
 				(font
@@ -3352,7 +3352,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7bcd646-bf01-4202-8bc2-afaca64b3b7c")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 175.26 57.15 90)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
