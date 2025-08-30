@@ -522,22 +522,22 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/Connectors/PCIE_CLK_N": [
+      "/Connectors/PCIE.CLK_N": [
         "Differential"
       ],
-      "/Connectors/PCIE_CLK_P": [
+      "/Connectors/PCIE.CLK_P": [
         "Differential"
       ],
-      "/Connectors/PCIE_RX_N": [
+      "/Connectors/PCIE.RX_N": [
         "Differential"
       ],
-      "/Connectors/PCIE_RX_P": [
+      "/Connectors/PCIE.RX_P": [
         "Differential"
       ],
-      "/Connectors/PCIE_TX_N": [
+      "/Connectors/PCIE.TX_N": [
         "Differential"
       ],
-      "/Connectors/PCIE_TX_P": [
+      "/Connectors/PCIE.TX_P": [
         "Differential"
       ],
       "/PCIE_CLK_N": [

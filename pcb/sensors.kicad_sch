@@ -1668,74 +1668,92 @@
 		)
 	)
 	(junction
-		(at 80.01 93.98)
+		(at 104.14 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15083c5f-262a-472b-a58c-6dcb5220e9a7")
 	)
 	(junction
-		(at 50.8 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fffce59-10f0-4aa9-b960-7b3f5248a6a8")
-	)
-	(junction
-		(at 80.01 36.83)
+		(at 104.14 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20861f20-c817-4eb8-b269-f268b792a4ae")
 	)
 	(junction
-		(at 60.96 34.29)
+		(at 55.88 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2988cc54-f719-4b86-b6cd-13bf3e123b42")
+	)
+	(junction
+		(at 85.09 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33d5d201-b233-4b78-b062-d207bf6e397d")
 	)
 	(junction
-		(at 60.96 25.4)
+		(at 85.09 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d36c67d-6cea-4b1b-b447-849a7a0dc6e4")
 	)
 	(junction
-		(at 50.8 36.83)
+		(at 74.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9142d316-2c3a-4ba2-91bc-eab87ec597dd")
 	)
 	(junction
-		(at 36.83 25.4)
+		(at 74.93 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9af4f930-3737-46ec-8901-3b813296ac54")
+		(uuid "aa9e5aa2-4998-4e3c-a94a-8eff44c1285a")
 	)
 	(junction
-		(at 82.55 53.34)
+		(at 106.68 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d59e0608-1396-4cb2-956c-8bbc93647760")
 	)
 	(junction
-		(at 82.55 34.29)
+		(at 106.68 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7b084c5-8211-4bbb-a979-811abacbcafd")
 	)
 	(junction
-		(at 82.55 96.52)
+		(at 106.68 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de22ce6b-5f18-45df-9298-0851500cc71d")
 	)
 	(junction
-		(at 80.01 50.8)
+		(at 104.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de5a62ae-203f-41a0-a9db-c02cac76150b")
 	)
+	(bus_entry
+		(at 48.26 49.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286134de-24ac-4c5c-aa05-7678667a89c1")
+	)
+	(bus_entry
+		(at 48.26 52.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a129a1-f836-4d18-84aa-2e26d13fc55b")
+	)
 	(wire
 		(pts
-			(xy 26.67 25.4) (xy 36.83 25.4)
+			(xy 41.91 36.83) (xy 55.88 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1745,17 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 25.4) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101ddc14-590b-435e-bb31-e2bc2c609b73")
-	)
-	(wire
-		(pts
-			(xy 60.96 25.4) (xy 85.09 25.4)
+			(xy 85.09 36.83) (xy 109.22 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 50.8 36.83)
+			(xy 50.8 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 80.01 36.83)
+			(xy 74.93 54.61) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 36.83) (xy 80.01 50.8)
+			(xy 104.14 54.61) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 168.91 137.16)
+			(xy 193.04 54.61) (xy 193.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 137.16) (xy 80.01 93.98)
+			(xy 104.14 154.94) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 82.55 34.29)
+			(xy 85.09 52.07) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 34.29) (xy 171.45 139.7)
+			(xy 195.58 52.07) (xy 195.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 34.29) (xy 82.55 34.29)
+			(xy 195.58 52.07) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 50.8 36.83)
+			(xy 74.93 48.26) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 82.55 34.29)
+			(xy 106.68 71.12) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 80.01 137.16)
+			(xy 93.98 154.94) (xy 104.14 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 25.4) (xy 60.96 25.4)
+			(xy 74.93 36.83) (xy 85.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 33.02) (xy 60.96 34.29)
+			(xy 85.09 48.26) (xy 85.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 34.29) (xy 60.96 34.29)
+			(xy 50.8 52.07) (xy 85.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1903,9 +1911,19 @@
 		)
 		(uuid "b41e47f1-ea97-4e32-8892-07e3d0878065")
 	)
+	(bus
+		(pts
+			(xy 48.26 49.53) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eef2ab-dd0f-4a4a-8435-8f1568bf1ce6")
+	)
 	(wire
 		(pts
-			(xy 80.01 93.98) (xy 69.85 93.98)
+			(xy 104.14 111.76) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 139.7) (xy 82.55 96.52)
+			(xy 106.68 157.48) (xy 106.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 25.4) (xy 85.09 100.33)
+			(xy 109.22 36.83) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 93.98)
+			(xy 104.14 68.58) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1943,9 +1961,19 @@
 		)
 		(uuid "c0745310-f570-46fc-ba31-f852c467408d")
 	)
+	(bus
+		(pts
+			(xy 48.26 52.07) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75637c6-9974-4e21-9591-cacb11162336")
+	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 80.01 36.83)
+			(xy 193.04 54.61) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +1983,27 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 69.85 50.8)
+			(xy 85.09 36.83) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd219680-ba85-430f-a55b-304a25e417a4")
+	)
+	(bus
+		(pts
+			(xy 41.91 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80626cb-4c8d-4deb-9706-da3e3230fae0")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 53.34) (xy 82.55 53.34)
+			(xy 93.98 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 82.55 53.34)
+			(xy 106.68 114.3) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2033,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 82.55 96.52)
+			(xy 74.93 36.83) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52dc61d-4a00-4bc6-818a-24164892dff9")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 106.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 139.7) (xy 82.55 139.7)
+			(xy 93.98 157.48) (xy 106.68 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2003,18 +2061,28 @@
 		)
 		(uuid "f9f4194e-b045-4524-bd14-861fb71dfe33")
 	)
-	(label "SCL1"
-		(at 36.83 34.29 0)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa70f821-9602-4c74-8696-c810f40974ad")
+	)
+	(label "I2C1.SCL"
+		(at 60.96 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1a04b059-7923-4b90-948a-7825514a072c")
+		(uuid "c35b2bf7-4b3b-4d47-8f44-f393e1b1d68a")
 	)
-	(label "SDA1"
-		(at 36.83 36.83 0)
+	(label "I2C1.SDA"
+		(at 60.96 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2023,20 +2091,20 @@
 		)
 		(uuid "dd924513-cade-45a7-a011-a26877acaa7c")
 	)
-	(hierarchical_label "SDA1"
+	(hierarchical_label "I2C1{I2C}"
 		(shape bidirectional)
-		(at 26.67 36.83 180)
+		(at 41.91 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0e31fc7a-0376-47a9-b357-b28320defc39")
+		(uuid "46c14f83-39e9-4bb3-8f57-da18022ef1a5")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 26.67 25.4 180)
+		(at 41.91 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2045,20 +2113,9 @@
 		)
 		(uuid "5e6cf1ab-ba92-4b9a-93db-c70ae135eaba")
 	)
-	(hierarchical_label "SCL1"
-		(shape input)
-		(at 26.67 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2e9fcd5-b236-4c0e-81b2-db26fe5bc972")
-	)
 	(symbol
 		(lib_id "Sensor_Current:INA230AIRGTT")
-		(at 58.42 148.59 0)
+		(at 82.55 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2067,7 +2124,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d80502c-8e48-4ccd-b3f8-c4b4d7068ac6")
 		(property "Reference" "U7"
-			(at 58.42 129.54 0)
+			(at 82.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2132,7 @@
 			)
 		)
 		(property "Value" "INA230AIRGTT"
-			(at 58.42 132.08 0)
+			(at 82.55 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2140,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 58.42 148.59 0)
+			(at 82.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina230.pdf?ts=1755978668271"
-			(at 58.42 148.59 0)
+			(at 82.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2158,7 @@
 			)
 		)
 		(property "Description" "36-V, 16-bit, I²C output current, voltage and power monitor with alert"
-			(at 58.42 148.59 0)
+			(at 82.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 29.21 0)
+		(at 74.93 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2179,7 +2236,7 @@
 		(dnp no)
 		(uuid "57f6688d-2e37-44e0-9cbf-ff1c40496ca8")
 		(property "Reference" "R3"
-			(at 53.34 27.9399 0)
+			(at 77.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2245,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 53.34 30.4799 0)
+			(at 77.47 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 51.816 29.464 90)
+			(at 75.946 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 29.21 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2272,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 29.21 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MCP9804_DFN")
-		(at 124.46 58.42 0)
+		(at 148.59 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2249,7 +2306,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c4cf09-218a-456f-912f-1895d76e6eef")
 		(property "Reference" "U4"
-			(at 139.7 51.9998 0)
+			(at 163.83 69.7798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2314,7 @@
 			)
 		)
 		(property "Value" "MCP9804_DFN"
-			(at 139.7 54.5398 0)
+			(at 163.83 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2322,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
-			(at 124.46 58.42 0)
+			(at 148.59 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2331,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf"
-			(at 118.11 46.99 0)
+			(at 142.24 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2340,7 @@
 			)
 		)
 		(property "Description" "±0.25°C (±1°C) Typical (Maximum), Digital Temperature Sensor, DFN-8"
-			(at 124.46 58.42 0)
+			(at 148.59 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2386,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 36.83 25.4 0)
+		(at 55.88 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2338,7 +2395,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b3a891c-b26f-4e84-8ccd-ab67b18669ff")
 		(property "Reference" "#PWR027"
-			(at 36.83 29.21 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2404,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 36.83 20.32 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 25.4 0)
+			(at 55.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 25.4 0)
+			(at 55.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 36.83 25.4 0)
+			(at 55.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2453,7 @@
 	(symbol
 		(lib_name "INA230AIRGTT_1")
 		(lib_id "Sensor_Current:INA230AIRGTT")
-		(at 58.42 62.23 0)
+		(at 82.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2405,7 +2462,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb0174b2-45fe-4216-8a7d-1b2bb11519d1")
 		(property "Reference" "U3"
-			(at 58.42 43.18 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2470,7 @@
 			)
 		)
 		(property "Value" "INA230AIRGTT"
-			(at 58.42 45.72 0)
+			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 58.42 62.23 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2487,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina230.pdf?ts=1755978668271"
-			(at 58.42 62.23 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2496,7 @@
 			)
 		)
 		(property "Description" "36-V, 16-bit, I²C output current, voltage and power monitor with alert"
-			(at 58.42 62.23 0)
+			(at 82.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2566,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 60.96 29.21 0)
+		(at 85.09 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2518,7 +2575,7 @@
 		(fields_autoplaced yes)
 		(uuid "e89b9f5b-45ab-4e70-ac03-88a8e6911fbd")
 		(property "Reference" "R4"
-			(at 63.5 27.9399 0)
+			(at 87.63 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2584,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 63.5 30.4799 0)
+			(at 87.63 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.976 29.464 90)
+			(at 86.106 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 29.21 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2611,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 60.96 29.21 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2637,7 @@
 	(symbol
 		(lib_name "INA230AIRGTT_2")
 		(lib_id "Sensor_Current:INA230AIRGTT")
-		(at 58.42 105.41 0)
+		(at 82.55 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2589,7 +2646,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee67b107-e2a0-43b3-8e4e-ad6075bf5847")
 		(property "Reference" "U6"
-			(at 58.42 86.36 0)
+			(at 82.55 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2654,7 @@
 			)
 		)
 		(property "Value" "INA230AIRGTT"
-			(at 58.42 88.9 0)
+			(at 82.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 58.42 105.41 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina230.pdf?ts=1755978668271"
-			(at 58.42 105.41 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2680,7 @@
 			)
 		)
 		(property "Description" "36-V, 16-bit, I²C output current, voltage and power monitor with alert"
-			(at 58.42 105.41 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

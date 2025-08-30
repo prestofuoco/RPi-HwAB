@@ -8294,9 +8294,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_entry
+		(at 59.69 34.29)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c67f3f-0b9c-488a-941e-e4a7aaf528c5")
+	)
+	(bus_entry
+		(at 59.69 29.21)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a611ed3c-c66e-4d6f-a2a2-52524577e6db")
+	)
+	(bus_entry
+		(at 59.69 26.67)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07f199c-26cb-4188-a750-7998f36f8d36")
+	)
+	(bus_entry
+		(at 59.69 31.75)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f916ec5b-03a0-4bce-b519-d21f51c5f2e1")
+	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 63.5 26.67)
+			(xy 48.26 26.67) (xy 59.69 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8306,7 +8342,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 29.21) (xy 63.5 29.21)
+			(xy 104.14 35.56) (xy 130.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482dea98-392f-444a-bd5e-fa2eb60cf708")
+	)
+	(bus
+		(pts
+			(xy 62.23 31.75) (xy 62.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9586a9-febf-44e8-903a-4f6c87509f03")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 59.69 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8316,7 +8372,57 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 63.5 31.75)
+			(xy 104.14 27.94) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53245fbc-bbfa-49b5-a210-677ffeafc949")
+	)
+	(wire
+		(pts
+			(xy 104.14 30.48) (xy 130.81 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a03bda-91c9-4691-a64f-7fe86e2ac22a")
+	)
+	(bus
+		(pts
+			(xy 62.23 26.67) (xy 62.23 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ec1f4e-0897-4a3c-864b-58ace088f18b")
+	)
+	(wire
+		(pts
+			(xy 104.14 33.02) (xy 130.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80843f13-dfd0-43c5-b858-dadf0fba7215")
+	)
+	(bus
+		(pts
+			(xy 62.23 21.59) (xy 71.12 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf410de-3b36-4e28-b644-6d301ddd472f")
+	)
+	(wire
+		(pts
+			(xy 48.26 31.75) (xy 59.69 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8324,15 +8430,35 @@
 		)
 		(uuid "cb1866ae-87eb-42be-b129-03431d83b7f8")
 	)
+	(bus
+		(pts
+			(xy 62.23 29.21) (xy 62.23 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5d210e-868c-4d55-abaf-8d974c41e55f")
+	)
 	(wire
 		(pts
-			(xy 48.26 34.29) (xy 63.5 34.29)
+			(xy 48.26 34.29) (xy 59.69 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d866d968-2553-4cc4-91bb-42d4221ecb9b")
+	)
+	(bus
+		(pts
+			(xy 62.23 24.13) (xy 62.23 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f320802d-f83d-4abd-865b-f47f32430803")
 	)
 	(label "TDO"
 		(at 57.15 29.21 180)
@@ -8354,6 +8480,16 @@
 		)
 		(uuid "0be28245-5795-479d-bb78-5d351feb165e")
 	)
+	(label "PCIE_DET_WAKE"
+		(at 123.19 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f238d45-058d-4b0a-9ca6-19596a36810a")
+	)
 	(label "TMS"
 		(at 57.15 31.75 180)
 		(effects
@@ -8363,6 +8499,16 @@
 			(justify right bottom)
 		)
 		(uuid "10647b35-7351-40cd-956a-1dbe4a435309")
+	)
+	(label "PCIE_CLKREQ_N"
+		(at 123.19 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3558c793-b6ce-4ebf-a2c8-57d74ff9e7ab")
 	)
 	(label "TDI"
 		(at 57.15 26.67 180)
@@ -8374,49 +8520,81 @@
 		)
 		(uuid "a75cf5fc-5db0-499b-8660-b4502ab56ba7")
 	)
-	(hierarchical_label "TDI"
-		(shape input)
-		(at 63.5 26.67 0)
+	(label "PCIE_RST_B"
+		(at 123.19 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e444385b-3215-49c5-bc1a-f99906df1457")
+	)
+	(label "PCIE_PWR_EN"
+		(at 123.19 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efb7b684-d80f-4917-ad11-b03d10e29f01")
+	)
+	(hierarchical_label "PCIE_DET_WAKE"
+		(shape passive)
+		(at 130.81 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "13977be9-17d7-46f0-a16c-15ca36ef86fd")
+		(uuid "2f443550-62c9-4328-af2d-e810e8b24c89")
 	)
-	(hierarchical_label "TDO"
-		(shape output)
-		(at 63.5 29.21 0)
+	(hierarchical_label "PCIE_RST_B"
+		(shape passive)
+		(at 130.81 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1a8ebc7e-1853-4800-8674-9cb7ff62a9fd")
+		(uuid "520b7efe-8fec-4ae8-8754-a61735dbf375")
 	)
-	(hierarchical_label "TCK"
+	(hierarchical_label "PCIE_PWR_EN"
+		(shape passive)
+		(at 130.81 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "662a2c33-d76d-4e7d-894a-7e1bfd2dd1e0")
+	)
+	(hierarchical_label "PCIE_CLKREQ_N"
+		(shape passive)
+		(at 130.81 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6dfc0c3-cc32-4e94-a2d5-893d03955a7e")
+	)
+	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
-		(at 63.5 34.29 0)
+		(at 71.12 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify left)
 		)
-		(uuid "4b84fde2-bcec-4cd7-b396-bde19806aee6")
-	)
-	(hierarchical_label "TMS"
-		(shape bidirectional)
-		(at 63.5 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66294763-7c43-4338-a0c9-45ad5ffd2bfe")
+		(uuid "cdf78bf5-2c19-448f-aafc-dbccc77fcd8c")
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
@@ -8428,7 +8606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00bd2620-0e3b-4083-9988-fbeb00703479")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 255.27 17.78 0)
 			(effects
 				(font
@@ -9820,7 +9998,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U?")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -9836,7 +10014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c89811-7a5e-4c8a-9993-ac2f0c428802")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 204.47 17.78 0)
 			(effects
 				(font
@@ -11228,7 +11406,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ceb01e-bc9a-43b4-95c1-8f188327aac5")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 31.75 20.32 0)
 			(effects
 				(font
@@ -12636,7 +12814,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U?")
+					(reference "U5")
 					(unit 8)
 				)
 			)
