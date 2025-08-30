@@ -17,7 +17,6 @@ currently, the focus is on the **pcb design and layout**. the `pcb/` directory c
 * **open-source design:** the pcb design, verilog/vhdl examples, and host software will be open-source and available in this repository
 
 ## hardware and software requirements (provisional)
-
 ### hardware
 
 * a raspberry pi 5
