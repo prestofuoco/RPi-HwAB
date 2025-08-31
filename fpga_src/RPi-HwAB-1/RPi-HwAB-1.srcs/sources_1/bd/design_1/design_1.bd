@@ -1,0 +1,38 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tfgg484-1",
+      "gen_directory": "../../../../RPi-HwAB-1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2"
+    },
+    "design_tree": {
+      "pcie_7x_0": "",
+      "mig_7series_0": "",
+      "axi_quad_spi_0": ""
+    },
+    "components": {
+      "pcie_7x_0": {
+        "vlnv": "xilinx.com:ip:pcie_7x:3.3",
+        "xci_name": "design_1_pcie_7x_0_0",
+        "xci_path": "ip\\design_1_pcie_7x_0_0\\design_1_pcie_7x_0_0.xci",
+        "inst_hier_path": "pcie_7x_0"
+      },
+      "mig_7series_0": {
+        "vlnv": "xilinx.com:ip:mig_7series:4.2",
+        "xci_name": "design_1_mig_7series_0_0",
+        "xci_path": "ip\\design_1_mig_7series_0_0\\design_1_mig_7series_0_0.xci",
+        "inst_hier_path": "mig_7series_0"
+      },
+      "axi_quad_spi_0": {
+        "vlnv": "xilinx.com:ip:axi_quad_spi:3.2",
+        "xci_name": "design_1_axi_quad_spi_0_0",
+        "xci_path": "ip\\design_1_axi_quad_spi_0_0\\design_1_axi_quad_spi_0_0.xci",
+        "inst_hier_path": "axi_quad_spi_0"
+      }
+    }
+  }
+}
