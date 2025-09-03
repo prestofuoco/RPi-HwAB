@@ -1,13 +1,13 @@
 LTspice 24.1.9 for Windows
 Circuit: C:\Users\andre.winkel\RPi-HwAB\pcb\simulations\spice\adp5054.net
-Start Time: Wed Sep  3 10:34:06 2025
+Start Time: Wed Sep  3 13:27:56 2025
 solver = Normal
 Maximum thread count: 32
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 75.366 seconds.
+Total elapsed time: 144.155 seconds.
 
 Files loaded:
 C:\Users\andre.winkel\RPi-HwAB\pcb\simulations\spice\adp5054.net
