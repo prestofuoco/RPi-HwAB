@@ -2,8 +2,11 @@
 currently designing power supplies
 
 power requirements:
+
 adp5054: 5V
+
 misc. sensors: 3.3V
+
 FPGA:
   1. vccint, vccbram, mgtavcc: 1.0V
   2. vccaux: 1.8V
