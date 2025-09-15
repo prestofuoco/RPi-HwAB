@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uH"
 			(at 199.39 110.49 90)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uH"
 			(at 227.33 86.36 90)
 			(effects
 				(font
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uH"
 			(at 220.98 36.83 90)
 			(effects
 				(font
@@ -5440,7 +5440,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uH"
 			(at 199.39 54.61 90)
 			(effects
 				(font
@@ -5829,7 +5829,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1992677-bc64-41e1-86b9-4b37968beaa3")
 		(property "Reference" "C?"
 			(at 210.82 31.75 90)
