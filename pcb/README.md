@@ -2,6 +2,7 @@
 currently designing power supplies
 
 ## schematic hierarchy structure
+```
 ├── RPi-HwAB-1.kicad_sch		# top-level schematic
 │   └── main-pwr.kicad_sch		# quad-buck converter for fpga, I-sense networks
 │   │	 └── compensation.kicad_sch	# bulk decoupling and compensation networks for adp5054
@@ -14,6 +15,8 @@ currently designing power supplies
 │   │    └── memory.kicad_sch		# spi flash / eeprom
 │   └── sensors.kicad_sch		# temperature and current sensors
 │   └── connectors.kicad_sch		# pcie, gpio, and jtag connectors
+```
+
 
 power requirements:
 
