@@ -8526,16 +8526,6 @@
 		)
 		(uuid 4756ec10-647c-400d-b8ef-5a981d8c8d80)
 	)
-	(text "considering changing 2v5 lvds to 1v8 cmos"
-		(exclude_from_sim no)
-		(at 153.67 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6df2b386-687a-4d6b-b228-f412268ec112")
-	)
 	(text "Power sequencing: \n\n1. VCCINT, VCCBRAM, MGTAVCC\n2. VCCAUX\n3. MGTAVTT\n4. VCCO"
 		(exclude_from_sim no)
 		(at 246.38 125.73 0)

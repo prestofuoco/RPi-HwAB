@@ -1067,6 +1067,26 @@
 		)
 		(uuid "339c1cb3-13cc-4af2-b40d-8433a6750a0f")
 	)
+	(bus
+		(pts
+			(xy 92.71 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb950c2-4e2a-4c50-8dd7-c2ff79667291")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40183141-38e1-4f90-ae07-07ba2ff72005")
+	)
 	(wire
 		(pts
 			(xy 104.14 162.56) (xy 104.14 165.1)
@@ -1107,6 +1127,26 @@
 		)
 		(uuid "693a41dd-0665-44cf-ba45-99c27e05df4d")
 	)
+	(bus
+		(pts
+			(xy 92.71 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7561bdfd-0508-4f15-91ee-e28ac9c0c353")
+	)
+	(bus
+		(pts
+			(xy 92.71 38.1) (xy 207.01 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79afc9be-a440-4591-ba74-a47a4dbe114f")
+	)
 	(wire
 		(pts
 			(xy 93.98 165.1) (xy 93.98 166.37)
@@ -1116,6 +1156,16 @@
 			(type default)
 		)
 		(uuid "8678ddf7-15ff-4bbd-89d5-026d054b8cf7")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 207.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd2e74d-1201-4825-98b2-651166f57291")
 	)
 	(wire
 		(pts
@@ -1156,6 +1206,26 @@
 			(type solid)
 		)
 		(uuid "9f614c2d-60cf-4e42-a525-6aff154bce6f")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8467eb5-b860-46e2-88f1-2721112e6bb7")
+	)
+	(bus
+		(pts
+			(xy 92.71 113.03) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9223115-67b9-40cc-9bf0-1c98befedef3")
 	)
 	(wire
 		(pts
@@ -1812,8 +1882,8 @@
 		)
 	)
 	(sheet
-		(at 201.93 67.31)
-		(size 31.75 30.48)
+		(at 207.01 30.48)
+		(size 31.75 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1828,7 +1898,7 @@
 		)
 		(uuid "010325a2-ae86-4ae0-96e8-1d16e8e45471")
 		(property "Sheetname" "Sensors"
-			(at 201.93 66.5984 0)
+			(at 207.01 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1907,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 201.93 98.3746 0)
+			(at 207.01 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1916,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 201.93 71.12 180)
+			(at 207.01 34.29 180)
 			(uuid "7fc0e0be-3eb1-4b83-b5ed-bf86fb7aeb23")
 			(effects
 				(font
@@ -1856,7 +1926,7 @@
 			)
 		)
 		(pin "I2C1{I2C}" bidirectional
-			(at 201.93 76.2 180)
+			(at 207.01 38.1 180)
 			(uuid "54b443c3-5a74-4b72-a2ed-9a200ce345e7")
 			(effects
 				(font
@@ -1936,8 +2006,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 45.72)
-		(size 25.4 85.09)
+		(at 67.31 30.48)
+		(size 25.4 100.33)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1952,7 +2022,7 @@
 		)
 		(uuid "6418cef5-c0d2-4573-8432-9553c4202f1e")
 		(property "Sheetname" "Connectors"
-			(at 67.31 45.0084 0)
+			(at 67.31 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2050,7 @@
 			)
 		)
 		(pin "I2C1{I2C}" bidirectional
-			(at 92.71 81.28 0)
+			(at 92.71 38.1 0)
 			(uuid "43316680-01ff-45e3-9ae6-0bacc4bde3e2")
 			(effects
 				(font
@@ -2020,7 +2090,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 92.71 49.53 0)
+			(at 92.71 34.29 0)
 			(uuid "d296507b-040c-49da-9abe-020681191c99")
 			(effects
 				(font
@@ -2162,7 +2232,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 105.41 49.53 180)
+			(at 105.41 52.07 180)
 			(uuid "24f5c277-ea77-458e-9291-98f05276b9d6")
 			(effects
 				(font

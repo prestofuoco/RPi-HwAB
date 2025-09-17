@@ -1,1 +1,4 @@
 *.raw
+*.zip
+*.lck
+.DS_Store
