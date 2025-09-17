@@ -11,4 +11,15 @@
 		(company "Andre S Winkel")
 	)
 	(lib_symbols)
+	(hierarchical_label "SPI0{SPI}"
+		(shape bidirectional)
+		(at 53.34 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a72348a-d611-425e-9d1b-1a4b36b77202")
+	)
 )

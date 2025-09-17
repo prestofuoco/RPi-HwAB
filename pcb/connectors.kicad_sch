@@ -2326,7 +2326,7 @@
 		(members "TDI" "TDO" "TCK" "TMS")
 	)
 	(bus_alias "PCIE"
-		(members "CLK_P" "CLK_N" "TX_P" "TX_N" "RX_P" "RX_N" "PWR_EN" "DET_WAKE"
+		(members "CLK_P" "CLK_N" "F2P_P" "F2P_N" "P2F_P" "P2F_N" "PWR_EN" "DET_WAKE"
 			"CLKREQ_N" "RST_B"
 		)
 	)
@@ -2384,13 +2384,14 @@
 		)
 		(uuid "1adcae68-fd19-434b-8659-ff510e857c2c")
 	)
-	(text "note: tx here is rx on raspi, etc."
+	(text "note: tx here is rx on raspi, etc.\np2f -> pi to fpga, etc"
 		(exclude_from_sim no)
-		(at 238.76 92.71 0)
+		(at 255.27 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "257ca510-ed37-4e65-b23b-59e8494b3444")
 	)
@@ -3924,7 +3925,7 @@
 		)
 		(uuid "ffe46f00-58e8-47db-8f54-1d04a9766802")
 	)
-	(label "PCIE.TX_P"
+	(label "PCIE.F2P_P"
 		(at 209.55 119.38 0)
 		(effects
 			(font
@@ -4014,7 +4015,7 @@
 		)
 		(uuid "35f46a76-99af-463c-924c-aa77d6cf1b78")
 	)
-	(label "PCIE.RX_N"
+	(label "PCIE.P2F_N"
 		(at 209.55 129.54 0)
 		(effects
 			(font
@@ -4094,7 +4095,7 @@
 		)
 		(uuid "7fa37b34-8fa9-4492-ba62-5f1be51a7761")
 	)
-	(label "PCIE.RX_P"
+	(label "PCIE.P2F_P"
 		(at 209.55 127 0)
 		(effects
 			(font
@@ -4164,7 +4165,7 @@
 		)
 		(uuid "dbfd039e-859c-46ca-8cae-57de756c688a")
 	)
-	(label "PCIE.TX_N"
+	(label "PCIE.F2P_N"
 		(at 209.55 121.92 0)
 		(effects
 			(font

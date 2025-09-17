@@ -151,6 +151,26 @@
 		)
 		(uuid "2c8363ab-6e2c-4497-bc55-06079ba7f20c")
 	)
+	(wire
+		(pts
+			(xy 52.07 27.94) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec46ef6-d881-4dfb-bcf1-ccd109e5f8a1")
+	)
+	(wire
+		(pts
+			(xy 52.07 22.86) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301e24b2-c23c-4e48-9a15-9a665c50dd97")
+	)
 	(bus
 		(pts
 			(xy 175.26 116.84) (xy 175.26 114.3)
@@ -181,6 +201,16 @@
 		)
 		(uuid "42ce270d-287a-4935-9fc9-1265a502f5b2")
 	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 43.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f88e81-7d4f-4565-9d98-1cc986786631")
+	)
 	(bus
 		(pts
 			(xy 175.26 123.19) (xy 175.26 116.84)
@@ -190,6 +220,16 @@
 			(type default)
 		)
 		(uuid "5be2fecd-8e0f-4cb3-8664-8b6a3b87ee88")
+	)
+	(wire
+		(pts
+			(xy 52.07 25.4) (xy 43.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e56d533-bc6b-45d3-9702-ad028da7fd4d")
 	)
 	(bus
 		(pts
@@ -293,6 +333,26 @@
 	)
 	(bus
 		(pts
+			(xy 71.12 107.95) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d396cbcb-ceec-4103-8fdd-e6a9d9be1c80")
+	)
+	(wire
+		(pts
+			(xy 52.07 34.29) (xy 43.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdb9734-1dd3-4e32-bbb0-311c5b70adfa")
+	)
+	(bus
+		(pts
 			(xy 175.26 107.95) (xy 175.26 105.41)
 		)
 		(stroke
@@ -333,6 +393,50 @@
 		)
 		(uuid "11069998-95d2-40ae-afb3-ef3dc6fc808c")
 	)
+	(hierarchical_label "1V0_MGT"
+		(shape input)
+		(at 52.07 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21c1bced-99d5-4304-9ea2-cf844861483a")
+	)
+	(hierarchical_label "1V2_MGT"
+		(shape input)
+		(at 52.07 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0cd04f8-822e-4635-9d52-6c575d719491")
+	)
+	(hierarchical_label "1V0_FD"
+		(shape input)
+		(at 52.07 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad1458fe-ec69-4081-ae0e-4c1f1a4c01db")
+	)
+	(hierarchical_label "1V8_FD"
+		(shape input)
+		(at 52.07 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd74a825-2e18-44e5-beb5-adae856fd678")
+	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
 		(at 170.18 72.39 180)
@@ -343,6 +447,28 @@
 			(justify right)
 		)
 		(uuid "c9bafb15-e73e-4434-a446-c0c493bfb6a2")
+	)
+	(hierarchical_label "SPI0{SPI}"
+		(shape bidirectional)
+		(at 71.12 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e246083b-4b48-4fd5-b0a7-e76b03c116a3")
+	)
+	(hierarchical_label "3V3_FD"
+		(shape input)
+		(at 52.07 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f588a7ac-2e63-4300-8095-8984cfb75761")
 	)
 	(sheet
 		(at 182.88 101.6)
@@ -573,7 +699,7 @@
 			)
 		)
 		(pin "1V0_FD" input
-			(at 43.18 30.48 0)
+			(at 43.18 22.86 0)
 			(uuid "feed5f68-e17d-44ad-999b-b8c549c8feea")
 			(effects
 				(font
@@ -583,7 +709,7 @@
 			)
 		)
 		(pin "1V0_MGT" input
-			(at 43.18 33.02 0)
+			(at 43.18 31.75 0)
 			(uuid "7daad9e4-26bc-4ae1-a296-cf8cb15032a7")
 			(effects
 				(font
@@ -593,7 +719,7 @@
 			)
 		)
 		(pin "1V2_MGT" input
-			(at 43.18 35.56 0)
+			(at 43.18 34.29 0)
 			(uuid "996403bc-6402-4d0f-b78b-e7bc59d278a3")
 			(effects
 				(font
@@ -603,7 +729,7 @@
 			)
 		)
 		(pin "1V8_FD" input
-			(at 43.18 38.1 0)
+			(at 43.18 25.4 0)
 			(uuid "a0d5f1bc-dafa-40ca-8698-1419b257f8b5")
 			(effects
 				(font
@@ -612,8 +738,8 @@
 				(justify right)
 			)
 		)
-		(pin "2V5_FD" input
-			(at 43.18 40.64 0)
+		(pin "3V3_FD" input
+			(at 43.18 27.94 0)
 			(uuid "85eb0274-cf00-46e1-82be-ebe6843ff391")
 			(effects
 				(font
@@ -664,6 +790,16 @@
 				(justify left top)
 			)
 		)
+		(pin "SPI0{SPI}" bidirectional
+			(at 77.47 107.95 180)
+			(uuid "e16375b3-8cff-487a-bba5-cc44533f008a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
@@ -673,7 +809,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 19.05)
+		(at 113.03 19.05)
 		(size 24.13 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -689,7 +825,7 @@
 		)
 		(uuid "ef42fd34-c1d8-421f-b8cb-1078e483aec9")
 		(property "Sheetname" "FPGA 2"
-			(at 53.34 18.3384 0)
+			(at 113.03 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,7 +834,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-2.kicad_sch"
-			(at 53.34 52.6546 0)
+			(at 113.03 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
