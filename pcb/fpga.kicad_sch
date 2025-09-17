@@ -631,6 +631,48 @@
 		)
 	)
 	(sheet
+		(at 77.47 93.98)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b633a666-4c3d-4ac9-9e0f-b350177ade0b")
+		(property "Sheetname" "Memory"
+			(at 77.47 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 77.47 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 19.05)
 		(size 24.13 33.02)
 		(exclude_from_sim no)

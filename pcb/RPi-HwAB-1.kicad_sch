@@ -1812,8 +1812,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 97.79)
-		(size 24.13 36.83)
+		(at 201.93 67.31)
+		(size 31.75 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1828,7 +1828,7 @@
 		)
 		(uuid "010325a2-ae86-4ae0-96e8-1d16e8e45471")
 		(property "Sheetname" "Sensors"
-			(at 124.46 97.0784 0)
+			(at 201.93 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1837,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 124.46 135.2046 0)
+			(at 201.93 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,8 +1845,8 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" input
-			(at 124.46 101.6 180)
+		(pin "3V3" input
+			(at 201.93 71.12 180)
 			(uuid "7fc0e0be-3eb1-4b83-b5ed-bf86fb7aeb23")
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(pin "I2C1{I2C}" bidirectional
-			(at 124.46 106.68 180)
+			(at 201.93 76.2 180)
 			(uuid "54b443c3-5a74-4b72-a2ed-9a200ce345e7")
 			(effects
 				(font
@@ -1874,8 +1874,8 @@
 		)
 	)
 	(sheet
-		(at 35.56 82.55)
-		(size 30.48 40.64)
+		(at 105.41 86.36)
+		(size 73.66 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1890,7 +1890,7 @@
 		)
 		(uuid "59d21473-a004-4514-8090-fd93db818925")
 		(property "Sheetname" "FPGA"
-			(at 35.56 81.8384 0)
+			(at 105.41 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1899,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 35.56 123.7746 0)
+			(at 105.41 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,23 +1908,23 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 66.04 95.25 0)
+			(at 105.41 113.03 180)
 			(uuid "ff0349e0-b919-4711-b320-9067ef332152")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 66.04 87.63 0)
+			(at 105.41 116.84 180)
 			(uuid "368f079a-4464-44e1-8897-ce73de1cc531")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -1936,8 +1936,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 38.1)
-		(size 20.32 85.09)
+		(at 67.31 45.72)
+		(size 25.4 85.09)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1952,7 +1952,7 @@
 		)
 		(uuid "6418cef5-c0d2-4573-8432-9553c4202f1e")
 		(property "Sheetname" "Connectors"
-			(at 81.28 37.3884 0)
+			(at 67.31 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +1961,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 81.28 123.7746 0)
+			(at 67.31 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1970,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 101.6 74.93 0)
+			(at 92.71 113.03 0)
 			(uuid "32a238e5-86de-4d68-95ee-6193fd62e8f4")
 			(effects
 				(font
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(pin "I2C1{I2C}" bidirectional
-			(at 101.6 68.58 0)
+			(at 92.71 81.28 0)
 			(uuid "43316680-01ff-45e3-9ae6-0bacc4bde3e2")
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 			)
 		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 101.6 62.23 0)
+			(at 92.71 120.65 0)
 			(uuid "b4da4e73-910d-491f-99f0-afe72d62e61c")
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(pin "{EN[1..4]}" output
-			(at 101.6 50.8 0)
+			(at 92.71 55.88 0)
 			(uuid "d0068f57-dba9-4ad1-8c80-4c1c2fc43a8c")
 			(effects
 				(font
@@ -2010,7 +2010,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 101.6 81.28 0)
+			(at 92.71 116.84 0)
 			(uuid "abf11fa3-0a46-4654-8e81-79e8ccbe51e7")
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 101.6 44.45 0)
+			(at 92.71 49.53 0)
 			(uuid "d296507b-040c-49da-9abe-020681191c99")
 			(effects
 				(font
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(pin "5V0" output
-			(at 101.6 41.91 0)
+			(at 92.71 52.07 0)
 			(uuid "df58abb7-3b04-4c7e-91ad-10a6a6e58821")
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(pin "PGOOD" input
-			(at 101.6 54.61 0)
+			(at 92.71 59.69 0)
 			(uuid "e76e064a-662c-44ad-b44d-000ef5f540a5")
 			(effects
 				(font
@@ -2058,8 +2058,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 40.64)
-		(size 24.13 45.72)
+		(at 105.41 45.72)
+		(size 73.66 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2074,7 +2074,7 @@
 		)
 		(uuid "f9ebb56c-78c7-42ac-bc19-ccbf788f5318")
 		(property "Sheetname" "Main Power"
-			(at 124.46 39.9284 0)
+			(at 105.41 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2083,7 @@
 			)
 		)
 		(property "Sheetfile" "main-pwr.kicad_sch"
-			(at 124.46 86.9446 0)
+			(at 105.41 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2092,7 @@
 			)
 		)
 		(pin "PWRGD" output
-			(at 124.46 80.01 180)
+			(at 105.41 59.69 180)
 			(uuid "f2aeedbe-65e9-4b48-87af-6978ad9c103b")
 			(effects
 				(font
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(pin "{EN[1..4]}" input
-			(at 124.46 76.2 180)
+			(at 105.41 55.88 180)
 			(uuid "058f0ab5-82fc-4f13-9f6f-424a5c92b431")
 			(effects
 				(font
@@ -2112,58 +2112,48 @@
 			)
 		)
 		(pin "1V0_FD" output
-			(at 148.59 46.99 0)
+			(at 142.24 76.2 270)
 			(uuid "69c9f294-0162-4cc1-8c53-4cd9a496d1e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1V0_MGT" output
-			(at 148.59 60.96 0)
+			(at 151.13 76.2 270)
 			(uuid "109e9084-54d4-4952-94e7-06b21db84d8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1V2_MGT" output
-			(at 148.59 63.5 0)
+			(at 153.67 76.2 270)
 			(uuid "841773ca-5f4e-4b8c-ade3-57fdef82d4e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1V8_FD" output
-			(at 148.59 49.53 0)
+			(at 144.78 76.2 270)
 			(uuid "1c485a3c-c65c-46de-bdea-7cc2b8e05455")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "2V5_FD" output
-			(at 148.59 52.07 0)
+		(pin "3V3_FD" output
+			(at 147.32 76.2 270)
 			(uuid "d006ce73-0df3-4dbf-8314-476212667042")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "3V3" input
-			(at 124.46 46.99 180)
-			(uuid "50f00f30-c198-4f9a-9831-f06c4b635d0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2162,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 124.46 44.45 180)
+			(at 105.41 49.53 180)
 			(uuid "24f5c277-ea77-458e-9291-98f05276b9d6")
 			(effects
 				(font

@@ -735,6 +735,10 @@
     [
       "6418cef5-c0d2-4573-8432-9553c4202f1e",
       "Connectors"
+    ],
+    [
+      "b633a666-4c3d-4ac9-9e0f-b350177ade0b",
+      "Memory"
     ]
   ],
   "text_variables": {}
