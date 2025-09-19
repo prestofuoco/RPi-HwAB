@@ -947,7 +947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0471bda6-11a6-48be-996c-2a823ef4e292")
-		(property "Reference" "C?"
+		(property "Reference" "C43"
 			(at 118.11 144.7799 0)
 			(effects
 				(font
@@ -965,7 +965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 149.86 0)
 			(effects
 				(font
@@ -1001,7 +1001,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -1017,7 +1017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e29fe9-69b4-4142-9061-5d71756f96dd")
-		(property "Reference" "C?"
+		(property "Reference" "C42"
 			(at 118.11 111.7599 0)
 			(effects
 				(font
@@ -1035,7 +1035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 116.84 0)
 			(effects
 				(font
@@ -1071,7 +1071,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1087,7 +1087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24cb5a23-c60e-4d93-a0b2-e7b0503d6b30")
-		(property "Reference" "C?"
+		(property "Reference" "C39"
 			(at 104.14 144.7799 0)
 			(effects
 				(font
@@ -1105,7 +1105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 149.86 0)
 			(effects
 				(font
@@ -1141,7 +1141,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4ae7b6-458b-4cc7-b342-3b6622d60d39")
-		(property "Reference" "C?"
+		(property "Reference" "C40"
 			(at 118.11 45.7199 0)
 			(effects
 				(font
@@ -1175,7 +1175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 50.8 0)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf23a32-29db-4553-9251-0541abe02346")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 128.27 99.06 90)
 			(effects
 				(font
@@ -1243,7 +1243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.524 104.394 90)
 			(effects
 				(font
@@ -1279,7 +1279,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1360,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa766a9-d3da-40c8-b077-19ee789d6daf")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 128.27 66.04 90)
 			(effects
 				(font
@@ -1376,7 +1376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.524 71.374 90)
 			(effects
 				(font
@@ -1412,7 +1412,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1428,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a581769-f83c-4058-91f4-e0402ecfb31c")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 128.27 33.02 90)
 			(effects
 				(font
@@ -1444,7 +1444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.524 38.354 90)
 			(effects
 				(font
@@ -1480,7 +1480,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1496,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf0ed94-9e84-4652-9319-e644e63b5165")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 104.14 78.7399 0)
 			(effects
 				(font
@@ -1514,7 +1514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 83.82 0)
 			(effects
 				(font
@@ -1550,7 +1550,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -1631,7 +1631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a385760f-125c-42fe-832b-729773610b92")
-		(property "Reference" "C?"
+		(property "Reference" "C41"
 			(at 118.11 78.7399 0)
 			(effects
 				(font
@@ -1649,7 +1649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 83.82 0)
 			(effects
 				(font
@@ -1685,7 +1685,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -1701,7 +1701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a98fd978-56eb-42f5-b9cf-c125665d1a81")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 128.27 132.08 90)
 			(effects
 				(font
@@ -1717,7 +1717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.524 137.414 90)
 			(effects
 				(font
@@ -1753,7 +1753,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4bb7ac3-a0af-49a7-ba6a-3f8693a66b96")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 104.14 111.7599 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 116.84 0)
 			(effects
 				(font
@@ -1888,7 +1888,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc33e84-2273-4ff8-8319-58aa41a940f2")
-		(property "Reference" "C?"
+		(property "Reference" "C36"
 			(at 104.14 45.7199 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 50.8 0)
 			(effects
 				(font
@@ -1958,7 +1958,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/dc89b573-6958-4e1d-ba95-c35e0bbf4438"
-					(reference "C?")
+					(reference "C36")
 					(unit 1)
 				)
 			)

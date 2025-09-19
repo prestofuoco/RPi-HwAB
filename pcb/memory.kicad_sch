@@ -11,29 +11,27 @@
 		(company "Andre S Winkel")
 	)
 	(lib_symbols
-		(symbol "Memory_Flash:MX25L3233FM1"
+		(symbol "Memory_Flash:MX25L3233FZN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
-				(at 20.32 1.27 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "MX25L3233FM1"
-				(at 20.32 -1.27 0)
+			(property "Value" "MX25L3233FZN"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -51,8 +49,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)"
-				(at -2.54 -12.7 0)
+			(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, WSON-8"
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -78,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "JEITA?SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -87,10 +85,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "MX25L3233FM1_0_1"
+			(symbol "MX25L3233FZN_0_1"
 				(rectangle
-					(start -10.16 8.89)
-					(end 10.16 -8.89)
+					(start -8.89 10.16)
+					(end 8.89 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -100,9 +98,9 @@
 					)
 				)
 			)
-			(symbol "MX25L3233FM1_1_1"
+			(symbol "MX25L3233FZN_1_1"
 				(pin bidirectional line
-					(at -12.7 6.35 0)
+					(at -11.43 7.62 0)
 					(length 2.54)
 					(name "SI/SIO0"
 						(effects
@@ -120,7 +118,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 3.81 0)
+					(at -11.43 5.08 0)
 					(length 2.54)
 					(name "SO/SIO1"
 						(effects
@@ -138,7 +136,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 1.27 0)
+					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "~{WP}/SIO2"
 						(effects
@@ -156,7 +154,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -1.27 0)
+					(at -11.43 0 0)
 					(length 2.54)
 					(name "~{HOLD}/SIO3"
 						(effects
@@ -174,7 +172,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -6.35 0)
+					(at -11.43 -5.08 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -191,8 +189,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
-					(at 12.7 6.35 180)
+					(at 11.43 7.62 180)
 					(length 2.54)
 					(name "SCLK"
 						(effects
@@ -210,7 +226,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -1.27 180)
+					(at 11.43 0 180)
 					(length 2.54)
 					(name "~{CS}"
 						(effects
@@ -228,7 +244,7 @@
 					)
 				)
 				(pin power_in line
-					(at 12.7 -6.35 180)
+					(at 11.43 -7.62 180)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -350,6 +366,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 234.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0772544c-9b15-4d0f-9df2-cfc11e271b0a")
+	)
 	(no_connect
 		(at 237.49 58.42)
 		(uuid "54c0e1e0-0efe-49b1-bbe1-b8888f885832")
@@ -406,7 +428,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 50.8) (xy 267.97 50.8)
+			(xy 260.35 50.8) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -426,7 +448,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 34.29) (xy 270.51 58.42)
+			(xy 267.97 34.29) (xy 267.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 36.83) (xy 267.97 50.8)
+			(xy 265.43 36.83) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 63.5) (xy 271.78 63.5)
+			(xy 260.35 66.04) (xy 269.24 66.04)
 		)
 		(stroke
 			(width 0)
@@ -486,7 +508,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 267.97 36.83)
+			(xy 234.95 66.04) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f15ffc-efa0-410a-9adc-bbfd15548212")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 265.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 63.5) (xy 234.95 69.85)
+			(xy 234.95 63.5) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +538,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 58.42) (xy 270.51 58.42)
+			(xy 260.35 58.42) (xy 267.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -546,7 +578,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 34.29) (xy 270.51 34.29)
+			(xy 234.95 66.04) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1325dc4-2d49-453a-b3f5-00c698d299f6")
+	)
+	(wire
+		(pts
+			(xy 224.79 34.29) (xy 267.97 34.29)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +649,7 @@
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
-		(at 271.78 63.5 0)
+		(at 269.24 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -617,32 +659,33 @@
 		(uuid "eb9b171a-d5a6-4598-a3b0-230a75e94410")
 	)
 	(symbol
-		(lib_id "Memory_Flash:MX25L3233FM1")
-		(at 250.19 57.15 0)
+		(lib_id "Memory_Flash:MX25L3233FZN")
+		(at 248.92 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22ac4fdb-de83-4b10-a3b4-6abc9065b12c")
-		(property "Reference" "U?"
-			(at 250.19 43.18 0)
+		(fields_autoplaced yes)
+		(uuid "0cee0f19-a7de-4af6-8986-e7e394ccde1d")
+		(property "Reference" "U8"
+			(at 248.92 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MX25L3233FM1"
-			(at 250.19 45.72 0)
+		(property "Value" "MX25L3233FZN"
+			(at 248.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 250.19 72.39 0)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +694,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf"
-			(at 250.19 74.676 0)
+			(at 248.92 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,8 +702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)"
-			(at 247.65 69.85 0)
+		(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, WSON-8"
+			(at 247.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +712,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 250.19 57.15 0)
+			(at 248.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,34 +720,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "52867cdc-52e8-4382-9442-5f9f6122465e")
-		)
-		(pin "6"
-			(uuid "52e0701e-7df1-4b1e-8b17-88865b1511d1")
-		)
-		(pin "5"
-			(uuid "af6c9a7b-0ee4-48ad-b8ae-5f5fd3564694")
-		)
-		(pin "2"
-			(uuid "331507f8-3281-4222-8a7d-fbeae0a95d1d")
-		)
-		(pin "3"
-			(uuid "4b7326a7-1cec-4575-bb91-9b5bad62958a")
-		)
-		(pin "7"
-			(uuid "4aa385fe-7f48-4a9d-818f-1a24f7dce30b")
+		(pin "4"
+			(uuid "e257d15a-1916-4c98-a89b-839615c435f6")
 		)
 		(pin "8"
-			(uuid "ced4e505-71fe-479a-9637-5fb8d2044462")
+			(uuid "52fb7f95-0068-420a-8683-0c49e0431cd2")
 		)
-		(pin "4"
-			(uuid "f888aa8a-4d4b-40cb-80c1-b344c6a0694b")
+		(pin "7"
+			(uuid "541e4308-ff61-49c0-bc62-fc8421a5e30b")
+		)
+		(pin "3"
+			(uuid "b20e37a3-3c7a-46a1-a36a-439724f29f4d")
+		)
+		(pin "2"
+			(uuid "a854c9e0-95ab-406e-98ad-a75ead9a1a40")
+		)
+		(pin "5"
+			(uuid "9e1dc18c-5f66-4a38-a8ed-74da211beb91")
+		)
+		(pin "6"
+			(uuid "02c99f6e-6899-4203-bb63-8ecdf48e27e0")
+		)
+		(pin "1"
+			(uuid "94b72e4f-22de-4c03-9d88-1ca703f56be9")
+		)
+		(pin "9"
+			(uuid "d23aa202-74d0-4d40-8ce2-18811da536bc")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
