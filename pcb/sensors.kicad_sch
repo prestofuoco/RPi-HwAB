@@ -1301,8 +1301,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
+			(property "Reference" "U4"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 				)
 			)
 			(property "Value" "MCP9804_DFN"
-				(at 10.16 11.43 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1336,6 +1336,15 @@
 				)
 			)
 			(property "Description" "±0.25°C (±1°C) Typical (Maximum), Digital Temperature Sensor, DFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1412,17 +1421,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin output line
+					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "A0"
+					(name "Alert"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,62 +1439,8 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1503,7 +1458,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -12.7 90)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "EP/GND"
 						(effects
@@ -1520,17 +1475,71 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin input line
+					(at 10.16 7.62 180)
 					(length 2.54)
-					(name "Alert"
+					(name "A0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1722,12 +1731,6 @@
 		(uuid "1ea64b97-0486-44f9-a405-ca683b98223d")
 	)
 	(junction
-		(at 104.14 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20861f20-c817-4eb8-b269-f268b792a4ae")
-	)
-	(junction
 		(at 99.06 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1756,6 +1759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5266ed94-6ce1-422f-af88-2c7ffaa58f8a")
+	)
+	(junction
+		(at 67.31 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6958cc09-99d5-4adb-a0b4-dba48a5e83ae")
 	)
 	(junction
 		(at 85.09 36.83)
@@ -1816,12 +1825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d59e0608-1396-4cb2-956c-8bbc93647760")
-	)
-	(junction
-		(at 106.68 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7b084c5-8211-4bbb-a979-811abacbcafd")
 	)
 	(junction
 		(at 106.68 114.3)
@@ -1946,6 +1949,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 114.3) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eaa976-ae2d-4568-aea8-69f776bb25e5")
+	)
+	(wire
+		(pts
 			(xy 99.06 118.11) (xy 99.06 124.46)
 		)
 		(stroke
@@ -2034,16 +2047,6 @@
 			(type default)
 		)
 		(uuid "3ac632a0-c659-47e0-98cb-a4cc45575564")
-	)
-	(wire
-		(pts
-			(xy 193.04 54.61) (xy 193.04 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7701b0-2cfa-4da9-9d90-1b1be3108c73")
 	)
 	(wire
 		(pts
@@ -2137,6 +2140,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 111.76) (xy 67.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5743d62c-c8da-4467-8408-edc0954a3742")
+	)
+	(wire
+		(pts
 			(xy 99.06 170.18) (xy 99.06 172.72)
 		)
 		(stroke
@@ -2154,16 +2167,6 @@
 			(type default)
 		)
 		(uuid "58d3e5e6-5fe4-444a-b29e-cdb1c7287b97")
-	)
-	(wire
-		(pts
-			(xy 195.58 52.07) (xy 195.58 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2697be-c2c8-4b70-9866-6d961e0cc334")
 	)
 	(wire
 		(pts
@@ -2195,16 +2198,6 @@
 			(type default)
 		)
 		(uuid "64618d9a-21d3-48f1-b089-4ebba007a794")
-	)
-	(wire
-		(pts
-			(xy 195.58 52.07) (xy 106.68 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b82f5bd-8136-4323-ab45-e6f919f9414a")
 	)
 	(wire
 		(pts
@@ -2441,6 +2434,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 119.38) (xy 67.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8654c89-8c99-4e60-8581-ed2bc061c0d9")
+	)
+	(wire
+		(pts
 			(xy 93.98 127) (xy 99.06 127)
 		)
 		(stroke
@@ -2482,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 111.76) (xy 71.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0befef-5069-4c50-891a-9a92efa3693c")
+	)
+	(wire
+		(pts
 			(xy 93.98 118.11) (xy 99.06 118.11)
 		)
 		(stroke
@@ -2519,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "c75637c6-9974-4e21-9591-cacb11162336")
-	)
-	(wire
-		(pts
-			(xy 193.04 54.61) (xy 104.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79b2a87-ac38-4f2c-b0b5-85b29ebe738c")
 	)
 	(wire
 		(pts
@@ -2631,6 +2634,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "e1d10a08-8e4f-46fa-9574-63a3e4989e05")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 67.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e7f613-cd39-40d2-aadc-f2686c654721")
 	)
 	(wire
 		(pts
@@ -2767,6 +2780,17 @@
 		)
 		(uuid "5e6cf1ab-ba92-4b9a-93db-c70ae135eaba")
 	)
+	(hierarchical_label "1V0_SENS_P"
+		(shape input)
+		(at 46.99 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fab1bb9-41bb-428a-b830-98f277ccf5a0")
+	)
 	(hierarchical_label "5V0_SENS_P"
 		(shape input)
 		(at 46.99 68.58 180)
@@ -2777,6 +2801,17 @@
 			(justify right)
 		)
 		(uuid "6b0243a3-1cb2-4fd9-abf1-8985326cbfb5")
+	)
+	(hierarchical_label "1V0_SENS_N"
+		(shape input)
+		(at 46.99 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab55bc9c-58f3-44bf-8134-b54c936b1993")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3112,7 +3147,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c4cf09-218a-456f-912f-1895d76e6eef")
 		(property "Reference" "U4"
-			(at 163.83 69.7798 0)
+			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3155,7 @@
 			)
 		)
 		(property "Value" "MCP9804_DFN"
-			(at 163.83 72.3198 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,6 +3181,15 @@
 			)
 		)
 		(property "Description" "±0.25°C (±1°C) Typical (Maximum), Digital Temperature Sensor, DFN-8"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 148.59 76.2 0)
 			(effects
 				(font

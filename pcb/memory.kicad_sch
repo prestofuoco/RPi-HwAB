@@ -10,10 +10,593 @@
 		(rev "01")
 		(company "Andre S Winkel")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Memory_Flash:MX25L3233FM1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 20.32 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX25L3233FM1"
+				(at 20.32 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)"
+				(at -2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SPI 32Mbit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "JEITA?SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX25L3233FM1_0_1"
+				(rectangle
+					(start -10.16 8.89)
+					(end 10.16 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MX25L3233FM1_1_1"
+				(pin bidirectional line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "SI/SIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "SO/SIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "~{WP}/SIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "~{HOLD}/SIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 237.49 58.42)
+		(uuid "54c0e1e0-0efe-49b1-bbe1-b8888f885832")
+	)
+	(no_connect
+		(at 237.49 55.88)
+		(uuid "6b54156f-700e-459c-89e1-ba3670c3cfb2")
+	)
+	(bus_entry
+		(at 222.25 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3a1676-9377-429b-9e6c-0d53e9003fa8")
+	)
+	(bus_entry
+		(at 222.25 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db85c06-e57a-409f-b581-22c0daf1f141")
+	)
+	(bus_entry
+		(at 222.25 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfc8d6f-f23c-487e-8c4f-b8485a8a16ed")
+	)
+	(bus_entry
+		(at 222.25 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc86fb5b-8ac6-4f42-8eba-12655ceb537e")
+	)
+	(bus
+		(pts
+			(xy 222.25 48.26) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032cc9f1-ebc2-4888-aac6-1fb9859143e8")
+	)
+	(wire
+		(pts
+			(xy 262.89 50.8) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066f5a71-2076-45b2-9a95-756958355b76")
+	)
+	(bus
+		(pts
+			(xy 222.25 26.67) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4fd7c2-cc1b-4b9c-9344-9823f0a77e41")
+	)
+	(wire
+		(pts
+			(xy 270.51 34.29) (xy 270.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fa82b3-b074-41fd-ba08-bb982b0edfd1")
+	)
+	(wire
+		(pts
+			(xy 224.79 50.8) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ed09b8-346d-429a-8a96-050e2f7bdc83")
+	)
+	(wire
+		(pts
+			(xy 224.79 53.34) (xy 237.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ef5827-255e-42f0-96ad-251536272ec4")
+	)
+	(wire
+		(pts
+			(xy 237.49 63.5) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1dff1e-44fe-4183-a760-73e122545fd5")
+	)
+	(wire
+		(pts
+			(xy 267.97 36.83) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593c5f02-b940-46a0-89c6-7f49a1105f1e")
+	)
+	(wire
+		(pts
+			(xy 262.89 63.5) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df4fb89-ade8-462e-b254-de8f8dc18287")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 267.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b1901d-18ae-461d-b386-8a0356652687")
+	)
+	(wire
+		(pts
+			(xy 234.95 63.5) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cf4c1d-5414-444f-87ae-a31d0fd8e868")
+	)
+	(wire
+		(pts
+			(xy 262.89 58.42) (xy 270.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d155773-46c5-4d85-971c-63269945ed19")
+	)
+	(bus
+		(pts
+			(xy 213.36 26.67) (xy 222.25 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab2860b-2d1b-495b-9fc5-35103927fe68")
+	)
+	(bus
+		(pts
+			(xy 222.25 34.29) (xy 222.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd34b44-5257-4df2-83bc-2de5dbe8e633")
+	)
+	(bus
+		(pts
+			(xy 222.25 31.75) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42d3fdb-b886-454f-812a-045a5230a34e")
+	)
+	(wire
+		(pts
+			(xy 224.79 34.29) (xy 270.51 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e923f630-ac27-48bd-8028-793120113182")
+	)
+	(label "SPI0.CS0"
+		(at 237.49 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1324e5a2-26b5-41be-8639-1363d8c08c07")
+	)
+	(label "SPI0.SCK"
+		(at 237.49 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b50ff4e4-74cf-4bc5-9e84-450767738004")
+	)
+	(label "SPI0.MOSI"
+		(at 237.49 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b547aa21-123b-4d0f-af1e-998499dfdb5f")
+	)
+	(label "SPI0.MISO"
+		(at 237.49 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f14fcb3e-1ba3-427b-a784-90abfae7b317")
+	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape bidirectional)
-		(at 53.34 55.88 180)
+		(at 213.36 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,5 +604,176 @@
 			(justify right)
 		)
 		(uuid "3a72348a-d611-425e-9d1b-1a4b36b77202")
+	)
+	(hierarchical_label "3V3_FD"
+		(shape input)
+		(at 271.78 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb9b171a-d5a6-4598-a3b0-230a75e94410")
+	)
+	(symbol
+		(lib_id "Memory_Flash:MX25L3233FM1")
+		(at 250.19 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ac4fdb-de83-4b10-a3b4-6abc9065b12c")
+		(property "Reference" "U?"
+			(at 250.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX25L3233FM1"
+			(at 250.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf"
+			(at 250.19 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52867cdc-52e8-4382-9442-5f9f6122465e")
+		)
+		(pin "6"
+			(uuid "52e0701e-7df1-4b1e-8b17-88865b1511d1")
+		)
+		(pin "5"
+			(uuid "af6c9a7b-0ee4-48ad-b8ae-5f5fd3564694")
+		)
+		(pin "2"
+			(uuid "331507f8-3281-4222-8a7d-fbeae0a95d1d")
+		)
+		(pin "3"
+			(uuid "4b7326a7-1cec-4575-bb91-9b5bad62958a")
+		)
+		(pin "7"
+			(uuid "4aa385fe-7f48-4a9d-818f-1a24f7dce30b")
+		)
+		(pin "8"
+			(uuid "ced4e505-71fe-479a-9637-5fb8d2044462")
+		)
+		(pin "4"
+			(uuid "f888aa8a-4d4b-40cb-80c1-b344c6a0694b")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f4d2bc-a167-4401-98ea-76c52b879085")
+		(property "Reference" "#PWR026"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5057c9e-de42-48ef-8122-18aa32419663")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

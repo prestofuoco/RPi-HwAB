@@ -8329,16 +8329,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet"
 			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "Artix 7 T 35 XC7A35T-FGG484"
+		(property "Description" "XC7A35T-FGG484"
 			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,16 +9747,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet"
 			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "Artix 7 T 35 XC7A35T-FGG484"
+		(property "Description" "XC7A35T-FGG484"
 			(at 13.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,16 +11165,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet"
 			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "Artix 7 T 35 XC7A35T-FGG484"
+		(property "Description" "XC7A35T-FGG484"
 			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

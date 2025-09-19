@@ -8433,6 +8433,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "do i need these ac coupling caps?"
+		(exclude_from_sim no)
+		(at 132.08 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2653529-5973-4c7c-85a9-ec16192f90bb")
+	)
 	(wire
 		(pts
 			(xy 143.51 115.57) (xy 171.45 115.57)
@@ -8701,16 +8711,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet"
 			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "Artix 7 T 35 XC7A35T-FGG484"
+		(property "Description" "XC7A35T-FGG484"
 			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

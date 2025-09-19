@@ -1039,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 144.78 86.36)
+			(xy 144.78 68.58) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 76.2) (xy 153.67 86.36)
+			(xy 153.67 68.58) (xy 153.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1107,6 +1107,16 @@
 		)
 		(uuid "40183141-38e1-4f90-ae07-07ba2ff72005")
 	)
+	(bus
+		(pts
+			(xy 92.71 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40febf26-c87a-48c7-8c75-f9cd84d75a79")
+	)
 	(wire
 		(pts
 			(xy 104.14 162.56) (xy 104.14 165.1)
@@ -1159,7 +1169,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 116.84) (xy 105.41 116.84)
+			(xy 92.71 124.46) (xy 105.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1189,6 +1199,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 62.23) (xy 207.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5bbe50-3522-4820-b3f7-4be4a40a1f26")
+	)
+	(wire
+		(pts
 			(xy 92.71 34.29) (xy 207.01 34.29)
 		)
 		(stroke
@@ -1197,15 +1217,15 @@
 		)
 		(uuid "8cd2e74d-1201-4825-98b2-651166f57291")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 92.71 120.65) (xy 105.41 120.65)
+			(xy 179.07 59.69) (xy 207.01 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "916a4dc5-6a77-40c0-aa17-4ed9be11cea1")
+		(uuid "913e2ed9-db29-4f09-b459-c1f45ddb6f58")
 	)
 	(wire
 		(pts
@@ -1249,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 151.13 86.36)
+			(xy 151.13 68.58) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 142.24 86.36)
+			(xy 142.24 68.58) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 147.32 86.36)
+			(xy 147.32 68.58) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2035,6 +2055,26 @@
 				(justify left)
 			)
 		)
+		(pin "1V0_SENS_N" input
+			(at 207.01 62.23 180)
+			(uuid "f5c81f38-e742-4fea-80d7-fa8ff5a2d711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V0_SENS_P" input
+			(at 207.01 59.69 180)
+			(uuid "55db7058-3d2f-4f51-b918-7cb18e114a71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2088,7 +2128,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 105.41 116.84 180)
+			(at 105.41 124.46 180)
 			(uuid "368f079a-4464-44e1-8897-ce73de1cc531")
 			(effects
 				(font
@@ -2148,7 +2188,7 @@
 			)
 		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 105.41 120.65 180)
+			(at 105.41 116.84 180)
 			(uuid "1f194a8b-165a-41c5-b914-c326aa1fa77b")
 			(effects
 				(font
@@ -2220,7 +2260,7 @@
 			)
 		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 92.71 120.65 0)
+			(at 92.71 116.84 0)
 			(uuid "b4da4e73-910d-491f-99f0-afe72d62e61c")
 			(effects
 				(font
@@ -2240,7 +2280,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 92.71 116.84 0)
+			(at 92.71 124.46 0)
 			(uuid "abf11fa3-0a46-4654-8e81-79e8ccbe51e7")
 			(effects
 				(font
@@ -2289,7 +2329,7 @@
 	)
 	(sheet
 		(at 105.41 45.72)
-		(size 73.66 30.48)
+		(size 73.66 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2313,7 +2353,7 @@
 			)
 		)
 		(property "Sheetfile" "main-pwr.kicad_sch"
-			(at 105.41 76.7846 0)
+			(at 105.41 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2382,7 @@
 			)
 		)
 		(pin "1V0_FD" output
-			(at 142.24 76.2 270)
+			(at 142.24 68.58 270)
 			(uuid "69c9f294-0162-4cc1-8c53-4cd9a496d1e7")
 			(effects
 				(font
@@ -2352,7 +2392,7 @@
 			)
 		)
 		(pin "1V0_MGT" output
-			(at 151.13 76.2 270)
+			(at 151.13 68.58 270)
 			(uuid "109e9084-54d4-4952-94e7-06b21db84d8b")
 			(effects
 				(font
@@ -2362,7 +2402,7 @@
 			)
 		)
 		(pin "1V2_MGT" output
-			(at 153.67 76.2 270)
+			(at 153.67 68.58 270)
 			(uuid "841773ca-5f4e-4b8c-ade3-57fdef82d4e1")
 			(effects
 				(font
@@ -2372,7 +2412,7 @@
 			)
 		)
 		(pin "1V8_FD" output
-			(at 144.78 76.2 270)
+			(at 144.78 68.58 270)
 			(uuid "1c485a3c-c65c-46de-bdea-7cc2b8e05455")
 			(effects
 				(font
@@ -2382,7 +2422,7 @@
 			)
 		)
 		(pin "3V3_FD" output
-			(at 147.32 76.2 270)
+			(at 147.32 68.58 270)
 			(uuid "d006ce73-0df3-4dbf-8314-476212667042")
 			(effects
 				(font
@@ -2414,6 +2454,26 @@
 		(pin "5V0_SENS_P" output
 			(at 179.07 50.8 0)
 			(uuid "b69f797c-fd61-4e28-9224-3f4739893a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V0_SENS_N" output
+			(at 179.07 62.23 0)
+			(uuid "d7eebc90-ccee-44bd-8985-1ca820537a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V0_SENS_P" output
+			(at 179.07 59.69 0)
+			(uuid "a05716a6-8392-4180-b7d9-1514a2494351")
 			(effects
 				(font
 					(size 1.27 1.27)
