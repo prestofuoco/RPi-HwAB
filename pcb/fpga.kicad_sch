@@ -12,10 +12,10 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 63.5 27.94)
+		(at 57.15 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3301a28-5026-4d68-b188-bb40af82e4a6")
+		(uuid "290fd185-4cfb-488d-b6bb-9fee756f85b6")
 	)
 	(bus_entry
 		(at 175.26 116.84)
@@ -199,13 +199,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 27.94) (xy 69.85 27.94)
+			(xy 57.15 27.94) (xy 69.85 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51fb07eb-9921-4cd9-af45-1325904c020c")
+		(uuid "4a7a0ea9-b574-4056-9de6-4cd73fd96c2f")
 	)
 	(wire
 		(pts
@@ -259,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 27.94) (xy 63.5 97.79)
+			(xy 57.15 27.94) (xy 57.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -269,7 +269,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 27.94) (xy 63.5 27.94)
+			(xy 43.18 27.94) (xy 57.15 27.94)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +279,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 77.47 97.79)
+			(xy 57.15 97.79) (xy 77.47 97.79)
 		)
 		(stroke
 			(width 0)

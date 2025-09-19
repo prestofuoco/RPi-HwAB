@@ -13298,6 +13298,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "XC7A35T-FGG484"
@@ -14782,6 +14783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "XC7A35T-FGG484"
@@ -16265,6 +16267,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "XC7A35T-FGG484"
