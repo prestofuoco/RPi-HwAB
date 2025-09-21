@@ -1170,6 +1170,16 @@
 		(at 71.12 180.34)
 		(uuid "00f1806c-4158-494e-882b-c5ac9b7a930c")
 	)
+	(bus
+		(pts
+			(xy 92.71 109.22) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05aef6dd-5d54-4cca-8f0a-1f86e06153f7")
+	)
 	(wire
 		(pts
 			(xy 81.28 165.1) (xy 93.98 165.1)
@@ -1522,16 +1532,6 @@
 			(type default)
 		)
 		(uuid "a8467eb5-b860-46e2-88f1-2721112e6bb7")
-	)
-	(bus
-		(pts
-			(xy 92.71 113.03) (xy 105.41 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9223115-67b9-40cc-9bf0-1c98befedef3")
 	)
 	(wire
 		(pts
@@ -2852,7 +2852,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 105.41 113.03 180)
+			(at 105.41 109.22 180)
 			(uuid "ff0349e0-b919-4711-b320-9067ef332152")
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 92.71 113.03 0)
+			(at 92.71 109.22 0)
 			(uuid "32a238e5-86de-4d68-95ee-6193fd62e8f4")
 			(effects
 				(font
