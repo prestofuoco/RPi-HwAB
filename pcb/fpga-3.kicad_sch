@@ -8433,6 +8433,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://pcisig.com/pci-express-base-specification-revision-20\nhttps://www.renesas.com/en/document/gde/gen2-pcie-hardware-design-guide\nhttps://datasheets.raspberrypi.com/pcie/pcie-connector-standard.pdf"
+		(exclude_from_sim no)
+		(at 177.8 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "865c9d1f-53ce-4d9f-9f80-94b0c37870a8")
+	)
 	(text "do i need these ac coupling caps?"
 		(exclude_from_sim no)
 		(at 132.08 46.99 0)
@@ -8445,17 +8456,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 115.57) (xy 171.45 115.57)
+			(xy 143.51 113.03) (xy 166.37 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29094dd7-0880-4660-80d3-0f7ea180d980")
+		(uuid "0422adb5-422e-41a2-8c57-e01067363ae6")
 	)
 	(wire
 		(pts
-			(xy 165.1 67.31) (xy 171.45 67.31)
+			(xy 181.61 67.31) (xy 209.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8465,57 +8476,47 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 157.48 67.31)
+			(xy 143.51 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45c58024-6a88-4ea9-b41d-c3a965696344")
+		(uuid "9c977fdb-2378-4b54-be89-051234ef1e71")
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 171.45 113.03)
+			(xy 143.51 115.57) (xy 166.37 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dd655dd-9b36-4172-bdb9-44572e4b54ef")
+		(uuid "a8f28c46-3a16-4d9c-8229-8470ac720929")
 	)
 	(wire
 		(pts
-			(xy 143.51 90.17) (xy 157.48 90.17)
+			(xy 143.51 90.17) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c2b925c-f0a8-4456-b187-1a4e0ff23b22")
+		(uuid "d907ff0f-54ec-429d-8047-bc094b2fe9ae")
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 147.32 92.71)
+			(xy 143.51 67.31) (xy 173.99 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "881dbd45-d8e5-4132-8acb-3ed408ad0bc0")
+		(uuid "e1631a7b-eafd-4f54-9ea4-9b0f6075375f")
 	)
 	(wire
 		(pts
-			(xy 165.1 90.17) (xy 171.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f00c2d-8e09-4147-b6b5-3b81e3f93d2b")
-	)
-	(wire
-		(pts
-			(xy 154.94 69.85) (xy 171.45 69.85)
+			(xy 171.45 69.85) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8525,17 +8526,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0273106-0449-4c54-bb69-7f9c9de63a2c")
-	)
-	(wire
-		(pts
-			(xy 143.51 69.85) (xy 147.32 69.85)
+			(xy 143.51 69.85) (xy 163.83 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8543,9 +8534,89 @@
 		)
 		(uuid "fb56a4b5-d5a0-4aac-93f2-5af2d97185bf")
 	)
+	(label "F2P_P"
+		(at 149.86 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4f9f65-2d3a-41ea-9ebf-b46cb591013b")
+	)
+	(label "F2P_N"
+		(at 149.86 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4137b3ce-d37b-490e-8f67-d3be884acdf9")
+	)
+	(label "PCIE.F2P_P"
+		(at 193.04 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52953efd-f496-415a-b3cb-c26ebc5911be")
+	)
+	(label "PCIE.CLK_P"
+		(at 149.86 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a5b5dc8-f7e4-4b38-8e66-b77e684b6e1d")
+	)
+	(label "PCIE.P2F_N"
+		(at 149.86 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfca3ef4-1234-4583-93df-e1b522091116")
+	)
+	(label "PCIE.P2F_P"
+		(at 149.86 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67dbb9f-043f-4f94-8638-00724c981f15")
+	)
+	(label "PCIE.F2P_N"
+		(at 193.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6946e29-ae06-4aff-a736-59827765400a")
+	)
+	(label "PCIE.CLK_N"
+		(at 149.86 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f903932c-53fd-4ca7-81dc-25aabd035b0b")
+	)
 	(hierarchical_label "PCIE.CLK_N"
 		(shape bidirectional)
-		(at 171.45 115.57 0)
+		(at 166.37 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8554,9 +8625,9 @@
 		)
 		(uuid "7ba05873-8d4e-49ca-b13c-fb52b1efd579")
 	)
-	(hierarchical_label "PCIE.TX_N"
+	(hierarchical_label "PCIE.F2P_N"
 		(shape input)
-		(at 171.45 69.85 0)
+		(at 209.55 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,9 +8636,9 @@
 		)
 		(uuid "86761cbc-d352-48a9-b100-68ab62545e5f")
 	)
-	(hierarchical_label "PCIE.RX_N"
+	(hierarchical_label "PCIE.P2F_N"
 		(shape output)
-		(at 171.45 92.71 0)
+		(at 166.37 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,9 +8647,9 @@
 		)
 		(uuid "923e3609-9993-48f5-8aee-e941fa95573f")
 	)
-	(hierarchical_label "PCIE.RX_P"
+	(hierarchical_label "PCIE.P2F_P"
 		(shape output)
-		(at 171.45 90.17 0)
+		(at 166.37 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,9 +8658,9 @@
 		)
 		(uuid "d239aca9-17c8-43f5-8d48-bac7ea9a89b3")
 	)
-	(hierarchical_label "PCIE.TX_P"
+	(hierarchical_label "PCIE.F2P_P"
 		(shape input)
-		(at 171.45 67.31 0)
+		(at 209.55 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8600,7 +8671,7 @@
 	)
 	(hierarchical_label "PCIE.CLK_P"
 		(shape bidirectional)
-		(at 171.45 113.03 0)
+		(at 166.37 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8611,7 +8682,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 69.85 90)
+		(at 167.64 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,7 +8690,7 @@
 		(dnp no)
 		(uuid "0190328f-1b2c-408b-b3a7-e7ad9eee7775")
 		(property "Reference" "C2"
-			(at 147.32 68.58 90)
+			(at 163.83 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8698,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 156.21 68.58 90)
+			(at 172.72 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +8706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.94 68.8848 0)
+			(at 171.45 68.8848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 69.85 0)
+			(at 167.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +8724,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 69.85 0)
+			(at 167.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,141 +10167,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7171001b-08e3-4dbb-b539-88057efb0fbe")
-		(property "Reference" "C5"
-			(at 157.48 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 166.37 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 165.1 89.2048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "891e7484-55b4-47be-b925-77eacd0eddf6")
-		)
-		(pin "1"
-			(uuid "fcf8886c-05dc-4eac-a0b4-029c0a7ea112")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 151.13 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f7f539f-cd19-4139-8219-4dbc24d9e86b")
-		(property "Reference" "C3"
-			(at 147.32 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 156.21 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.94 91.7448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 151.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a94818e-7cd3-4ee4-881b-37e09779a14f")
-		)
-		(pin "1"
-			(uuid "72341203-c8c6-43aa-8162-d5f89edbbf69")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 67.31 90)
+		(at 177.8 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10238,7 +10175,7 @@
 		(dnp no)
 		(uuid "de29a84b-8779-4e2a-a5b7-f1dc3dc17f8a")
 		(property "Reference" "C4"
-			(at 157.48 66.04 90)
+			(at 173.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10183,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 166.37 66.04 90)
+			(at 182.88 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 165.1 66.3448 0)
+			(at 181.61 66.3448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 67.31 0)
+			(at 177.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10209,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 67.31 0)
+			(at 177.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

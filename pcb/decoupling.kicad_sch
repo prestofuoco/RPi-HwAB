@@ -2750,7 +2750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "003049d9-948a-4a0d-a736-ffb0163413c6")
-		(property "Reference" "C?"
+		(property "Reference" "C61"
 			(at 109.22 134.62 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -2984,7 +2984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1aa2aeee-8f3e-4895-8d6e-e2bfca55d0b6")
-		(property "Reference" "C?"
+		(property "Reference" "C58"
 			(at 100.33 134.62 0)
 			(effects
 				(font
@@ -3047,7 +3047,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3062,7 +3062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f8f5687-f38f-4737-8693-2d617d945f4e")
-		(property "Reference" "C?"
+		(property "Reference" "C48"
 			(at 67.31 134.62 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3140,7 +3140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2046323e-f001-46aa-ac0a-a2aafa6aa9d7")
-		(property "Reference" "C?"
+		(property "Reference" "C50"
 			(at 80.01 86.36 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -3362,7 +3362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bc79c08-c10a-4fc5-9f03-8ed69ffbace5")
-		(property "Reference" "C?"
+		(property "Reference" "C59"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4478cfcd-f15c-426e-a638-5c642488688d")
-		(property "Reference" "C?"
+		(property "Reference" "C45"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56dd12fc-a71b-414b-9143-c9a1c960f58f")
-		(property "Reference" "C?"
+		(property "Reference" "C47"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -3815,7 +3815,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "870bae38-7ccf-4c9e-bcbb-795fb5f4f388")
-		(property "Reference" "C?"
+		(property "Reference" "C52"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88164551-a3bd-410e-9b24-aaf6b555277b")
-		(property "Reference" "C?"
+		(property "Reference" "C49"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -4361,7 +4361,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4610,7 +4610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a285bd2d-4fe9-4986-a82e-088a0940342f")
-		(property "Reference" "C?"
+		(property "Reference" "C63"
 			(at 118.11 134.62 0)
 			(effects
 				(font
@@ -4673,7 +4673,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a90169e9-5e8b-4a1d-8e01-4799769b43cf")
-		(property "Reference" "C?"
+		(property "Reference" "C54"
 			(at 91.44 110.49 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc63076c-503e-4ea3-a4ec-a60cf7af459c")
-		(property "Reference" "C?"
+		(property "Reference" "C55"
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c61e503e-f2d2-4497-ab07-2ab42bbf1193")
-		(property "Reference" "C?"
+		(property "Reference" "C51"
 			(at 82.55 110.49 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c87daae4-68d0-4afc-bb0a-6d41697adca9")
-		(property "Reference" "C?"
+		(property "Reference" "C53"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5588,7 +5588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2da427f-d004-49b7-a327-aca3043c5ec9")
-		(property "Reference" "C?"
+		(property "Reference" "C57"
 			(at 100.33 110.49 0)
 			(effects
 				(font
@@ -5651,7 +5651,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -5744,7 +5744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d70409c5-0f83-48c1-a9e7-b390999db15d")
-		(property "Reference" "C?"
+		(property "Reference" "C60"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -5807,7 +5807,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -5822,7 +5822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b9d0d7-7984-4eeb-bcde-64c7864a0d6e")
-		(property "Reference" "C?"
+		(property "Reference" "C64"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -5900,7 +5900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4c4344e-6b17-44b4-861d-f78f3320f552")
-		(property "Reference" "C?"
+		(property "Reference" "C62"
 			(at 118.11 110.49 0)
 			(effects
 				(font
@@ -5963,7 +5963,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5978,7 +5978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e591cbbf-ce69-4616-b21b-e8b467d32529")
-		(property "Reference" "C?"
+		(property "Reference" "C46"
 			(at 58.42 134.62 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1256ffe-3dcb-4b51-a678-f9be60eb92b8")
-		(property "Reference" "C?"
+		(property "Reference" "C56"
 			(at 97.79 86.36 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -6290,7 +6290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f49099ac-2bed-4ead-9d01-60f08f9daaea")
-		(property "Reference" "C?"
+		(property "Reference" "C65"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -6353,7 +6353,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc461c3d-c249-4581-aa8f-f6b2d30b69d0")
-		(property "Reference" "C?"
+		(property "Reference" "C44"
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -6509,7 +6509,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c/d1fe51bb-390e-4bc5-afb0-b85902b013c3"
-					(reference "C?")
+					(reference "C44")
 					(unit 1)
 				)
 			)
