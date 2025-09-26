@@ -1069,6 +1069,48 @@
 	(bus_alias "SPI"
 		(members "MOSI" "MISO" "SCK" "CS0" "CS1")
 	)
+	(text "ARTIX 7 35T"
+		(exclude_from_sim no)
+		(at 142.24 109.22 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "098951c1-a839-4d62-880e-d7c93cc4f6b6")
+	)
+	(text "SENSORS"
+		(exclude_from_sim no)
+		(at 223.52 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1cd043f3-6df9-407a-a4bf-b602e64a8084")
+	)
+	(text "CONNECTORS"
+		(exclude_from_sim no)
+		(at 77.47 81.28 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "36de308e-9790-4b98-8a88-9005b64ca4b0")
+	)
 	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging JP1 enables write protection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
 		(at 16.51 193.04 0)
@@ -1079,6 +1121,20 @@
 			(justify left bottom)
 		)
 		(uuid "8714082a-55fe-4a29-9d48-99ae1ef73073")
+	)
+	(text "POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 142.24 49.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d63936cd-ca67-4167-b8ef-3439b921c92d")
 	)
 	(junction
 		(at 93.98 175.26)
@@ -1172,7 +1228,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 109.22) (xy 105.41 109.22)
+			(xy 92.71 107.95) (xy 105.41 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2773,7 @@
 	)
 	(sheet
 		(at 207.01 30.48)
-		(size 31.75 39.37)
+		(size 33.02 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2819,7 +2875,7 @@
 	)
 	(sheet
 		(at 105.41 86.36)
-		(size 73.66 44.45)
+		(size 73.66 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2843,7 +2899,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 105.41 131.3946 0)
+			(at 105.41 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2908,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 105.41 109.22 180)
+			(at 105.41 107.95 180)
 			(uuid "ff0349e0-b919-4711-b320-9067ef332152")
 			(effects
 				(font
@@ -2940,8 +2996,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 30.48)
-		(size 25.4 100.33)
+		(at 62.23 30.48)
+		(size 30.48 101.6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2956,7 +3012,7 @@
 		)
 		(uuid "6418cef5-c0d2-4573-8432-9553c4202f1e")
 		(property "Sheetname" "Connectors"
-			(at 67.31 29.7684 0)
+			(at 62.23 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3021,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 67.31 131.3946 0)
+			(at 62.23 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3030,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 92.71 109.22 0)
+			(at 92.71 107.95 0)
 			(uuid "32a238e5-86de-4d68-95ee-6193fd62e8f4")
 			(effects
 				(font
@@ -3046,6 +3102,16 @@
 		(pin "PGOOD" input
 			(at 92.71 63.5 0)
 			(uuid "e76e064a-662c-44ad-b44d-000ef5f540a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE.RST_B" output
+			(at 92.71 110.49 0)
+			(uuid "0ccd4b4c-6daf-449e-87aa-ddabee3d3856")
 			(effects
 				(font
 					(size 1.27 1.27)

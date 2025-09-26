@@ -790,6 +790,26 @@
 				(justify left)
 			)
 		)
+		(pin "A[0..14]" bidirectional
+			(at 107.95 107.95 0)
+			(uuid "df2e1840-44c7-468f-8366-e4e61691bbb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DQ[0..15]" bidirectional
+			(at 107.95 110.49 0)
+			(uuid "4a840981-549b-4941-94cd-45fefae19fce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
