@@ -2132,6 +2132,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TCR2EE135"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 0 9.3218 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCR2EE135"
+				(at 0 7.0104 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.35V, Vin up to 5.5V, SOT-553"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TOSHIBA LDO voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?553*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCR2EE135_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCR2EE135_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3413,7 +3586,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af543")
 	)
 	(label "DQ1"
 		(at 135.89 46.99 180)
@@ -3424,7 +3597,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af544")
 	)
 	(label "DQ11"
 		(at 135.89 72.39 180)
@@ -3435,7 +3608,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af545")
 	)
 	(label "DQ0"
 		(at 135.89 44.45 180)
@@ -3446,7 +3619,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af546")
 	)
 	(label "DQ8"
 		(at 135.89 64.77 180)
@@ -3457,7 +3630,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af547")
 	)
 	(label "DQ2"
 		(at 135.89 49.53 180)
@@ -3468,7 +3641,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af548")
 	)
 	(label "DQ5"
 		(at 135.89 57.15 180)
@@ -3479,7 +3652,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af549")
 	)
 	(label "DQ6"
 		(at 135.89 59.69 180)
@@ -3490,7 +3663,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54a")
 	)
 	(label "DQ7"
 		(at 135.89 62.23 180)
@@ -3501,7 +3674,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54b")
 	)
 	(label "DQ14"
 		(at 135.89 80.01 180)
@@ -3512,7 +3685,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54c")
 	)
 	(label "DQ13"
 		(at 135.89 77.47 180)
@@ -3523,7 +3696,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54d")
 	)
 	(label "DQ15"
 		(at 135.89 82.55 180)
@@ -3534,7 +3707,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54e")
 	)
 	(label "DQ10"
 		(at 135.89 69.85 180)
@@ -3545,7 +3718,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af54f")
 	)
 	(label "DQ12"
 		(at 135.89 74.93 180)
@@ -3556,7 +3729,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af550")
 	)
 	(label "DQ9"
 		(at 135.89 67.31 180)
@@ -3567,7 +3740,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6711e2-4726-470f-b041-173f7b2af542")
+		(uuid "1b6711e2-4726-470f-b041-173f7b2af551")
 	)
 	(label "SPI0.SCK"
 		(at 237.49 36.83 180)
@@ -3609,7 +3782,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b93")
 	)
 	(label "A10"
 		(at 78.74 69.85 0)
@@ -3620,7 +3793,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b94")
 	)
 	(label "A11"
 		(at 78.74 72.39 0)
@@ -3631,7 +3804,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b95")
 	)
 	(label "A12"
 		(at 78.74 74.93 0)
@@ -3642,7 +3815,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b96")
 	)
 	(label "A8"
 		(at 78.74 64.77 0)
@@ -3653,7 +3826,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b97")
 	)
 	(label "A9"
 		(at 78.74 67.31 0)
@@ -3664,7 +3837,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b98")
 	)
 	(label "A7"
 		(at 78.74 62.23 0)
@@ -3675,7 +3848,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b99")
 	)
 	(label "A5"
 		(at 78.74 57.15 0)
@@ -3686,7 +3859,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9a")
 	)
 	(label "A6"
 		(at 78.74 59.69 0)
@@ -3697,7 +3870,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9b")
 	)
 	(label "A3"
 		(at 78.74 52.07 0)
@@ -3708,7 +3881,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9c")
 	)
 	(label "A4"
 		(at 78.74 54.61 0)
@@ -3719,7 +3892,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9d")
 	)
 	(label "A0"
 		(at 78.74 44.45 0)
@@ -3730,7 +3903,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9e")
 	)
 	(label "A2"
 		(at 78.74 49.53 0)
@@ -3741,7 +3914,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468b9f")
 	)
 	(label "A1"
 		(at 78.74 46.99 0)
@@ -3752,7 +3925,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd09fb4d-fece-422e-8842-e8f803468b92")
+		(uuid "cd09fb4d-fece-422e-8842-e8f803468ba0")
 	)
 	(label "SPI0.MISO"
 		(at 237.49 53.34 180)
@@ -3909,6 +4082,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TCR2EE135")
+		(at 165.1 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3eba152-f957-4fb2-b57e-c5526301bc49")
+		(property "Reference" "U?"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCR2EE135"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.35V, Vin up to 5.5V, SOT-553"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d4e05404-0d33-4d0c-99d5-ce710a371bf1")
+		)
+		(pin "2"
+			(uuid "5764067d-71b0-4b6d-bb12-948961afcc2e")
+		)
+		(pin "1"
+			(uuid "9a486006-f952-4272-9cf1-20ff7b9928fb")
+		)
+		(pin "3"
+			(uuid "468554d0-357a-422c-af3b-eb2fed0d31aa")
+		)
+		(pin "4"
+			(uuid "d783053c-4993-43fa-8f96-b13edd719260")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_RAM:MT41K256M16LY")
 		(at 106.68 85.09 0)
 		(unit 1)
@@ -3918,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c297a9-38c3-4824-988e-1d93ad845889")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 106.68 36.83 0)
 			(effects
 				(font
@@ -4261,7 +4520,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
