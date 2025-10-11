@@ -8,7 +8,7 @@ welcome to the official repository for my raspberry pi 5 hat+ hardware accelerat
 
 currently, the focus is on the **pcb design and layout**. the `pcb/` directory contains the most up-to-date work. other sections of this repository, such as `fpga_src` and `examples`, contain planned structures and will be developed once the hardware is stable.
 
-## ✨ planned key features
+## planned key features
 
 * **xilinx artix-7 fpga:** will utilize the powerful and efficient xc7a series fpga for custom hardware acceleration
 * **hat+ compliant:** designed to the latest raspberry pi hat+ specification for seamless integration and configuration
@@ -30,13 +30,13 @@ currently, the focus is on the **pcb design and layout**. the `pcb/` directory c
 * **xilinx vivado design suite:** for developing fpga bitstreams
 * **kicad:** for viewing and editing the pcb design files
 
-## 🚀 project status & getting started
+## project status
 
 this project is currently focused on hardware development.
 
 ### 1. pcb design
 
-the kicad project files can be found in the `pcb/` directory. this is the primary area of development right now. i welcome feedback and contributions on the schematic and layout.
+the kicad project files can be found in the `pcb/` directory. this is the primary area of development right now. feedback and contributions for schematics and layout are welcome.
 
 ### 2. future steps (post-hardware)
 
@@ -46,7 +46,7 @@ once the pcb is finalized and fabricated, development will shift to:
 2. **fpga development:** creating example bitstreams (e.g., led blinker, pcie communication).
 3. **host-side software:** writing drivers and libraries to communicate with the fpga from the raspberry pi.
 
-## 📂 repository structure
+## repository structure
 
 ```
 .
@@ -63,21 +63,7 @@ once the pcb is finalized and fabricated, development will shift to:
 └── readme.md         # this file
 ```
 
-## 🤝 contributing
-
-while the project is in the early stages, contributions are welcome, especially in the area of pcb design.
-
-1. fork the project
-2. create your feature branch (`git checkout -b feature/amazingfeature`)
-3. commit your changes (`git commit -m 'add some amazingfeature'`)
-4. push to the branch (`git push origin feature/amazingfeature`)
-5. open a pull request
-
-## 📄 license
-
-this project is licensed under the [mit license](LICENSE).
-
-## 📧 contact
+## contact
 
 andre winkel 14 [at] gmail [dot] com
 
