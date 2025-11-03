@@ -11,7 +11,7 @@
 		(company "Andre S Winkel")
 	)
 	(lib_symbols
-		(symbol "FPGA_Xilinx_Artix7:XC7A35T-FGG484"
+		(symbol "library:XC7A35T-FGG484"
 			(pin_names
 				(offset 1.016)
 			)
@@ -8295,7 +8295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
+		(lib_id "library:XC7A35T-FGG484")
 		(at 154.94 85.09 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -9713,7 +9713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
+		(lib_id "library:XC7A35T-FGG484")
 		(at 40.64 85.09 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -11131,7 +11131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Xilinx_Artix7:XC7A35T-FGG484")
+		(lib_id "library:XC7A35T-FGG484")
 		(at 97.79 85.09 0)
 		(unit 4)
 		(exclude_from_sim no)
