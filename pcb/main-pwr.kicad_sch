@@ -2005,6 +2005,409 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:TXS0102YZP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U10"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TXS0102YZP"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/txs0102"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, DSBGA-8"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DSBGA*0.9x1.9mm*Layout2x4*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TXS0102YZP_0_1"
+				(rectangle
+					(start -7.62 11.43)
+					(end 7.62 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -2.794) (xy 2.032 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.54) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TXS0102YZP_1_1"
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.016) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.27) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.24 179.07)
@@ -2054,6 +2457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03d395e9-cfcf-4f52-a764-4d6069cb4e4b")
+	)
+	(junction
+		(at 60.96 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19529a75-55cd-49d7-b473-2c06dc2da0f0")
 	)
 	(junction
 		(at 222.25 90.17)
@@ -2114,6 +2523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a02e4ec-a380-4ed1-ab90-54fcd3ef9a13")
+	)
+	(junction
+		(at 92.71 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a35fb03-f9e5-4c1b-8e61-264bf39f34be")
 	)
 	(junction
 		(at 139.7 124.46)
@@ -2218,12 +2633,6 @@
 		(uuid "c4ca45c6-dcad-4824-bce2-9c9acdccaaf5")
 	)
 	(junction
-		(at 59.69 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d295b84c-ee51-4df0-87da-d7632157a96e")
-	)
-	(junction
 		(at 27.94 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2272,12 +2681,24 @@
 		(uuid "f9abc385-5096-4fcb-9d1d-ff4e50349d59")
 	)
 	(no_connect
+		(at 34.29 140.97)
+		(uuid "00081b18-625a-4d0a-a1ae-6077d69fe60a")
+	)
+	(no_connect
+		(at 54.61 148.59)
+		(uuid "286b7ecf-eb4a-4edb-9dcd-83ea7cc4171b")
+	)
+	(no_connect
 		(at 166.37 82.55)
 		(uuid "2d1fc882-c697-49b7-9394-357b5343a6c1")
 	)
 	(no_connect
 		(at 166.37 69.85)
 		(uuid "537988ab-16cd-4202-b433-9f9c6ac15a8e")
+	)
+	(no_connect
+		(at 34.29 148.59)
+		(uuid "be571346-92cb-4b91-a6f9-ff9f44053d3f")
 	)
 	(wire
 		(pts
@@ -2393,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 152.4) (xy 63.5 152.4)
+			(xy 60.96 152.4) (xy 63.5 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 130.81) (xy 161.29 130.81)
+			(xy 170.18 158.75) (xy 273.05 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 102.87) (xy 92.71 162.56)
+			(xy 92.71 102.87) (xy 92.71 135.89)
 		)
 		(stroke
 			(width 0.3556)
@@ -2588,23 +3009,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 140.97) (xy 59.69 152.4)
+			(xy 60.96 140.97) (xy 60.96 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2670c985-b065-4368-9248-563f0914067d")
-	)
-	(wire
-		(pts
-			(xy 50.8 152.4) (xy 59.69 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299b3239-c7ba-4bc6-b1f8-f45d6ddc5b0c")
 	)
 	(wire
 		(pts
@@ -2636,6 +3047,17 @@
 			(type default)
 		)
 		(uuid "2cd98214-ecdd-41ef-a414-6a6595cee43e")
+	)
+	(wire
+		(pts
+			(xy 54.61 135.89) (xy 92.71 135.89)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2d1e011a-f3a2-4b2b-8834-3d4bc6f90f6e")
 	)
 	(wire
 		(pts
@@ -2809,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 144.78) (xy 34.29 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ac32cb-eb1c-40c7-b000-ea934d72e07c")
+	)
+	(wire
+		(pts
 			(xy 250.19 111.76) (xy 250.19 114.3)
 		)
 		(stroke
@@ -2910,6 +3342,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 153.67) (xy 29.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8bdbcd-7ee1-48b6-b678-04b55c78e4bc")
+	)
+	(wire
+		(pts
 			(xy 234.95 93.98) (xy 273.05 93.98)
 		)
 		(stroke
@@ -2927,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "5dc93822-aef9-4c8e-bc84-718847349841")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.78) (xy 60.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600ab774-3812-4770-bb9b-27038996779c")
 	)
 	(wire
 		(pts
@@ -3031,7 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 130.81) (xy 171.45 115.57)
+			(xy 170.18 158.75) (xy 170.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3536,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 153.67) (xy 29.21 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c0bdac-311d-4d08-8c30-96b125492b64")
+	)
+	(wire
+		(pts
 			(xy 45.72 41.91) (xy 40.64 41.91)
 		)
 		(stroke
@@ -3628,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 115.57) (xy 166.37 115.57)
+			(xy 170.18 115.57) (xy 166.37 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3803,6 +4265,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6260ded-45d3-4b22-a558-67f077492cba")
+	)
+	(wire
+		(pts
 			(xy 241.3 142.24) (xy 273.05 142.24)
 		)
 		(stroke
@@ -3810,6 +4282,28 @@
 			(type default)
 		)
 		(uuid "d8d74e4d-51a9-473c-96ba-707153d148b8")
+	)
+	(wire
+		(pts
+			(xy 92.71 135.89) (xy 92.71 162.56)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d8d8f56d-b68c-48ae-b2ad-924eedffac5e")
+	)
+	(wire
+		(pts
+			(xy 22.86 135.89) (xy 34.29 135.89)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "d91b873c-e00c-4971-829b-3c349ae9da08")
 	)
 	(wire
 		(pts
@@ -3864,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 140.97) (xy 59.69 140.97)
+			(xy 95.25 140.97) (xy 60.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4024,6 +4518,16 @@
 		)
 		(uuid "41b2125b-4ff7-4af1-9030-883b94c8baaa")
 	)
+	(label "EN1"
+		(at 59.69 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49ab831e-efb3-41ba-9f85-5106b8589570")
+	)
 	(label "FB3"
 		(at 170.18 92.71 0)
 		(effects
@@ -4146,14 +4650,25 @@
 		)
 		(uuid "01e01912-f022-4af0-a253-cf241a658b3d")
 	)
-	(hierarchical_label "PWRGD"
-		(shape output)
-		(at 161.29 130.81 180)
+	(hierarchical_label "PCIE.PWR_EN"
+		(shape input)
+		(at 29.21 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "06f29953-88fe-4ed8-8fc4-a51b5e1f74b6")
+	)
+	(hierarchical_label "PWRGD"
+		(shape output)
+		(at 273.05 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "0b286d1b-d835-4a91-a892-e96edeadbc54")
 	)
@@ -4190,17 +4705,6 @@
 		)
 		(uuid "97e79696-4723-4b8d-a76c-1d8aca091228")
 	)
-	(hierarchical_label "PCIE.PWR_EN"
-		(shape input)
-		(at 50.8 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d505ca0-d57a-42a4-82dc-93d7df84e53c")
-	)
 	(hierarchical_label "5V0_SENS_N"
 		(shape output)
 		(at 45.72 49.53 270)
@@ -4223,17 +4727,6 @@
 		)
 		(uuid "c6a3d150-6788-401c-99e4-954cef703e2c")
 	)
-	(hierarchical_label "{EN[1..4]}"
-		(shape input)
-		(at 41.91 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d936abfd-f207-4999-9d92-dab97564c87e")
-	)
 	(hierarchical_label "1V8_FD"
 		(shape output)
 		(at 273.05 93.98 0)
@@ -4255,6 +4748,17 @@
 			(justify left)
 		)
 		(uuid "f3bd4853-4002-4f05-b795-405fa5497a5d")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 22.86 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5b2326d-1f2f-4e3e-8541-0a0be4cc2d9d")
 	)
 	(hierarchical_label "5V0"
 		(shape input)
@@ -4496,6 +5000,101 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:TXS0102YZP")
+		(at 44.45 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11cc005c-b05e-4759-89b0-8e7e36a4653c")
+		(property "Reference" "U10"
+			(at 44.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXS0102YZP"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/txs0102"
+			(at 44.45 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, DSBGA-8"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "1d034e7d-6e01-4c76-8f69-622e8f0cd5c7")
+		)
+		(pin "D1"
+			(uuid "adb46cdc-be84-4b92-92e8-7a3edc0acb97")
+		)
+		(pin "A2"
+			(uuid "385ac41e-740a-419f-b1ae-1e7a1fe00ad1")
+		)
+		(pin "B2"
+			(uuid "c89c3e66-5ea0-4fc6-9707-15dc81d0f9d1")
+		)
+		(pin "B1"
+			(uuid "050a875c-8d6a-4479-ad96-192c793c71c1")
+		)
+		(pin "A1"
+			(uuid "2284bdcf-2835-4948-bb1d-4b3bfdded545")
+		)
+		(pin "C2"
+			(uuid "2ad80b52-24fb-421e-8c8d-ef094553fd64")
+		)
+		(pin "C1"
+			(uuid "e1935970-0001-43c0-877e-7ae2f0e6cdcd")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5307,6 +5906,72 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:GND")
+		(at 29.21 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb95804-0400-4e5d-9e31-48b7f00e0624")
+		(property "Reference" "#PWR033"
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3054b67-06dc-4eaf-b1bd-547ddec37951")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
