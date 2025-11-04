@@ -1,10 +1,8 @@
-# this pcb is currently under active development!
-currently designing power supplies
-
 ## schematic hierarchy structure
 ```
 ├── RPi-HwAB-1.kicad_sch                 # top-level schematic
 │   └── main-pwr.kicad_sch               # quad-buck converter for fpga, I-sense networks
+│   │	 └── sequencing.kicad_sch        # power sequencing for adp5054
 │   │	 └── compensation.kicad_sch      # bulk decoupling and compensation networks for adp5054
 │   └── fpga.kicad_sch                   # artix-7 35t abstraction
 │   │    └── fpga-pwr.kicad_sch          # fpga power pins
@@ -17,18 +15,5 @@ currently designing power supplies
 │   └── connectors.kicad_sch             # pcie, gpio, and jtag connectors
 ```
 
-
-power requirements:
-
-adp5054: 5V
-
-misc. sensors: 3.3V
-
-FPGA:
-  1. vccint, vccbram, mgtavcc: 1.0V
-  2. vccaux: 1.8V
-  3. mgtavtt: 1.2V
-  4. vcco: probably lvcmos 3.3V
-
-### top-level schematic as of september 19, 2025
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/f98d1b37-bfdc-45bd-a397-b0e95f8326af" />
+### top-level schematic as of november 4, 2025
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/1c64b538-1f11-4ff5-89eb-b3a78b70efe6" />
