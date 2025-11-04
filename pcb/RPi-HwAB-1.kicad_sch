@@ -1243,16 +1243,6 @@
 		)
 		(uuid "025d675a-a52e-4ee5-b1b5-44aeceb650e8")
 	)
-	(bus
-		(pts
-			(xy 93.98 118.11) (xy 106.68 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05aef6dd-5d54-4cca-8f0a-1f86e06153f7")
-	)
 	(wire
 		(pts
 			(xy 81.28 165.1) (xy 93.98 165.1)
@@ -1484,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "79afc9be-a440-4591-ba74-a47a4dbe114f")
+	)
+	(bus
+		(pts
+			(xy 93.98 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8010eed8-0171-4c19-b301-8c924ad4a07e")
 	)
 	(wire
 		(pts
@@ -1747,6 +1747,16 @@
 			(type solid)
 		)
 		(uuid "e1b9cc99-1be6-49a2-b7f2-2eef82d95c3b")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95ffe32-f59d-41b3-8718-29e82ee290a2")
 	)
 	(wire
 		(pts
@@ -2947,7 +2957,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 106.68 118.11 180)
+			(at 106.68 106.68 180)
 			(uuid "ff0349e0-b919-4711-b320-9067ef332152")
 			(effects
 				(font
@@ -3026,6 +3036,16 @@
 				(justify left)
 			)
 		)
+		(pin "PCIE.RST_B" input
+			(at 106.68 109.22 180)
+			(uuid "8ac0c028-f474-4433-9aeb-5188bac1aa97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3069,7 +3089,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 93.98 118.11 0)
+			(at 93.98 106.68 0)
 			(uuid "32a238e5-86de-4d68-95ee-6193fd62e8f4")
 			(effects
 				(font
@@ -3139,7 +3159,7 @@
 			)
 		)
 		(pin "PCIE.RST_B" output
-			(at 93.98 120.65 0)
+			(at 93.98 109.22 0)
 			(uuid "0ccd4b4c-6daf-449e-87aa-ddabee3d3856")
 			(effects
 				(font

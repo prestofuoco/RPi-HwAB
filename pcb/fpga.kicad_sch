@@ -243,7 +243,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 146.05) (xy 38.1 149.86)
+			(xy 38.1 132.08) (xy 38.1 149.86)
 		)
 		(stroke
 			(width 0)
@@ -293,7 +293,7 @@
 	)
 	(bus
 		(pts
-			(xy 34.29 146.05) (xy 38.1 146.05)
+			(xy 34.29 132.08) (xy 38.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -384,6 +384,17 @@
 		)
 		(uuid "21c1bced-99d5-4304-9ea2-cf844861483a")
 	)
+	(hierarchical_label "PCIE.RST_B"
+		(shape input)
+		(at 34.29 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fa148e8-9c71-40a6-a4d0-d1875bb6271c")
+	)
 	(hierarchical_label "1V2_MGT"
 		(shape input)
 		(at 69.85 34.29 0)
@@ -419,7 +430,7 @@
 	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
-		(at 34.29 146.05 180)
+		(at 34.29 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
