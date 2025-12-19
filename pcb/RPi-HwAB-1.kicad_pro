@@ -694,7 +694,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/Users/asw/Downloads/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -716,16 +716,24 @@
       "Main Power"
     ],
     [
+      "dc89b573-6958-4e1d-ba95-c35e0bbf4438",
+      "Comp & Decpl."
+    ],
+    [
+      "39d2a084-247a-4d14-8064-0b32c2eb111e",
+      "Sequencing"
+    ],
+    [
       "59d21473-a004-4514-8090-fd93db818925",
       "FPGA"
     ],
     [
-      "94db1840-7840-4b32-9939-76c2575d480c",
-      "FPGA Power"
-    ],
-    [
       "d1fe51bb-390e-4bc5-afb0-b85902b013c3",
       "Decoupling"
+    ],
+    [
+      "94db1840-7840-4b32-9939-76c2575d480c",
+      "FPGA Power"
     ],
     [
       "350bfe7d-9948-4ca7-a542-a75eb385def4",
@@ -740,24 +748,20 @@
       "FPGA 3"
     ],
     [
-      "010325a2-ae86-4ae0-96e8-1d16e8e45471",
-      "Sensors"
-    ],
-    [
-      "6418cef5-c0d2-4573-8432-9553c4202f1e",
-      "Connectors"
+      "1a53bf83-d036-4e40-a4d5-3697b8dd72a6",
+      "FPGA 4"
     ],
     [
       "b633a666-4c3d-4ac9-9e0f-b350177ade0b",
       "Memory"
     ],
     [
-      "dc89b573-6958-4e1d-ba95-c35e0bbf4438",
-      "Comp & Decpl."
+      "010325a2-ae86-4ae0-96e8-1d16e8e45471",
+      "Sensors"
     ],
     [
-      "39d2a084-247a-4d14-8064-0b32c2eb111e",
-      "Sequencing"
+      "6418cef5-c0d2-4573-8432-9553c4202f1e",
+      "Connectors"
     ]
   ],
   "text_variables": {}
