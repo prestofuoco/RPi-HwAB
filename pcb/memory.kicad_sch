@@ -2231,179 +2231,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:TCR2EE135"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U6"
-				(at 0 9.3218 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TCR2EE135"
-				(at 0 7.0104 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.35V, Vin up to 5.5V, SOT-553"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TOSHIBA LDO voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?553*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TCR2EE135_0_1"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TCR2EE135_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "CTRL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 236.22 66.04)
@@ -2418,11 +2245,11 @@
 		(uuid "6520e6f3-b055-423b-84b3-6f38e4be80ab")
 	)
 	(no_connect
-		(at 237.49 58.42)
+		(at 238.76 58.42)
 		(uuid "54c0e1e0-0efe-49b1-bbe1-b8888f885832")
 	)
 	(no_connect
-		(at 237.49 55.88)
+		(at 238.76 55.88)
 		(uuid "6b54156f-700e-459c-89e1-ba3670c3cfb2")
 	)
 	(bus_entry
@@ -2525,7 +2352,7 @@
 		(uuid "5843d9fa-b8f7-488e-9edc-0ea524e7e13d")
 	)
 	(bus_entry
-		(at 222.25 48.26)
+		(at 220.98 48.26)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2597,7 +2424,7 @@
 		(uuid "94d1aa37-0b5f-4883-a6d8-e47c38bb45e9")
 	)
 	(bus_entry
-		(at 222.25 31.75)
+		(at 220.98 31.75)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2660,7 +2487,7 @@
 		(uuid "bbeb34bc-685b-4dab-a6ab-15c5304eb323")
 	)
 	(bus_entry
-		(at 222.25 50.8)
+		(at 220.98 50.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2732,7 +2559,7 @@
 		(uuid "fc49cef6-0122-4352-9763-772f6544ae4e")
 	)
 	(bus_entry
-		(at 222.25 34.29)
+		(at 220.98 34.29)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2752,7 +2579,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 48.26) (xy 222.25 50.8)
+			(xy 220.98 48.26) (xy 220.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2699,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 26.67) (xy 222.25 31.75)
+			(xy 220.98 25.4) (xy 220.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 34.29) (xy 269.24 58.42)
+			(xy 271.78 34.29) (xy 271.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2759,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 50.8) (xy 237.49 50.8)
+			(xy 223.52 50.8) (xy 238.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2972,23 +2799,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 53.34) (xy 237.49 53.34)
+			(xy 223.52 53.34) (xy 238.76 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45ef5827-255e-42f0-96ad-251536272ec4")
-	)
-	(wire
-		(pts
-			(xy 266.7 50.8) (xy 265.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4938da33-7056-473c-8317-13af5e9f3435")
 	)
 	(wire
 		(pts
@@ -3012,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 63.5) (xy 236.22 63.5)
+			(xy 238.76 63.5) (xy 236.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 36.83) (xy 266.7 50.8)
+			(xy 269.24 36.83) (xy 269.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3112,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 66.04) (xy 269.24 66.04)
+			(xy 266.7 66.04) (xy 271.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 237.49 66.04)
+			(xy 236.22 66.04) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 266.7 36.83)
+			(xy 223.52 36.83) (xy 269.24 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3169,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 26.67) (xy 222.25 26.67)
+			(xy 213.36 25.4) (xy 220.98 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3362,7 +3179,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 34.29) (xy 222.25 48.26)
+			(xy 220.98 34.29) (xy 220.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 58.42) (xy 269.24 58.42)
+			(xy 266.7 58.42) (xy 271.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +3479,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 31.75) (xy 222.25 34.29)
+			(xy 220.98 31.75) (xy 220.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3692,7 +3509,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 34.29) (xy 269.24 34.29)
+			(xy 269.24 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3686f62-a22d-460b-aeba-0ddaef16ea02")
+	)
+	(wire
+		(pts
+			(xy 223.52 34.29) (xy 271.78 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4219,7 +4046,7 @@
 	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape bidirectional)
-		(at 213.36 26.67 180)
+		(at 213.36 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4385,7 +4212,7 @@
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
-		(at 269.24 66.04 0)
+		(at 271.78 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +4245,7 @@
 	)
 	(symbol
 		(lib_id "library:MX25L3233FZN")
-		(at 251.46 58.42 0)
+		(at 252.73 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4427,7 +4254,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cee0f19-a7de-4af6-8986-e7e394ccde1d")
 		(property "Reference" "U8"
-			(at 251.46 43.18 0)
+			(at 252.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4262,7 @@
 			)
 		)
 		(property "Value" "MX25L3233FZN"
-			(at 251.46 45.72 0)
+			(at 252.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4270,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
-			(at 251.46 73.66 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf"
-			(at 251.46 75.946 0)
+			(at 252.73 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4288,7 @@
 			)
 		)
 		(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, WSON-8"
-			(at 250.19 58.42 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4297,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 251.46 58.42 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,92 +4336,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:TCR2EE135")
-		(at 207.01 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3eba152-f957-4fb2-b57e-c5526301bc49")
-		(property "Reference" "U7"
-			(at 207.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCR2EE135"
-			(at 207.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13794&prodName=TCR2EF45"
-			(at 200.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.35V, Vin up to 5.5V, SOT-553"
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "d4e05404-0d33-4d0c-99d5-ce710a371bf1")
-		)
-		(pin "2"
-			(uuid "5764067d-71b0-4b6d-bb12-948961afcc2e")
-		)
-		(pin "1"
-			(uuid "9a486006-f952-4272-9cf1-20ff7b9928fb")
-		)
-		(pin "3"
-			(uuid "468554d0-357a-422c-af3b-eb2fed0d31aa")
-		)
-		(pin "4"
-			(uuid "d783053c-4993-43fa-8f96-b13edd719260")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/b633a666-4c3d-4ac9-9e0f-b350177ade0b"
-					(reference "U7")
 					(unit 1)
 				)
 			)

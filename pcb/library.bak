@@ -8381,7 +8381,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLV74312PDBVR"
+	(symbol "TLV74312"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8446,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLV74312PDBVR_1_1"
+		(symbol "TLV74312_1_1"
 			(rectangle
 				(start -7.62 12.7)
 				(end 7.62 0)
