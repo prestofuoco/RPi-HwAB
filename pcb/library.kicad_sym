@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 0 0 0)
+			(at -2.54 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4195,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina230.pdf?ts=1755978668271"
-			(at 0 0 0)
+			(at -2.54 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(property "Description" "36-V, 16-bit, I²C output current, voltage and power monitor with alert"
-			(at 0 0 0)
+			(at -2.54 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,8 +4214,8 @@
 		)
 		(symbol "INA230AIRGTT_1_1"
 			(rectangle
-				(start -8.89 13.97)
-				(end 8.89 -13.97)
+				(start -10.16 15.24)
+				(end 10.16 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4226,8 +4226,8 @@
 				)
 			)
 			(pin input line
-				(at -11.43 11.43 0)
-				(length 2.54)
+				(at -15.24 12.7 0)
+				(length 5.08)
 				(name "IN+"
 					(effects
 						(font
@@ -4244,8 +4244,8 @@
 				)
 			)
 			(pin input line
-				(at -11.43 8.89 0)
-				(length 2.54)
+				(at -15.24 10.16 0)
+				(length 5.08)
 				(name "IN-"
 					(effects
 						(font
@@ -4262,8 +4262,8 @@
 				)
 			)
 			(pin output line
-				(at -11.43 6.35 0)
-				(length 2.54)
+				(at -15.24 7.62 0)
+				(length 5.08)
 				(name "ALERT"
 					(effects
 						(font
@@ -4280,8 +4280,8 @@
 				)
 			)
 			(pin input line
-				(at -11.43 3.81 0)
-				(length 2.54)
+				(at -15.24 5.08 0)
+				(length 5.08)
 				(name "BUS"
 					(effects
 						(font
@@ -4298,8 +4298,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -11.43 0 0)
-				(length 2.54)
+				(at -15.24 0 0)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4316,8 +4316,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -11.43 -2.54 0)
-				(length 2.54)
+				(at -15.24 -2.54 0)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4334,8 +4334,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -11.43 -5.08 0)
-				(length 2.54)
+				(at -15.24 -5.08 0)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4352,8 +4352,8 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -8.89 0)
-				(length 2.54)
+				(at -15.24 -10.16 0)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -4370,8 +4370,8 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -11.43 0)
-				(length 2.54)
+				(at -15.24 -12.7 0)
+				(length 5.08)
 				(name "E-PAD"
 					(effects
 						(font
@@ -4388,8 +4388,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 11.43 180)
-				(length 2.54)
+				(at 15.24 12.7 180)
+				(length 5.08)
 				(name "SDA"
 					(effects
 						(font
@@ -4406,8 +4406,8 @@
 				)
 			)
 			(pin input clock
-				(at 11.43 8.89 180)
-				(length 2.54)
+				(at 15.24 10.16 180)
+				(length 5.08)
 				(name "SCL"
 					(effects
 						(font
@@ -4424,8 +4424,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 5.08 180)
-				(length 2.54)
+				(at 15.24 5.08 180)
+				(length 5.08)
 				(name "A1"
 					(effects
 						(font
@@ -4442,8 +4442,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 2.54 180)
-				(length 2.54)
+				(at 15.24 2.54 180)
+				(length 5.08)
 				(name "A0"
 					(effects
 						(font
@@ -4460,8 +4460,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -1.27 180)
-				(length 2.54)
+				(at 15.24 -2.54 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4478,8 +4478,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -3.81 180)
-				(length 2.54)
+				(at 15.24 -5.08 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4496,8 +4496,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -6.35 180)
-				(length 2.54)
+				(at 15.24 -7.62 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -4514,8 +4514,8 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -11.43 180)
-				(length 2.54)
+				(at 15.24 -12.7 180)
+				(length 5.08)
 				(name "VS"
 					(effects
 						(font

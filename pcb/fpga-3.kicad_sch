@@ -10198,7 +10198,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 99.06 85.09)
+			(xy 99.06 83.82) (xy 99.06 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10418,7 +10418,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 93.98) (xy 99.06 92.71)
+			(xy 99.06 96.52) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10838,7 +10838,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 99.06 74.93)
+			(xy 99.06 71.12) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10885,6 +10885,16 @@
 			(type default)
 		)
 		(uuid "bb62c837-2eed-4ecb-b1cb-bbc8aeb9a6ed")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c514963c-5c7a-4920-9172-c9cbc05e53a0")
 	)
 	(bus
 		(pts
@@ -11085,16 +11095,6 @@
 			(type default)
 		)
 		(uuid "eff016d1-9803-4d20-a288-ba9604853235")
-	)
-	(wire
-		(pts
-			(xy 99.06 83.82) (xy 99.06 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f154227c-e942-4ca0-9a59-24b062554fd4")
 	)
 	(wire
 		(pts
@@ -14843,7 +14843,7 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 99.06 78.74 0)
+		(at 99.06 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14852,7 +14852,7 @@
 		(fields_autoplaced yes)
 		(uuid "372022a7-cc8a-450f-b579-240d12adc3b1")
 		(property "Reference" "R30"
-			(at 101.6 77.4699 0)
+			(at 101.6 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,7 +14861,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 101.6 80.0099 0)
+			(at 101.6 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14870,7 +14870,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.076 78.994 90)
+			(at 100.076 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,7 +14879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 78.74 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +14888,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 99.06 78.74 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15002,7 +15002,7 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 99.06 88.9 0)
+		(at 99.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15011,7 +15011,7 @@
 		(fields_autoplaced yes)
 		(uuid "7102b702-987b-4f63-b85d-5b4e84c61a5b")
 		(property "Reference" "R31"
-			(at 101.6 87.6299 0)
+			(at 101.6 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,7 +15020,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 101.6 90.1699 0)
+			(at 101.6 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +15029,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.076 89.154 90)
+			(at 100.076 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 88.9 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15047,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 99.06 88.9 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15072,7 +15072,7 @@
 	)
 	(symbol
 		(lib_id "library:GND")
-		(at 99.06 93.98 0)
+		(at 99.06 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15081,7 +15081,7 @@
 		(fields_autoplaced yes)
 		(uuid "889dbf6a-6f3b-4921-b680-b83b54dace52")
 		(property "Reference" "#PWR038"
-			(at 99.06 100.33 0)
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15090,7 +15090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 99.06 0)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15098,7 +15098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 93.98 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,7 +15107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 93.98 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15116,7 +15116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 93.98 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,8 +15211,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b864e2cf-a6b6-4c99-a526-e80821404e0b")
-		(property "Reference" "C?"
-			(at 82.55 95.25 0)
+		(property "Reference" "C18"
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15221,7 +15221,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 82.55 100.33 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15337,7 +15337,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15354,7 +15354,7 @@
 		(dnp no)
 		(uuid "ddc4a137-652d-4561-abbb-f03928d651b7")
 		(property "Reference" "C10"
-			(at 72.39 95.25 0)
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15363,7 +15363,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 72.39 100.33 0)
+			(at 69.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

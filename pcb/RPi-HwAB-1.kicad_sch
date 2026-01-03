@@ -1085,7 +1085,7 @@
 	)
 	(text "SENSORS"
 		(exclude_from_sim no)
-		(at 210.82 53.34 0)
+		(at 213.36 76.2 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1236,16 +1236,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 162.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2649b90d-93fe-47c4-a5a8-5e4e0f936da6")
-	)
-	(wire
-		(pts
 			(xy 91.44 175.26) (xy 93.98 175.26)
 		)
 		(stroke
@@ -1298,7 +1288,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 127) (xy 106.68 127)
+			(xy 93.98 127) (xy 109.22 127)
 		)
 		(stroke
 			(width 0)
@@ -1348,13 +1338,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 162.56 88.9)
+			(xy 142.24 78.74) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c131613-da9c-4f12-aff2-fcbdbd35edb6")
+		(uuid "66b28a8e-e376-4401-ac04-c5356cbd8a05")
 	)
 	(wire
 		(pts
@@ -1368,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 193.04 60.96)
+			(xy 180.34 50.8) (xy 193.04 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1368,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 134.62) (xy 106.68 134.62)
+			(xy 93.98 134.62) (xy 109.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1388,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 106.68) (xy 106.68 106.68)
+			(xy 93.98 106.68) (xy 109.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 73.66) (xy 193.04 73.66)
+			(xy 180.34 63.5) (xy 193.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 193.04 71.12)
+			(xy 180.34 60.96) (xy 193.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1489,6 +1479,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 78.74) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a590da41-166c-4dc3-b2cd-f7deca602df9")
+	)
+	(wire
+		(pts
 			(xy 93.98 73.66) (xy 109.22 73.66)
 		)
 		(stroke
@@ -1509,23 +1509,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 162.56 83.82)
+			(xy 157.48 78.74) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b648f2be-0a20-4d69-a2b5-f4b42f19edc6")
+		(uuid "b1c72a0a-8d8a-496c-9d04-e8d9c3766a1f")
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 162.56 91.44)
+			(xy 152.4 78.74) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1138e48-258b-4023-a894-f3aa4a8638d5")
+		(uuid "c3c8ecf5-9bf4-491e-9a22-636820b99c26")
 	)
 	(wire
 		(pts
@@ -1589,17 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 162.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9487b5b-56df-4527-8e57-b54415f153a5")
-	)
-	(wire
-		(pts
-			(xy 180.34 63.5) (xy 193.04 63.5)
+			(xy 180.34 53.34) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1641,13 +1631,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 109.22) (xy 106.68 109.22)
+			(xy 93.98 109.22) (xy 109.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e95ffe32-f59d-41b3-8718-29e82ee290a2")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e968c5b5-b71c-47c3-89e9-5044051e1d81")
 	)
 	(label "ID_SDA"
 		(at 114.3 175.26 180)
@@ -1935,207 +1935,6 @@
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:PWR_FLAG")
-		(at 162.56 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a564db3-d7c7-464e-8f29-5d6428e6cf76")
-		(property "Reference" "#FLG05"
-			(at 164.465 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2896de01-2e73-4e04-8316-8dbc41350903")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:PWR_FLAG")
-		(at 162.56 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63966181-fef7-4ced-a492-ab3caeb0b55d")
-		(property "Reference" "#FLG04"
-			(at 164.465 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76b5809f-04ea-4587-b86a-93a84f4cc72b")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:PWR_FLAG")
-		(at 162.56 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64bf4c2f-22dc-4a4c-8e76-7b6f29df96ed")
-		(property "Reference" "#FLG06"
-			(at 164.465 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "062d1e2b-ee14-4f37-bba0-81e32f5c1e46")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -2492,140 +2291,6 @@
 	)
 	(symbol
 		(lib_id "library:PWR_FLAG")
-		(at 162.56 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db9715e0-3e66-4600-9e17-c90cdddf8207")
-		(property "Reference" "#FLG03"
-			(at 164.465 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb14dd27-48b5-427e-bcf4-7265778f2510")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:PWR_FLAG")
-		(at 162.56 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7f38419-b520-45f8-a83b-fdf3435d641a")
-		(property "Reference" "#FLG07"
-			(at 164.465 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 166.37 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8807be93-019b-4f30-bbb7-c3223cfdf5bb")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:PWR_FLAG")
 		(at 101.6 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2692,7 +2357,7 @@
 	)
 	(sheet
 		(at 193.04 30.48)
-		(size 35.56 48.26)
+		(size 40.64 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2716,7 +2381,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 193.04 79.3246 0)
+			(at 193.04 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2410,7 @@
 			)
 		)
 		(pin "5V0_SENS_N" input
-			(at 193.04 60.96 180)
+			(at 193.04 50.8 180)
 			(uuid "6b6b3d73-d6c5-4388-b1e9-9c1d9fafd68c")
 			(effects
 				(font
@@ -2755,7 +2420,7 @@
 			)
 		)
 		(pin "5V0_SENS_P" input
-			(at 193.04 63.5 180)
+			(at 193.04 53.34 180)
 			(uuid "8718225e-da7e-47ef-8960-b921dda32dc2")
 			(effects
 				(font
@@ -2765,7 +2430,7 @@
 			)
 		)
 		(pin "1V0_SENS_N" input
-			(at 193.04 73.66 180)
+			(at 193.04 63.5 180)
 			(uuid "f5c81f38-e742-4fea-80d7-fa8ff5a2d711")
 			(effects
 				(font
@@ -2775,7 +2440,7 @@
 			)
 		)
 		(pin "1V0_SENS_P" input
-			(at 193.04 71.12 180)
+			(at 193.04 60.96 180)
 			(uuid "55db7058-3d2f-4f51-b918-7cb18e114a71")
 			(effects
 				(font
@@ -2793,8 +2458,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 99.06)
-		(size 76.2 43.18)
+		(at 109.22 99.06)
+		(size 73.66 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2809,7 +2474,7 @@
 		)
 		(uuid "59d21473-a004-4514-8090-fd93db818925")
 		(property "Sheetname" "FPGA"
-			(at 106.68 98.3484 0)
+			(at 109.22 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2483,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 106.68 142.8246 0)
+			(at 109.22 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2492,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 106.68 106.68 180)
+			(at 109.22 106.68 180)
 			(uuid "ff0349e0-b919-4711-b320-9067ef332152")
 			(effects
 				(font
@@ -2837,7 +2502,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 106.68 134.62 180)
+			(at 109.22 134.62 180)
 			(uuid "368f079a-4464-44e1-8897-ce73de1cc531")
 			(effects
 				(font
@@ -2847,7 +2512,7 @@
 			)
 		)
 		(pin "1V0_FD" input
-			(at 139.7 99.06 90)
+			(at 142.24 99.06 90)
 			(uuid "3887aa97-a07a-4b48-8793-446812bb3c87")
 			(effects
 				(font
@@ -2857,7 +2522,7 @@
 			)
 		)
 		(pin "1V0_MGT" input
-			(at 149.86 99.06 90)
+			(at 157.48 99.06 90)
 			(uuid "a13edb74-0837-4eca-856f-00a9c406b362")
 			(effects
 				(font
@@ -2867,7 +2532,7 @@
 			)
 		)
 		(pin "1V2_MGT" input
-			(at 152.4 99.06 90)
+			(at 160.02 99.06 90)
 			(uuid "92bb0cb6-883d-4dd4-af47-05be9d6f7917")
 			(effects
 				(font
@@ -2877,7 +2542,7 @@
 			)
 		)
 		(pin "1V8_FD" input
-			(at 142.24 99.06 90)
+			(at 144.78 99.06 90)
 			(uuid "e5798ad8-9c9a-40f1-b7f6-cfb3b0c15b52")
 			(effects
 				(font
@@ -2887,7 +2552,7 @@
 			)
 		)
 		(pin "3V3_FD" input
-			(at 144.78 99.06 90)
+			(at 152.4 99.06 90)
 			(uuid "0c3c9aab-1a72-45ff-a2ed-0ac9e97ef396")
 			(effects
 				(font
@@ -2897,7 +2562,7 @@
 			)
 		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 106.68 127 180)
+			(at 109.22 127 180)
 			(uuid "1f194a8b-165a-41c5-b914-c326aa1fa77b")
 			(effects
 				(font
@@ -2907,7 +2572,7 @@
 			)
 		)
 		(pin "PCIE.RST_B" input
-			(at 106.68 109.22 180)
+			(at 109.22 109.22 180)
 			(uuid "8ac0c028-f474-4433-9aeb-5188bac1aa97")
 			(effects
 				(font
@@ -3111,7 +2776,7 @@
 			)
 		)
 		(pin "5V0_SENS_N" output
-			(at 180.34 63.5 0)
+			(at 180.34 53.34 0)
 			(uuid "5f5e5e73-5ae8-4a3c-a314-59d699754422")
 			(effects
 				(font
@@ -3121,7 +2786,7 @@
 			)
 		)
 		(pin "5V0_SENS_P" output
-			(at 180.34 60.96 0)
+			(at 180.34 50.8 0)
 			(uuid "b69f797c-fd61-4e28-9224-3f4739893a8a")
 			(effects
 				(font
@@ -3131,7 +2796,7 @@
 			)
 		)
 		(pin "1V0_SENS_N" output
-			(at 180.34 73.66 0)
+			(at 180.34 63.5 0)
 			(uuid "d7eebc90-ccee-44bd-8985-1ca820537a8f")
 			(effects
 				(font
@@ -3141,7 +2806,7 @@
 			)
 		)
 		(pin "1V0_SENS_P" output
-			(at 180.34 71.12 0)
+			(at 180.34 60.96 0)
 			(uuid "a05716a6-8392-4180-b7d9-1514a2494351")
 			(effects
 				(font
@@ -3163,6 +2828,86 @@
 		(pin "PCIE.PWR_EN" input
 			(at 109.22 71.12 180)
 			(uuid "0fd72294-ee88-488c-87df-40947a137980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V0_FD" output
+			(at 142.24 78.74 270)
+			(uuid "fd64b50b-0c58-4a90-8b2a-aa38f1553471")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V0_MGT" output
+			(at 157.48 78.74 270)
+			(uuid "3cfac7f2-59c8-42b7-b6a8-a36018c9bef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V2_MGT" output
+			(at 160.02 78.74 270)
+			(uuid "7dfe1457-7454-47ed-a6e8-61a5cc9670a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8_FD" output
+			(at 144.78 78.74 270)
+			(uuid "edec7a1b-a2ab-4428-af69-1a9e1e244f42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8_SENS_N" output
+			(at 180.34 71.12 0)
+			(uuid "62ff52a5-0b71-40fe-9c83-9de5413f420e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V8_SENS_P" output
+			(at 180.34 73.66 0)
+			(uuid "4c6d72e8-f60f-4ffb-afa3-0865011cc2cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V35_DDR" output
+			(at 149.86 78.74 270)
+			(uuid "7a269e93-6bed-4e25-abcd-581a4f391c49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_FD" output
+			(at 152.4 78.74 270)
+			(uuid "254cf6cc-c557-42f1-95fb-e206520a6e91")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -11621,6 +11621,17 @@
 		)
 		(uuid "d581dfdb-5a73-4818-9a91-aacefb725ed7")
 	)
+	(hierarchical_label "1V35_DDR"
+		(shape input)
+		(at 195.58 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc12fdcb-f803-407e-9b93-b66950ea2e40")
+	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
 		(at 259.08 149.86 180)

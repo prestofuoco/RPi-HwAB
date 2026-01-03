@@ -9303,16 +9303,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 132.08) (xy 135.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd0d228-b47d-409d-8648-394bf2448df8")
-	)
-	(wire
-		(pts
 			(xy 137.16 132.08) (xy 137.16 134.62)
 		)
 		(stroke
@@ -9333,17 +9323,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 135.89 114.3)
+			(xy 134.62 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dee42a4-1d76-4841-8924-a089c81ce3cf")
+		(uuid "26672fa5-bc25-406f-abd8-d2072a15fc73")
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 157.48 101.6)
+			(xy 134.62 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9363,13 +9353,43 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 55.88) (xy 154.94 55.88)
+			(xy 134.62 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386062cb-25bf-4702-a436-a28d821812a1")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 154.94 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a0e8051-c67d-4ac1-abe7-17a96ac1da19")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 137.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe22a4f-6a3f-45b7-b56b-4628939084f8")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b5a7dd-b44d-46ab-9dbe-3d2e16a4eeac")
 	)
 	(wire
 		(pts
@@ -9393,6 +9413,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d60e22b-228e-40c6-b110-3033365c7354")
+	)
+	(wire
+		(pts
 			(xy 162.56 55.88) (xy 200.66 55.88)
 		)
 		(stroke
@@ -9403,17 +9433,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 135.89 129.54)
+			(xy 134.62 127) (xy 137.16 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60aa4443-b88d-430a-a42e-f83cd3170af4")
+		(uuid "58730aea-cc14-4976-9719-171ade9e8cdb")
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 157.48 99.06)
+			(xy 134.62 99.06) (xy 200.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9423,17 +9453,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 135.89 127)
+			(xy 134.62 129.54) (xy 137.16 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "649312a7-d9b6-41da-99af-ccde63865b42")
+		(uuid "6748105a-bef1-4386-8967-597999913ce9")
 	)
 	(wire
 		(pts
-			(xy 135.89 139.7) (xy 137.16 139.7)
+			(xy 134.62 139.7) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9443,7 +9473,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 157.48 111.76)
+			(xy 137.16 111.76) (xy 200.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9453,7 +9483,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 157.48 78.74)
+			(xy 134.62 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9483,16 +9513,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc2a6e3-e7b1-474f-b197-0e11e4254b8b")
-	)
-	(wire
-		(pts
 			(xy 137.16 111.76) (xy 137.16 114.3)
 		)
 		(stroke
@@ -9500,26 +9520,6 @@
 			(type default)
 		)
 		(uuid "94eed59d-a2c9-4993-bacc-bbca05b4299e")
-	)
-	(wire
-		(pts
-			(xy 134.62 144.78) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9657d1ec-407d-4028-80eb-446ea872005e")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 135.89 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a241de78-3df3-4129-a0f1-beae9f787f48")
 	)
 	(wire
 		(pts
@@ -9533,13 +9533,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 135.89 137.16)
+			(xy 134.62 144.78) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2fe04ee-c049-4b1c-b904-4a838390e79b")
+		(uuid "a645d1eb-49f0-4ddd-bb8c-1e8748210483")
 	)
 	(wire
 		(pts
@@ -9553,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2) (xy 157.48 76.2)
+			(xy 134.62 76.2) (xy 200.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9563,7 +9563,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 157.48 127)
+			(xy 147.32 127) (xy 200.66 127)
 		)
 		(stroke
 			(width 0)
@@ -9573,7 +9573,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 135.89 121.92)
+			(xy 134.62 134.62) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4cf2a6a-93ec-46a1-a289-3acea4d78cff")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9613,7 +9623,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 165.1 53.34)
+			(xy 134.62 53.34) (xy 165.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9623,51 +9633,41 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 116.84) (xy 137.16 116.84)
+			(xy 134.62 132.08) (xy 137.16 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f11057b5-d724-44a1-85d7-65c0f2686d9a")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 135.89 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74be9d3-648b-475d-bb3e-dd1f4758fb45")
+		(uuid "f6c6e703-f817-42cf-a485-f4f42fcce1c5")
 	)
 	(label "PCIE.F2P_P"
-		(at 184.15 53.34 0)
+		(at 198.12 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "42650500-7b86-45a3-b4a9-6ae6a4f54771")
 	)
 	(label "PCIE.P2F_P"
-		(at 140.97 76.2 0)
+		(at 198.12 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "438bc7c6-2855-4640-8553-e14c6e7bff44")
 	)
 	(label "PCIE.P2F_N"
-		(at 140.97 78.74 0)
+		(at 198.12 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6e7ece8b-7b57-489c-b52e-79ebfe6e2b26")
 	)
@@ -9682,32 +9682,32 @@
 		(uuid "7712cfbc-a943-493b-8192-120155987045")
 	)
 	(label "PCIE.F2P_N"
-		(at 184.15 55.88 0)
+		(at 198.12 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "888983d5-fed2-4381-af74-1faee181e5a0")
 	)
 	(label "PCIE.CLK_P"
-		(at 140.97 99.06 0)
+		(at 198.12 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a1cfeeb2-0709-469d-a2ab-19620a4aab7b")
 	)
 	(label "PCIE.CLK_N"
-		(at 140.97 101.6 0)
+		(at 198.12 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b968da83-f2ac-4fe7-8b27-c0aaf48510c2")
 	)
@@ -9734,7 +9734,7 @@
 	)
 	(hierarchical_label "1V0_MGT"
 		(shape input)
-		(at 157.48 111.76 0)
+		(at 200.66 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9745,7 +9745,7 @@
 	)
 	(hierarchical_label "1V2_MGT"
 		(shape input)
-		(at 157.48 127 0)
+		(at 200.66 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9756,7 +9756,7 @@
 	)
 	(hierarchical_label "PCIE.P2F_P"
 		(shape output)
-		(at 157.48 76.2 0)
+		(at 200.66 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9767,7 +9767,7 @@
 	)
 	(hierarchical_label "PCIE.P2F_N"
 		(shape output)
-		(at 157.48 78.74 0)
+		(at 200.66 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9789,7 +9789,7 @@
 	)
 	(hierarchical_label "PCIE.CLK_P"
 		(shape bidirectional)
-		(at 157.48 99.06 0)
+		(at 200.66 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9800,7 +9800,7 @@
 	)
 	(hierarchical_label "PCIE.CLK_N"
 		(shape bidirectional)
-		(at 157.48 101.6 0)
+		(at 200.66 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9811,7 +9811,7 @@
 	)
 	(symbol
 		(lib_id "library:XC7A100T-FGG484")
-		(at 115.57 104.14 0)
+		(at 114.3 104.14 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9820,7 +9820,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f60cfcd-3146-4783-afce-ced552b2641a")
 		(property "Reference" "U5"
-			(at 115.57 45.72 0)
+			(at 114.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +9828,7 @@
 			)
 		)
 		(property "Value" "XC7A100T-FGG484"
-			(at 115.57 48.26 0)
+			(at 114.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9836,7 @@
 			)
 		)
 		(property "Footprint" "library:Xilinx_FGG484"
-			(at 115.57 104.14 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 104.14 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9853,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
-			(at 115.57 215.9 0)
+			(at 114.3 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9862,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 115.57 104.14 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
