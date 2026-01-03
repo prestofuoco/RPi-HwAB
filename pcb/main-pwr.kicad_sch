@@ -360,6 +360,24 @@
 		(uuid "406337a2-2a0c-427d-9dd2-53f96ab99aac")
 	)
 	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "81b74fba-cbef-4633-b19e-b2d63ad195a2")
+	)
+	(junction
+		(at 134.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c5b7ea8-5850-4149-a864-61fedf97d8a4")
+	)
+	(junction
+		(at 119.38 63.5)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "b1ec0262-56ba-40c5-8fa8-cdf1befa002a")
+	)
+	(junction
 		(at 119.38 76.2)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -384,6 +402,12 @@
 		(uuid "cce9f7bc-815c-494f-b3ce-3adf43868316")
 	)
 	(junction
+		(at 134.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6dbb83-3273-4dc7-be96-4a1b350b2ab6")
+	)
+	(junction
 		(at 33.02 25.4)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -396,7 +420,7 @@
 		(uuid "de567ab9-b9a6-422a-9fae-f9bd5dbeaf2e")
 	)
 	(junction
-		(at 127 109.22)
+		(at 134.62 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e3f9fb-81af-4380-9a26-5de62dc647a4")
@@ -428,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 139.7 81.28)
+			(xy 134.62 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -438,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 160.02 109.22)
+			(xy 134.62 109.22) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -448,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 127 50.8)
+			(xy 157.48 50.8) (xy 134.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -465,6 +489,17 @@
 			(type default)
 		)
 		(uuid "196d24cd-f559-44c9-bf5b-1022f19498db")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "198282ab-51f7-41a7-abbf-aa6127c9d415")
 	)
 	(wire
 		(pts
@@ -600,6 +635,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458f342d-39e3-4083-a1ff-9e33d4e7658d")
+	)
+	(wire
+		(pts
 			(xy 172.72 76.2) (xy 172.72 66.04)
 		)
 		(stroke
@@ -620,13 +665,34 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 139.7 83.82)
+			(xy 134.62 63.5) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2fb3f7-0eb0-47f6-ae71-901fcfddd522")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f2bb551-209f-4891-8f15-0ad738fa6785")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "509e83f3-589e-497a-9284-9b0a8e9aa012")
 	)
 	(wire
 		(pts
@@ -650,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 119.38 104.14)
+			(xy 119.38 76.2) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0.3556)
@@ -682,7 +748,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 127 109.22)
+			(xy 134.62 134.62) (xy 134.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 119.38 76.2)
+			(xy 119.38 43.18) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0.3556)
@@ -744,6 +810,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "97216d14-b235-4883-beb6-55de4293c04a")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 63.5 60.96)
 		)
 		(stroke
@@ -751,6 +828,16 @@
 			(type default)
 		)
 		(uuid "a17c8b58-d6f3-4e6c-a0ff-eee9a52b9a65")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c34933-29b7-4d41-a980-8a65853eda88")
 	)
 	(wire
 		(pts
@@ -806,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 127 109.22)
+			(xy 134.62 83.82) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -837,6 +924,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 63.5) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d2cf13ad-32ea-4de8-9a9a-817b99e64042")
+	)
+	(wire
+		(pts
 			(xy 119.38 104.14) (xy 119.38 129.54)
 		)
 		(stroke
@@ -848,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 127 81.28)
+			(xy 134.62 50.8) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -895,6 +993,16 @@
 			(type default)
 		)
 		(uuid "e1aa9dea-9b22-4997-b2a9-c45d0ca0a645")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8343b2c-ceea-4e1e-8c67-074b741005db")
 	)
 	(wire
 		(pts
@@ -951,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 127 134.62)
+			(xy 160.02 134.62) (xy 134.62 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1255,6 +1363,179 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
+		(at 45.72 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37411f4f-9f6d-42cc-99a7-c2e4ae4e438d")
+		(property "Reference" "R5"
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 44.704 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 1% 1/16W 0402"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-07100RL"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20ba9a9d-e57b-43cf-9c1c-88d60994599b")
+		)
+		(pin "2"
+			(uuid "deb9ada8-2c64-4a5f-8538-ce96ca5805ef")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 128.27 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3acab4a3-b0b5-4157-a3ea-b9d1a2d4fb09")
+		(property "Reference" "R6"
+			(at 128.27 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 128.27 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:R_0402_1005Metric"
+			(at 128.524 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-07100KL"
+			(at 128.27 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f99fdb7-4409-4615-8df9-aadcb8e22dec")
+		)
+		(pin "1"
+			(uuid "cd0a3cea-a80a-4234-9bb5-3c71a2ad512d")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
 		(at 39.37 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1271,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Value" "0.003"
+		(property "Value" "0.003 1%"
 			(at 39.37 21.59 90)
 			(effects
 				(font
@@ -1279,7 +1560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 39.624 24.384 90)
 			(effects
 				(font
@@ -1297,8 +1578,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "WSKW0612 .003 1% EA E3"
 			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "WSKW06123L000FEA"
+			(at 39.37 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,85 +1624,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:R_US")
-		(at 45.72 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1954fe7-8768-481e-9999-19e0bda6abdb")
-		(property "Reference" "R5"
-			(at 48.26 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 48.26 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 44.704 31.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 45.72 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddb0f11e-c133-4198-8459-86349b52a2f1")
-		)
-		(pin "2"
-			(uuid "c0aa76d2-5f10-445b-856b-b42c1231904c")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1454,7 +1674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 100 OHM 1% 1/16W 0402"
 			(at 33.02 31.75 0)
 			(effects
 				(font
@@ -1463,7 +1683,16 @@
 				(hide yes)
 			)
 		)
-		(property "Name" ""
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-07100RL"
 			(at 33.02 31.75 0)
 			(effects
 				(font
@@ -1482,6 +1711,92 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 128.27 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34c5cf2-ce7a-446d-a108-1a61edfe3025")
+		(property "Reference" "R7"
+			(at 128.27 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 128.27 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:R_0402_1005Metric"
+			(at 128.524 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-07100KL"
+			(at 128.27 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a1907af-d4e5-4e3a-ae5c-c8bd263bb7db")
+		)
+		(pin "1"
+			(uuid "ed157677-194f-4708-99d3-7e779052d2a5")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 39.37 40.64 0)
 			(effects
 				(font
@@ -1540,8 +1855,17 @@
 				(hide yes)
 			)
 		)
-		(property "Name" ""
+		(property "Manufacturer" "KEMET"
 			(at 39.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 39.37 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1955,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -1733,7 +2057,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(page "14")
+					(page "6")
 				)
 			)
 		)
@@ -1845,7 +2169,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(page "13")
+					(page "3")
 				)
 			)
 		)
@@ -1927,7 +2251,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(page "17")
+					(page "7")
 				)
 			)
 		)
@@ -2009,7 +2333,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
-					(page "16")
+					(page "5")
 				)
 			)
 		)

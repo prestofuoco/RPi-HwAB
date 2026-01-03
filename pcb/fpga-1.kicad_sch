@@ -9106,7 +9106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a349afc-6c5a-46fe-a889-d3b6da4c87e2")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 121.92 20.32 0)
 			(effects
 				(font
@@ -10612,7 +10612,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U5")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -10628,7 +10628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7263f8eb-ba4a-4fd2-9f02-1e24d33ae834")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 228.6 22.86 0)
 			(effects
 				(font
@@ -12134,7 +12134,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U5")
+					(reference "U7")
 					(unit 8)
 				)
 			)
@@ -12149,7 +12149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b75ff5a6-dcf9-4d02-bc2d-e1ce8120f27d")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 40.64 22.86 0)
 			(effects
 				(font
@@ -13655,7 +13655,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/350bfe7d-9948-4ca7-a542-a75eb385def4"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)

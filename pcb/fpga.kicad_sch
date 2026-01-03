@@ -18,6 +18,12 @@
 		(uuid "0356d372-f9fb-44e2-a8ea-a0548666bd87")
 	)
 	(junction
+		(at 60.96 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d8a84f-2d1c-4222-ac6e-2b97b90058f9")
+	)
+	(junction
 		(at 50.8 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34,6 +40,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdb3051e-fb11-4414-81b0-60c98f645706")
+	)
+	(junction
+		(at 63.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df212550-ca08-4d6b-81a4-0db2d5e71c1b")
 	)
 	(bus_entry
 		(at 220.98 50.8)
@@ -101,6 +113,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3ea2ef-40b2-41ca-9fd2-90c49a46e480")
+	)
+	(wire
+		(pts
 			(xy 93.98 116.84) (xy 109.22 116.84)
 		)
 		(stroke
@@ -131,7 +153,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 71.12 38.1)
+			(xy 33.02 38.1) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -168,6 +190,16 @@
 			(type default)
 		)
 		(uuid "33aa8225-6925-41fc-a613-1492668f2091")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3daf5eb6-8481-43d8-85ad-e3d87dc58cbc")
 	)
 	(wire
 		(pts
@@ -211,7 +243,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 30.48) (xy 71.12 30.48)
+			(xy 53.34 30.48) (xy 73.66 30.48)
 		)
 		(stroke
 			(width 0)
@@ -221,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 71.12 33.02)
+			(xy 50.8 33.02) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -258,6 +290,16 @@
 			(type default)
 		)
 		(uuid "5a25428a-40cf-4f7a-8c8c-435b3b961370")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb6c221-1d45-4b3f-8d5b-98480e4897a0")
 	)
 	(wire
 		(pts
@@ -301,6 +343,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 63.5) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792cfb67-6198-44a4-bd96-2e76db209a40")
+	)
+	(wire
+		(pts
 			(xy 93.98 127) (xy 109.22 127)
 		)
 		(stroke
@@ -318,6 +370,16 @@
 			(type default)
 		)
 		(uuid "7be3a3a0-e987-4bff-89f7-098102f085ee")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eedb64a-9805-40ab-b7e1-24e9dbe25cfa")
 	)
 	(wire
 		(pts
@@ -371,7 +433,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 25.4) (xy 71.12 25.4)
+			(xy 33.02 25.4) (xy 73.66 25.4)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +503,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 22.86) (xy 71.12 22.86)
+			(xy 33.02 22.86) (xy 73.66 22.86)
 		)
 		(stroke
 			(width 0)
@@ -531,13 +593,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 71.12 40.64)
+			(xy 33.02 40.64) (xy 60.96 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6587d35-53e6-4dd7-af8a-477513c827e8")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea31b387-903a-48fd-8300-774082574b41")
 	)
 	(wire
 		(pts
@@ -581,7 +653,7 @@
 	)
 	(bus
 		(pts
-			(xy 217.17 17.78) (xy 220.98 17.78)
+			(xy 215.9 17.78) (xy 220.98 17.78)
 		)
 		(stroke
 			(width 0)
@@ -673,7 +745,7 @@
 	)
 	(hierarchical_label "1V0_MGT"
 		(shape input)
-		(at 71.12 38.1 0)
+		(at 73.66 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -684,7 +756,7 @@
 	)
 	(hierarchical_label "PCIE.RST_B"
 		(shape input)
-		(at 190.5 17.78 180)
+		(at 215.9 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -695,7 +767,7 @@
 	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
-		(at 217.17 17.78 180)
+		(at 215.9 17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -706,7 +778,7 @@
 	)
 	(hierarchical_label "1V2_MGT"
 		(shape input)
-		(at 71.12 40.64 0)
+		(at 73.66 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -717,7 +789,7 @@
 	)
 	(hierarchical_label "1V0_FD"
 		(shape input)
-		(at 71.12 22.86 0)
+		(at 73.66 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -728,7 +800,7 @@
 	)
 	(hierarchical_label "1V35_DDR"
 		(shape input)
-		(at 71.12 30.48 0)
+		(at 73.66 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -739,7 +811,7 @@
 	)
 	(hierarchical_label "1V8_FD"
 		(shape input)
-		(at 71.12 25.4 0)
+		(at 73.66 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -761,7 +833,7 @@
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
-		(at 71.12 33.02 0)
+		(at 73.66 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +1099,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "9")
+					(page "11")
 				)
 			)
 		)
@@ -1149,7 +1221,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
@@ -1201,7 +1273,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1303,7 +1375,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "6")
+					(page "14")
 				)
 			)
 		)
@@ -1575,7 +1647,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -1617,7 +1689,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925"
-					(page "8")
+					(page "10")
 				)
 			)
 		)
