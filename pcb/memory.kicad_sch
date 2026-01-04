@@ -2232,6 +2232,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "QSPI"
+		(members "SIO0" "SIO1" "SIO2" "SIO3" "SCLK" "CS0n" "CS1n")
+	)
 	(junction
 		(at 220.98 66.04)
 		(diameter 0)
@@ -2243,14 +2246,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7123b1f6-8de9-4f0f-b656-3c9c5df0e3df")
-	)
-	(no_connect
-		(at 223.52 58.42)
-		(uuid "54c0e1e0-0efe-49b1-bbe1-b8888f885832")
-	)
-	(no_connect
-		(at 223.52 55.88)
-		(uuid "6b54156f-700e-459c-89e1-ba3670c3cfb2")
 	)
 	(bus_entry
 		(at 139.7 53.34)
@@ -2397,6 +2392,15 @@
 		(uuid "861c7bc7-a10d-47a2-8d46-957c8426013f")
 	)
 	(bus_entry
+		(at 205.74 55.88)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8708a731-acaf-4303-acdc-f51176a92d85")
+	)
+	(bus_entry
 		(at 73.66 58.42)
 		(size -2.54 -2.54)
 		(stroke
@@ -2458,6 +2462,15 @@
 			(type default)
 		)
 		(uuid "ab712189-c075-4dd0-ad72-04c4c7d6528c")
+	)
+	(bus_entry
+		(at 205.74 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ac3f5b-787a-4fda-99a2-d253a4694666")
 	)
 	(bus_entry
 		(at 73.66 45.72)
@@ -2629,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 58.42) (xy 223.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113d2ae7-2124-4529-be40-6784096fdaee")
+	)
+	(wire
+		(pts
 			(xy 71.12 121.92) (xy 83.82 121.92)
 		)
 		(stroke
@@ -2756,6 +2779,16 @@
 			(type default)
 		)
 		(uuid "34326ced-500e-4173-b2d6-34df122b160c")
+	)
+	(bus
+		(pts
+			(xy 205.74 50.8) (xy 205.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e479171-277e-4be2-81f4-8ebea012f598")
 	)
 	(bus
 		(pts
@@ -3136,6 +3169,16 @@
 			(type default)
 		)
 		(uuid "87248aa9-f631-4c3e-87aa-1bec18f96dcb")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 223.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ae1b94-9557-4e83-ac6e-95444a2ff062")
 	)
 	(bus
 		(pts
@@ -3597,6 +3640,16 @@
 		)
 		(uuid "f9256979-b6a0-479a-9f66-166cfdbd5316")
 	)
+	(bus
+		(pts
+			(xy 205.74 53.34) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0b9893-b7db-467d-a145-b7fcc3d92f79")
+	)
 	(wire
 		(pts
 			(xy 73.66 50.8) (xy 83.82 50.8)
@@ -3607,7 +3660,7 @@
 		)
 		(uuid "fb3b3e55-c3df-4ae7-96d0-bd4ab00f758f")
 	)
-	(label "SPI0.CS0"
+	(label "QSPI0.CS0n"
 		(at 210.82 33.02 0)
 		(effects
 			(font
@@ -3793,7 +3846,27 @@
 		)
 		(uuid "1b6711e2-4726-470f-b041-173f7b2af551")
 	)
-	(label "SPI0.SCK"
+	(label "QSPI0.SIO3"
+		(at 210.82 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a6b33a-66c9-4ab3-b990-45e815cb6107")
+	)
+	(label "QSPI0.SIO2"
+		(at 210.82 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1cf9a4a-7dd2-4699-893c-c114bcfa3470")
+	)
+	(label "QSPI0.SCLK"
 		(at 210.82 35.56 0)
 		(effects
 			(font
@@ -3803,7 +3876,7 @@
 		)
 		(uuid "b50ff4e4-74cf-4bc5-9e84-450767738004")
 	)
-	(label "SPI0.MOSI"
+	(label "QSPI0.SIO0"
 		(at 210.82 50.8 0)
 		(effects
 			(font
@@ -3978,7 +4051,7 @@
 		)
 		(uuid "cd09fb4d-fece-422e-8842-e8f803468ba0")
 	)
-	(label "SPI0.MISO"
+	(label "QSPI0.SIO1"
 		(at 210.82 53.34 0)
 		(effects
 			(font
@@ -4044,7 +4117,7 @@
 		)
 		(uuid "38df94bb-34f0-47e2-8233-1fe655015d37")
 	)
-	(hierarchical_label "SPI0{SPI}"
+	(hierarchical_label "QSPI0{QSPI}"
 		(shape bidirectional)
 		(at 198.12 25.4 180)
 		(effects
@@ -4144,7 +4217,7 @@
 		)
 		(uuid "63c0dad3-23f1-4f09-9bde-69b480a2d4fa")
 	)
-	(hierarchical_label "1V35_FD"
+	(hierarchical_label "1V35_DDR"
 		(shape input)
 		(at 142.24 134.62 0)
 		(effects
@@ -4198,17 +4271,6 @@
 			(justify right)
 		)
 		(uuid "a573dc89-596d-494c-82a6-15b5646f63f1")
-	)
-	(hierarchical_label "1V35_DDR"
-		(shape input)
-		(at 142.24 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d66f9c87-1935-4704-aa59-5ca20195a01b")
 	)
 	(hierarchical_label "CASn"
 		(shape bidirectional)
@@ -4272,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Value" "MX25L3233FZN"
+		(property "Value" "MX25L12835F"
 			(at 237.49 45.72 0)
 			(effects
 				(font

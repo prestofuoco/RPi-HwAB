@@ -820,7 +820,7 @@
 		)
 		(uuid "bd74a825-2e18-44e5-beb5-adae856fd678")
 	)
-	(hierarchical_label "SPI0{SPI}"
+	(hierarchical_label "QSPI0{QSPI}"
 		(shape bidirectional)
 		(at 30.48 88.9 180)
 		(effects
@@ -1414,16 +1414,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI0{SPI}" bidirectional
-			(at 68.58 88.9 180)
-			(uuid "e16375b3-8cff-487a-bba5-cc44533f008a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "3V3_FD" input
 			(at 68.58 152.4 180)
 			(uuid "0ad5fc01-1f11-407e-af66-7cd16c59d695")
@@ -1452,16 +1442,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "1V35_FD" input
-			(at 68.58 149.86 180)
-			(uuid "015b3c0a-edb0-467c-ae3e-34a5832dc97f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "BA0" bidirectional
@@ -1642,6 +1622,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "1V35_DDR" input
+			(at 68.58 149.86 180)
+			(uuid "379c705f-2e6b-4a19-ace5-4cd59b066c8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI0{QSPI}" bidirectional
+			(at 68.58 88.9 180)
+			(uuid "1ffb6ad5-9829-4a2e-b084-8a2161077199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

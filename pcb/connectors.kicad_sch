@@ -4272,7 +4272,7 @@
 		)
 		(uuid "36aac0ce-5496-409b-b213-ffd58df8185f")
 	)
-	(label "SPI0.MISO"
+	(label "QSPI0.SIO1"
 		(at 66.04 96.52 0)
 		(effects
 			(font
@@ -4312,7 +4312,7 @@
 		)
 		(uuid "6857e0ef-1497-4cdf-821b-2427ca5b0634")
 	)
-	(label "SPI0.CS0"
+	(label "QSPI0.CS0n"
 		(at 66.04 133.35 0)
 		(effects
 			(font
@@ -4322,7 +4322,7 @@
 		)
 		(uuid "6fb8de84-1382-4865-9cd6-0f3cdaf83561")
 	)
-	(label "SPI0.CS1"
+	(label "QSPI0.CS1n"
 		(at 66.04 130.81 0)
 		(effects
 			(font
@@ -4332,7 +4332,7 @@
 		)
 		(uuid "710f2254-d2da-440e-911b-6d6e63579ecd")
 	)
-	(label "SPI0.SCK"
+	(label "QSPI0.SCLK"
 		(at 66.04 99.06 0)
 		(effects
 			(font
@@ -4472,7 +4472,7 @@
 		)
 		(uuid "f788418e-189e-4934-8746-0500b40a7e53")
 	)
-	(label "SPI0.MOSI"
+	(label "QSPI0.SIO0"
 		(at 66.04 93.98 0)
 		(effects
 			(font
@@ -4592,7 +4592,7 @@
 		)
 		(uuid "e9dbf682-3b68-4faf-8a74-505fc1bbc703")
 	)
-	(hierarchical_label "SPI0{SPI}"
+	(hierarchical_label "QSPI0{QSPI}"
 		(shape bidirectional)
 		(at 50.8 88.9 180)
 		(effects
