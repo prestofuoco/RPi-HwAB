@@ -15,5 +15,5 @@
 │   └── connectors.kicad_sch             # pcie, gpio, and jtag connectors
 ```
 
-### top-level schematic as of november 4, 2025
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/1c64b538-1f11-4ff5-89eb-b3a78b70efe6" />
+### top-level schematic as of january 4, 2026
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/e080baa9-e208-494c-9500-e58b98d935d7" />
