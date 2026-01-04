@@ -348,7 +348,7 @@
 		(uuid "e7c6e050-1977-4025-8376-55452bc30386")
 	)
 	(junction
-		(at 119.38 104.14)
+		(at 121.92 104.14)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "37e5db74-d1fc-4ef3-bf02-fc68b3eb8089")
@@ -360,7 +360,13 @@
 		(uuid "406337a2-2a0c-427d-9dd2-53f96ab99aac")
 	)
 	(junction
-		(at 119.38 93.98)
+		(at 134.62 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80865192-5b80-48fc-8574-c13fffadc0db")
+	)
+	(junction
+		(at 121.92 93.98)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "81b74fba-cbef-4633-b19e-b2d63ad195a2")
@@ -372,13 +378,13 @@
 		(uuid "8c5b7ea8-5850-4149-a864-61fedf97d8a4")
 	)
 	(junction
-		(at 119.38 63.5)
+		(at 121.92 63.5)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "b1ec0262-56ba-40c5-8fa8-cdf1befa002a")
 	)
 	(junction
-		(at 119.38 76.2)
+		(at 121.92 76.2)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "b9d8a3ff-53cc-419c-b5e9-310539b0c1e1")
@@ -390,7 +396,7 @@
 		(uuid "ba3c3c48-88d9-4888-8d3d-d1ea7374b6f6")
 	)
 	(junction
-		(at 119.38 43.18)
+		(at 121.92 43.18)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "bc7293cb-8a42-4f13-b3d5-b05e181256fb")
@@ -420,6 +426,12 @@
 		(uuid "de567ab9-b9a6-422a-9fae-f9bd5dbeaf2e")
 	)
 	(junction
+		(at 121.92 129.54)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "f262837b-1c68-4e5d-ae8e-16b63471f913")
+	)
+	(junction
 		(at 134.62 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -430,10 +442,6 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "fe8f3857-ca4c-494d-a6bb-18f65e0bcd13")
-	)
-	(no_connect
-		(at 154.94 137.16)
-		(uuid "05dfd60c-c89e-40c8-9c24-f51e696df8c2")
 	)
 	(no_connect
 		(at 154.94 111.76)
@@ -492,7 +500,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 124.46 93.98)
+			(xy 121.92 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0.3556)
@@ -532,6 +540,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "1d75de55-501a-4130-a231-2db4d5066936")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 134.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f1bdf8-f755-4705-b7a9-881b5fba8477")
 	)
 	(wire
 		(pts
@@ -625,7 +643,18 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 160.02 137.16)
+			(xy 121.92 129.54) (xy 121.92 142.24)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "45233a00-087f-4757-b41f-18c2d3f0dd6c")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 160.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -642,6 +671,16 @@
 			(type default)
 		)
 		(uuid "458f342d-39e3-4083-a1ff-9e33d4e7658d")
+	)
+	(wire
+		(pts
+			(xy 132.08 142.24) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a20dc4-0607-4cf1-b43c-11d691f3c1df")
 	)
 	(wire
 		(pts
@@ -685,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 104.14)
+			(xy 121.92 93.98) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0.3556)
@@ -693,6 +732,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "509e83f3-589e-497a-9284-9b0a8e9aa012")
+	)
+	(wire
+		(pts
+			(xy 121.92 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0.3556)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5a5ecc35-fa7a-41d2-b0eb-1c681ac6ff16")
 	)
 	(wire
 		(pts
@@ -716,7 +766,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 119.38 93.98)
+			(xy 134.62 147.32) (xy 238.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e6331e-f4b9-495e-bde4-58a07aa8944f")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0.3556)
@@ -727,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 119.38 25.4)
+			(xy 45.72 25.4) (xy 121.92 25.4)
 		)
 		(stroke
 			(width 0.3556)
@@ -778,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 25.4) (xy 119.38 43.18)
+			(xy 121.92 25.4) (xy 121.92 43.18)
 		)
 		(stroke
 			(width 0.3556)
@@ -789,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 119.38 63.5)
+			(xy 121.92 43.18) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0.3556)
@@ -810,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 124.46 63.5)
+			(xy 121.92 63.5) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0.3556)
@@ -851,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 139.7 76.2)
+			(xy 121.92 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0.3556)
@@ -903,6 +963,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 137.16) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40d6899-a269-4d47-b862-19a344f41335")
+	)
+	(wire
+		(pts
 			(xy 154.94 111.76) (xy 160.02 111.76)
 		)
 		(stroke
@@ -913,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 157.48 43.18)
+			(xy 121.92 43.18) (xy 157.48 43.18)
 		)
 		(stroke
 			(width 0.3556)
@@ -924,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 76.2)
+			(xy 121.92 63.5) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0.3556)
@@ -935,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 119.38 129.54)
+			(xy 121.92 104.14) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0.3556)
@@ -1017,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 160.02 104.14)
+			(xy 121.92 104.14) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0.3556)
@@ -1048,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 160.02 129.54)
+			(xy 121.92 129.54) (xy 160.02 129.54)
 		)
 		(stroke
 			(width 0.3556)
@@ -1295,6 +1365,17 @@
 		)
 		(uuid "9a89cd0a-bb9b-4b23-b6ca-c24129c6e5b1")
 	)
+	(hierarchical_label "3V3_PG"
+		(shape output)
+		(at 238.76 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1267979-77e7-4917-a792-bdfca8f364fe")
+	)
 	(hierarchical_label "1V35_DDR"
 		(shape output)
 		(at 238.76 104.14 0)
@@ -1529,6 +1610,92 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 128.27 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cc1187-8083-433a-9558-3e8126e8643a")
+		(property "Reference" "R29"
+			(at 128.27 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 128.27 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:R_0402_1005Metric"
+			(at 128.524 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-07100KL"
+			(at 128.27 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfce9a81-82a6-4591-add1-4b63a8a1dcd7")
+		)
+		(pin "1"
+			(uuid "ecb8f518-43b2-4756-a05e-75003c006216")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1901,7 +2068,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 0.0588)
 		)
 		(uuid "1d9f07e5-efc9-447f-a372-e965921820d7")
 		(property "Sheetname" "1V2"
@@ -1973,7 +2140,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 0.0588)
 		)
 		(uuid "40f8c9cc-8de9-43ac-8cba-fe7ae095cfae")
 		(property "Sheetname" "1V8"
@@ -2075,7 +2242,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 0.0600)
 		)
 		(uuid "543b0287-b025-45f5-b3a0-69295c58de1f")
 		(property "Sheetname" "1V0"
@@ -2187,7 +2354,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 0.0588)
 		)
 		(uuid "623ac269-424c-4b40-80d6-6e60349ac538")
 		(property "Sheetname" "3V3"
@@ -2269,7 +2436,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 0.0588)
 		)
 		(uuid "ac4b7fa8-6267-4e3b-81b7-39bc9eb5247a")
 		(property "Sheetname" "1V35"
