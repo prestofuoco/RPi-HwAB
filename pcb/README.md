@@ -16,4 +16,4 @@
 ```
 
 ### top-level schematic as of january 4, 2026
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/e080baa9-e208-494c-9500-e58b98d935d7" />
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/6fd7abaf-62d3-4cc2-905f-3650b2c442bc" />
