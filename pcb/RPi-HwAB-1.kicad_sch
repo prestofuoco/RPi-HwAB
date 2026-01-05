@@ -2364,6 +2364,16 @@
 				(justify right)
 			)
 		)
+		(pin "QSPI0{QSPI}" bidirectional
+			(at 109.22 127 180)
+			(uuid "3fe80b32-fc5a-4785-8151-17ad735c68b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
