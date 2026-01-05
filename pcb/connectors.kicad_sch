@@ -2501,6 +2501,9 @@
 	(bus_alias "PCIE"
 		(members "CLK_P" "CLK_N" "F2P_P" "F2P_N" "P2F_P" "P2F_N")
 	)
+	(bus_alias "PCIEsb"
+		(members "PWR_EN" "DET_WAKE" "CLKREQ_N" "RST_B")
+	)
 	(rectangle
 		(start 180.34 30.48)
 		(end 262.89 73.66)
@@ -4153,7 +4156,7 @@
 		(uuid "06b0078c-30b0-44fc-bb43-16b0dcbdb904")
 	)
 	(label "PCIE.F2P_P"
-		(at 209.55 116.84 0)
+		(at 208.28 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4183,7 +4186,7 @@
 		(uuid "0ca4c408-0e0e-4da1-a870-bfe1ff00faf3")
 	)
 	(label "PCIE.CLKREQ_N"
-		(at 209.55 137.16 0)
+		(at 208.28 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4203,7 +4206,7 @@
 		(uuid "19d18b54-bd60-4386-8fd5-1ebeaa8cbf2b")
 	)
 	(label "PCIE.RST_B"
-		(at 209.55 139.7 0)
+		(at 208.28 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4246,7 @@
 		(uuid "315f10f3-ffca-43fa-9561-acd13aba1733")
 	)
 	(label "PCIE.DET_WAKE"
-		(at 209.55 134.62 0)
+		(at 208.28 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4263,7 +4266,7 @@
 		(uuid "35f46a76-99af-463c-924c-aa77d6cf1b78")
 	)
 	(label "PCIE.P2F_N"
-		(at 209.55 127 0)
+		(at 208.28 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4353,7 +4356,7 @@
 		(uuid "7da96c0f-de90-4f69-b927-007119a4c858")
 	)
 	(label "PCIE.PWR_EN"
-		(at 209.55 132.08 0)
+		(at 208.28 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4383,7 +4386,7 @@
 		(uuid "9e445cdf-285b-46d8-8782-d90aed7aa0cf")
 	)
 	(label "PCIE.P2F_P"
-		(at 209.55 124.46 0)
+		(at 208.28 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,7 +4436,7 @@
 		(uuid "cba70827-28dc-4199-b06a-266e54bbd8f3")
 	)
 	(label "PCIE.CLK_N"
-		(at 209.55 111.76 0)
+		(at 208.28 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4443,7 +4446,7 @@
 		(uuid "cc8d1364-36f5-4710-87c3-744e5c78181f")
 	)
 	(label "PCIE.CLK_P"
-		(at 209.55 109.22 0)
+		(at 208.28 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,7 +4456,7 @@
 		(uuid "d5bbd8b9-aff5-4096-ab04-dbba0159e26d")
 	)
 	(label "PCIE.F2P_N"
-		(at 209.55 119.38 0)
+		(at 208.28 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)

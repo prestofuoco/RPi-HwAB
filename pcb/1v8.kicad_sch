@@ -1330,6 +1330,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 93.98) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98376aea-0db8-4f8d-b462-8a14ba36cc4e")
+	)
+	(wire
+		(pts
 			(xy 190.5 99.06) (xy 190.5 106.68)
 		)
 		(stroke
@@ -1548,16 +1558,6 @@
 			(type solid)
 		)
 		(uuid "f9b419df-74d5-4de6-b606-ac85b14df89e")
-	)
-	(wire
-		(pts
-			(xy 190.5 93.98) (xy 190.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f836f7-b1e0-4e22-9469-8c060c893fa9")
 	)
 	(wire
 		(pts
@@ -1998,85 +1998,6 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:R_US")
-		(at 203.2 90.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b5df20d-f8cb-447b-8d39-422a2ed24e13")
-		(property "Reference" "R19"
-			(at 205.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 205.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 204.216 89.916 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 203.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 203.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07277e5a-e10a-45d6-9bd1-acd0b76d30a7")
-		)
-		(pin "2"
-			(uuid "a3f3efbe-6f33-4a26-aede-0965ebf0d5e2")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2543,35 +2464,33 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 190.5 90.17 0)
-		(mirror x)
+		(at 190.5 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebd6b4d-8b1b-433f-9b81-4fc8443714c9")
+		(uuid "c6ab9c22-81be-4be6-b7a2-58ebbb579740")
 		(property "Reference" "R17"
-			(at 187.96 88.8999 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 187.96 91.4399 0)
+		(property "Value" "10"
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 191.516 89.916 90)
+			(at 189.484 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2507,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES 10 OHM 1% 1/16W 0402"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-0710RL"
 			(at 190.5 90.17 0)
 			(effects
 				(font
@@ -2607,10 +2544,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bcc55bf1-d91d-41d9-9317-349ea7add3c5")
+			(uuid "e3e350c3-ed97-41e1-8a2f-b4ea7819dcd4")
 		)
 		(pin "2"
-			(uuid "7f6aecd7-b30d-4acc-8c41-0ff966813fa4")
+			(uuid "013eae9f-ea72-4f84-b062-087942fab023")
 		)
 		(instances
 			(project "RPi-HwAB-1"
@@ -2885,6 +2822,102 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 203.2 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36ead50-7a83-4a74-9658-f6b96eda730b")
+		(property "Reference" "R19"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 202.184 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10 OHM 1% 1/16W 0402"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402FR-0710RL"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2515f850-47de-49d7-8c46-4742d226a287")
+		)
+		(pin "2"
+			(uuid "ac25277a-7430-48c3-9c16-4a7cce99e5e4")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
+					(reference "R19")
 					(unit 1)
 				)
 			)

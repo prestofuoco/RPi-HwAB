@@ -9548,16 +9548,16 @@
 		(uuid "0844a1ad-7246-4499-894b-c8d251391deb")
 	)
 	(junction
-		(at 78.74 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "096675e5-e20a-4c80-a5a8-34903639beb6")
-	)
-	(junction
 		(at 63.5 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad37cc9-b848-439c-90f5-57b2b0e43e46")
+	)
+	(junction
+		(at 63.5 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "149aa73c-c16f-497f-985f-7a7ce5911da7")
 	)
 	(junction
 		(at 228.6 137.16)
@@ -9566,64 +9566,58 @@
 		(uuid "15f9d7c4-c77a-4dce-9052-33a03f72e967")
 	)
 	(junction
-		(at 109.22 167.64)
+		(at 236.22 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16e9c262-704f-4472-a84c-562efc96c082")
+		(uuid "38875a18-f875-4c64-8367-120aabe16f8c")
 	)
 	(junction
-		(at 101.6 167.64)
+		(at 236.22 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "373f099b-7c2f-4a8f-a42d-fc2823c24880")
+		(uuid "39110189-d89c-4023-bdb6-0b68b8cb2fe4")
 	)
 	(junction
-		(at 101.6 154.94)
+		(at 259.08 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "391b5a56-98b4-4f22-bfdc-c470ae7e1b76")
+		(uuid "3a4834e0-316a-4ea1-a11a-8de7a7de6171")
 	)
 	(junction
-		(at 173.99 157.48)
+		(at 175.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ece9667-01ec-4c1d-b058-ad17b954a7cc")
 	)
 	(junction
-		(at 173.99 165.1)
+		(at 175.26 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "565c232a-f9cf-4622-9265-92307fe80d78")
 	)
 	(junction
-		(at 63.5 154.94)
+		(at 259.08 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59d89f64-9185-42e0-8e8a-2cb3628b552b")
+		(uuid "743e5353-7e40-4202-8507-412d284b706c")
 	)
 	(junction
-		(at 86.36 154.94)
+		(at 243.84 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5bc7a744-651e-46ab-b6c3-8ba5881e2317")
-	)
-	(junction
-		(at 109.22 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60c27fc8-7754-4aa0-a838-4819556b4dc7")
-	)
-	(junction
-		(at 93.98 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72a0e3bb-44e8-4d32-b621-2efce9c8b8f4")
+		(uuid "79b162a7-a839-4993-88bf-e2d2b5c560e7")
 	)
 	(junction
 		(at 114.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c94aa4d-e4d5-4857-ba92-776c8c179d95")
+	)
+	(junction
+		(at 228.6 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1c574e-2dd3-4873-9dbc-da985727aade")
 	)
 	(junction
 		(at 251.46 149.86)
@@ -9638,7 +9632,13 @@
 		(uuid "86a8df0a-495b-4c44-8f2a-d95406544e42")
 	)
 	(junction
-		(at 173.99 162.56)
+		(at 251.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e79949-38a0-42ff-be55-061d7ed85cb9")
+	)
+	(junction
+		(at 175.26 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "893004a0-ac1b-4eba-974c-73e3ae8ec7b1")
@@ -9656,28 +9656,28 @@
 		(uuid "92507c14-6601-4a93-acc1-8340a5bdcf60")
 	)
 	(junction
-		(at 93.98 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "973031fd-3b95-4bcb-8451-6201a96fa52c")
-	)
-	(junction
 		(at 236.22 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed74bcc-7996-4b5c-a14d-7dfbefeaf8b2")
 	)
 	(junction
+		(at 243.84 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4075c90-9699-4a39-8cdf-672f817000b4")
+	)
+	(junction
+		(at 251.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f8b4c0-961d-4d2f-9631-a87f70d5e8e4")
+	)
+	(junction
 		(at 259.08 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aafbab76-fcb1-4528-83d3-14c8eecccdf9")
-	)
-	(junction
-		(at 86.36 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0f7ea49-5d87-4441-9971-2b5189a7d258")
 	)
 	(junction
 		(at 243.84 137.16)
@@ -9692,28 +9692,22 @@
 		(uuid "bf65ed04-14f0-45e3-88cf-b50778fd599e")
 	)
 	(junction
-		(at 78.74 154.94)
+		(at 228.6 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c521e4a7-8d58-4b78-b8bb-7748801d77f9")
+		(uuid "c1839a32-e2fd-4a02-9a26-f6832d6733cd")
 	)
 	(junction
-		(at 173.99 160.02)
+		(at 175.26 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5d19fe4-046f-438a-84be-91fe3792e0fb")
 	)
 	(junction
-		(at 173.99 154.94)
+		(at 175.26 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cedee275-7a27-42eb-85bc-f05d31cb0c62")
-	)
-	(junction
-		(at 71.12 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9635e68-3d68-47a4-be57-363a7a52f139")
 	)
 	(junction
 		(at 236.22 137.16)
@@ -9905,7 +9899,7 @@
 		(uuid "b13f645d-68fa-4811-b6aa-89dbafc2c968")
 	)
 	(bus_entry
-		(at 92.71 30.48)
+		(at 93.98 30.48)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -9968,7 +9962,7 @@
 		(uuid "dc2b2ade-c898-41bc-86bf-d3e2bb684686")
 	)
 	(bus_entry
-		(at 92.71 27.94)
+		(at 93.98 27.94)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10022,6 +10016,16 @@
 		)
 		(uuid "00f9e776-0b84-4e28-9719-03773ce84b79")
 	)
+	(wire
+		(pts
+			(xy 259.08 121.92) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040ddfef-f60b-49f1-8202-099d538628f9")
+	)
 	(bus
 		(pts
 			(xy 208.28 63.5) (xy 208.28 71.12)
@@ -10044,7 +10048,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 162.56) (xy 173.99 165.1)
+			(xy 175.26 162.56) (xy 175.26 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10082,19 +10086,9 @@
 		)
 		(uuid "0a23c73e-ed41-4d3e-8d57-c79efc9def23")
 	)
-	(wire
-		(pts
-			(xy 78.74 167.64) (xy 78.74 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0af4558a-3983-479f-8132-7e87a7455cc8")
-	)
 	(bus
 		(pts
-			(xy 95.25 22.86) (xy 100.33 22.86)
+			(xy 96.52 22.86) (xy 101.6 22.86)
 		)
 		(stroke
 			(width 0)
@@ -10114,16 +10108,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 167.64) (xy 86.36 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f36532d-79fa-4d40-98cf-d08b322bc0e8")
-	)
-	(wire
-		(pts
 			(xy 114.3 114.3) (xy 114.3 116.84)
 		)
 		(stroke
@@ -10134,13 +10118,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 78.74 167.64)
+			(xy 269.24 109.22) (xy 259.08 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11c3aa13-4f84-476c-a468-04c9d243ad78")
+		(uuid "110b9382-cce3-43d2-945a-92742f660405")
 	)
 	(wire
 		(pts
@@ -10174,17 +10158,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 157.48) (xy 172.72 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154dded6-3513-4df3-80de-4538324f23fb")
-	)
-	(wire
-		(pts
-			(xy 60.96 30.48) (xy 92.71 30.48)
+			(xy 60.96 30.48) (xy 93.98 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10234,6 +10208,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18657bad-c615-4ab4-9c37-280f7d182100")
+	)
+	(wire
+		(pts
 			(xy 172.72 111.76) (xy 205.74 111.76)
 		)
 		(stroke
@@ -10251,6 +10235,16 @@
 			(type default)
 		)
 		(uuid "199365ec-3fd1-4f89-ad1b-2a5c990a1c69")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 74.93 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a3030b-e893-492f-bfcb-e660722b9311")
 	)
 	(wire
 		(pts
@@ -10274,26 +10268,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 71.12 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad3ab3f-10d1-45a0-bf80-ba0aded95eec")
-	)
-	(wire
-		(pts
-			(xy 86.36 154.94) (xy 86.36 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f15d826-491b-496b-bb20-43006eda83ae")
-	)
-	(wire
-		(pts
 			(xy 111.76 116.84) (xy 114.3 116.84)
 		)
 		(stroke
@@ -10314,16 +10288,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 154.94) (xy 101.6 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25512b67-245a-46c3-a10a-e8ef4c97f543")
-	)
-	(wire
-		(pts
 			(xy 243.84 149.86) (xy 251.46 149.86)
 		)
 		(stroke
@@ -10334,23 +10298,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 154.94) (xy 71.12 154.94)
+			(xy 220.98 121.92) (xy 220.98 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28782d7b-b637-4c4f-aa94-8379a5bc6fd9")
+		(uuid "28243efc-3d81-42e9-8010-692ecaaa4b5b")
 	)
 	(wire
 		(pts
-			(xy 78.74 154.94) (xy 78.74 157.48)
+			(xy 236.22 109.22) (xy 243.84 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28d84a4e-ee95-4e01-9f57-f86b8209b975")
+		(uuid "2a909522-30c4-4f0c-9b21-86cd23943292")
 	)
 	(wire
 		(pts
@@ -10394,16 +10358,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 154.94) (xy 86.36 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e663b5c-323d-4d1d-b498-8b2c90ee1e43")
-	)
-	(wire
-		(pts
 			(xy 60.96 154.94) (xy 63.5 154.94)
 		)
 		(stroke
@@ -10434,7 +10388,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 154.94) (xy 185.42 154.94)
+			(xy 175.26 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10454,6 +10408,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346df5a2-50d9-4008-88e1-59afcd4be2cb")
+	)
+	(wire
+		(pts
 			(xy 243.84 149.86) (xy 243.84 147.32)
 		)
 		(stroke
@@ -10464,7 +10428,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 165.1) (xy 173.99 167.64)
+			(xy 175.26 165.1) (xy 175.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10491,16 +10455,6 @@
 			(type default)
 		)
 		(uuid "36b5a4f9-4c0d-456a-9365-648c58e34634")
-	)
-	(wire
-		(pts
-			(xy 101.6 167.64) (xy 101.6 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37475888-a9c5-46e1-a8f8-9eedaa5a585f")
 	)
 	(wire
 		(pts
@@ -10534,7 +10488,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 157.48) (xy 173.99 160.02)
+			(xy 175.26 157.48) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10571,26 +10525,6 @@
 			(type default)
 		)
 		(uuid "3b180b08-49f6-4d8c-9a71-e145e4406dca")
-	)
-	(wire
-		(pts
-			(xy 173.99 165.1) (xy 172.72 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b4fa2fe-547f-4392-98a6-c8c7551b37a8")
-	)
-	(wire
-		(pts
-			(xy 114.3 154.94) (xy 109.22 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d262774-081f-4be8-9b16-20d8a095e6e1")
 	)
 	(wire
 		(pts
@@ -10734,23 +10668,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 101.6 157.48)
+			(xy 228.6 109.22) (xy 228.6 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5464b85e-e8d0-4fe5-8a7e-601db0da4a35")
-	)
-	(wire
-		(pts
-			(xy 93.98 167.64) (xy 101.6 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59859c3c-fa90-4802-8794-1e75004282fd")
+		(uuid "58a54aa6-12f1-41f1-bb51-df97593cb5de")
 	)
 	(wire
 		(pts
@@ -10762,35 +10686,15 @@
 		)
 		(uuid "59bed4fc-d410-4335-af68-607c5be91e41")
 	)
-	(wire
-		(pts
-			(xy 86.36 154.94) (xy 93.98 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c27804-80b9-4c13-baaa-4f28f26adadb")
-	)
 	(bus
 		(pts
-			(xy 95.25 22.86) (xy 95.25 25.4)
+			(xy 96.52 22.86) (xy 96.52 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b693805-a5a6-42ba-9647-9683481da1b1")
-	)
-	(wire
-		(pts
-			(xy 86.36 167.64) (xy 93.98 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bcdeefe-0a5e-4b19-a215-b2416608f5a4")
 	)
 	(wire
 		(pts
@@ -10842,6 +10746,16 @@
 		)
 		(uuid "63862644-87ac-4eb6-8a9e-6cb806e249cf")
 	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6501a356-5a50-4934-aa97-d46045912e04")
+	)
 	(bus
 		(pts
 			(xy 208.28 27.94) (xy 208.28 30.48)
@@ -10874,6 +10788,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 109.22) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abec3ed-2df3-4d79-814d-f3aef2d1bf72")
+	)
+	(wire
+		(pts
 			(xy 172.72 60.96) (xy 205.74 60.96)
 		)
 		(stroke
@@ -10891,6 +10815,36 @@
 			(type default)
 		)
 		(uuid "70519698-1896-4e06-965c-29ae1654f7ff")
+	)
+	(wire
+		(pts
+			(xy 172.72 157.48) (xy 175.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711ff715-ad8c-445b-90ee-3c9cb347fade")
+	)
+	(wire
+		(pts
+			(xy 259.08 121.92) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7121d2b8-4f4e-4b10-97c4-bd492b9dd51f")
+	)
+	(wire
+		(pts
+			(xy 172.72 162.56) (xy 175.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736397e7-ba72-4c12-8a16-4113bf53e8a6")
 	)
 	(wire
 		(pts
@@ -10924,13 +10878,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 167.64) (xy 109.22 165.1)
+			(xy 172.72 160.02) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7925d374-da02-439c-855b-7e49cebba74e")
+		(uuid "779c41c6-1aa5-40a0-8cea-30040b8044da")
 	)
 	(wire
 		(pts
@@ -10954,6 +10908,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 121.92) (xy 251.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caaec1d-b53d-48b8-89bf-b3d50d99165e")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 111.76 114.3)
 		)
 		(stroke
@@ -10964,13 +10928,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 162.56) (xy 172.72 162.56)
+			(xy 259.08 109.22) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "806dc2e7-1729-45e2-8d0d-641a8b09ee4a")
+		(uuid "7fe7a19a-0ea2-4049-b6f8-a4793a733980")
 	)
 	(wire
 		(pts
@@ -11004,23 +10968,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 167.64) (xy 109.22 170.18)
+			(xy 172.72 154.94) (xy 175.26 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "851e4cd2-7d70-4cdc-8f20-24b8ced2ff15")
+		(uuid "83c3767d-05da-4aab-9343-52360bd83322")
 	)
 	(wire
 		(pts
-			(xy 101.6 167.64) (xy 109.22 167.64)
+			(xy 228.6 109.22) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "851f4040-add3-4ee0-96e0-9aae9e472681")
+		(uuid "83d0acd4-d651-4814-bd43-54dc63e33ba7")
 	)
 	(wire
 		(pts
@@ -11124,16 +11088,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 109.22 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9203eb46-b69f-47c2-814f-0c5bb517abb2")
-	)
-	(wire
-		(pts
 			(xy 228.6 137.16) (xy 236.22 137.16)
 		)
 		(stroke
@@ -11144,7 +11098,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 137.16) (xy 259.08 137.16)
+			(xy 269.24 137.16) (xy 259.08 137.16)
 		)
 		(stroke
 			(width 0)
@@ -11174,16 +11128,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 154.94) (xy 71.12 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c17224-6b46-4440-a0fc-acf5611bdea4")
-	)
-	(wire
-		(pts
 			(xy 172.72 76.2) (xy 205.74 76.2)
 		)
 		(stroke
@@ -11194,13 +11138,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 154.94) (xy 93.98 157.48)
+			(xy 236.22 121.92) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99817926-2cff-437b-b51b-98baa81f898e")
+		(uuid "99944420-d6ee-464b-9da1-7e739b39881b")
+	)
+	(wire
+		(pts
+			(xy 236.22 109.22) (xy 236.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fd4f83-e2c4-4dc3-9e99-068395a7b778")
 	)
 	(wire
 		(pts
@@ -11221,16 +11175,6 @@
 			(type default)
 		)
 		(uuid "9b8e2c73-9baf-4dba-8757-ead88148f830")
-	)
-	(wire
-		(pts
-			(xy 86.36 167.64) (xy 86.36 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bab5c9e-73fa-4521-abcf-7f41d6d39ce4")
 	)
 	(wire
 		(pts
@@ -11294,13 +11238,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 27.94) (xy 92.71 27.94)
+			(xy 60.96 27.94) (xy 93.98 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1c1c941-7b2c-47e8-b8bd-a18ebb2e540e")
+	)
+	(wire
+		(pts
+			(xy 172.72 165.1) (xy 175.26 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d87543-bcea-47d7-ba6c-38a349b89cd3")
 	)
 	(bus
 		(pts
@@ -11324,27 +11278,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 154.94) (xy 172.72 154.94)
+			(xy 220.98 109.22) (xy 228.6 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a644d409-4f17-477a-b90f-0d5231da30ef")
-	)
-	(wire
-		(pts
-			(xy 109.22 154.94) (xy 109.22 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a77ae16d-8d41-4b64-9b59-2ff07604b8c5")
+		(uuid "a534e495-00ce-4b93-8ffd-8782c18a1227")
 	)
 	(bus
 		(pts
-			(xy 95.25 25.4) (xy 95.25 27.94)
+			(xy 96.52 25.4) (xy 96.52 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11374,16 +11318,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 160.02) (xy 172.72 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2f46a3-6209-4b27-9a31-8089927e7b9a")
-	)
-	(wire
-		(pts
 			(xy 99.06 71.12) (xy 99.06 73.66)
 		)
 		(stroke
@@ -11391,6 +11325,16 @@
 			(type default)
 		)
 		(uuid "b17f812f-90de-412c-9681-a248a072f480")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cf5b69-5df3-4f3d-ab00-f6246dfdcdf6")
 	)
 	(wire
 		(pts
@@ -11434,13 +11378,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 160.02) (xy 173.99 162.56)
+			(xy 175.26 160.02) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb62c837-2eed-4ecb-b1cb-bbc8aeb9a6ed")
+	)
+	(wire
+		(pts
+			(xy 236.22 121.92) (xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfe5229-5d31-473c-be99-76a293944d48")
 	)
 	(wire
 		(pts
@@ -11451,6 +11405,16 @@
 			(type default)
 		)
 		(uuid "c1d17d42-3438-4f06-86a9-d8bacb7d9cda")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 251.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c24db9-aa96-4b49-9bad-de5e32471bac")
 	)
 	(wire
 		(pts
@@ -11494,6 +11458,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 121.92) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca09741d-eee5-4ada-a2f3-88cb070c7912")
+	)
+	(wire
+		(pts
 			(xy 172.72 53.34) (xy 185.42 53.34)
 		)
 		(stroke
@@ -11522,6 +11496,16 @@
 		)
 		(uuid "d0a4e82c-3412-404c-84d6-e86d0665cf30")
 	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c63674-81a1-4bc5-b7a6-fac0bc56e13d")
+	)
 	(bus
 		(pts
 			(xy 208.28 114.3) (xy 208.28 116.84)
@@ -11531,16 +11515,6 @@
 			(type default)
 		)
 		(uuid "d1dcbf8d-4018-4efd-9cb1-98451fd94e65")
-	)
-	(wire
-		(pts
-			(xy 173.99 167.64) (xy 172.72 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ee5b66-3b7d-4271-8afa-73f8e0cf36fa")
 	)
 	(bus
 		(pts
@@ -11564,6 +11538,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 121.92) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90ea354-540f-4493-b8c2-8c8e1faf74ba")
+	)
+	(wire
+		(pts
 			(xy 86.36 119.38) (xy 73.66 119.38)
 		)
 		(stroke
@@ -11574,7 +11558,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 154.94) (xy 173.99 157.48)
+			(xy 175.26 154.94) (xy 175.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11591,16 +11575,6 @@
 			(type default)
 		)
 		(uuid "e178966f-a34e-4503-8f26-05f20d9f35f2")
-	)
-	(wire
-		(pts
-			(xy 93.98 167.64) (xy 93.98 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51b68bc-f1bf-45f3-aa69-2f11552f8816")
 	)
 	(bus
 		(pts
@@ -11632,6 +11606,16 @@
 		)
 		(uuid "e857d84e-1d4a-4db6-9cac-ee970e5f783d")
 	)
+	(wire
+		(pts
+			(xy 172.72 167.64) (xy 175.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bd1010-b478-44bf-8ba9-152c040a930c")
+	)
 	(bus
 		(pts
 			(xy 208.28 86.36) (xy 208.28 83.82)
@@ -11661,6 +11645,16 @@
 			(type default)
 		)
 		(uuid "eff016d1-9803-4d20-a288-ba9604853235")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 220.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f6bfd0-dce4-48d7-8992-fa09c07973c3")
 	)
 	(wire
 		(pts
@@ -11744,16 +11738,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 154.94) (xy 78.74 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbf4218-7f2f-43e2-a226-aeae4b5370cd")
-	)
-	(wire
-		(pts
 			(xy 236.22 149.86) (xy 236.22 147.32)
 		)
 		(stroke
@@ -11771,6 +11755,16 @@
 			(type default)
 		)
 		(uuid "fe0b3d53-704c-4f5f-a22b-5d80a7e767e5")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 236.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff72e6ab-0fb5-4cfa-b1cd-ba72fe6c3cd7")
 	)
 	(label "A1"
 		(at 203.2 91.44 180)
@@ -12135,18 +12129,7 @@
 		)
 		(uuid "06d83e00-2e17-45c9-aeb2-1da561963a64")
 	)
-	(hierarchical_label "1V35_FD"
-		(shape input)
-		(at 114.3 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ea17b11-5e8c-4cf5-82ca-bc8589945699")
-	)
-	(hierarchical_label "1V35_FD"
+	(hierarchical_label "1V35_DDR"
 		(shape input)
 		(at 185.42 154.94 0)
 		(effects
@@ -12179,7 +12162,7 @@
 		)
 		(uuid "3760d788-5b54-4534-8a66-6452da32ad4d")
 	)
-	(hierarchical_label "1V35_FD"
+	(hierarchical_label "1V35_DDR"
 		(shape input)
 		(at 109.22 71.12 0)
 		(effects
@@ -12212,9 +12195,20 @@
 		)
 		(uuid "49086082-068a-4bfd-b037-843dd25de5b4")
 	)
+	(hierarchical_label "1V35_DDR"
+		(shape input)
+		(at 74.93 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e368597-5cf2-4957-a91b-d7aaf7ca9dd1")
+	)
 	(hierarchical_label "A[0..14]"
 		(shape bidirectional)
-		(at 100.33 22.86 0)
+		(at 101.6 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12359,9 +12353,20 @@
 		)
 		(uuid "b88d6510-745c-4b0d-b689-c7f8b1058c83")
 	)
-	(hierarchical_label "1V35_FD"
+	(hierarchical_label "1V35_DDR"
 		(shape input)
-		(at 264.16 137.16 0)
+		(at 269.24 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba0f0c69-5bc1-4cc9-b573-85f7167a7840")
+	)
+	(hierarchical_label "1V35_DDR"
+		(shape input)
+		(at 269.24 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13938,15 +13943,15 @@
 	)
 	(symbol
 		(lib_id "library:C")
-		(at 86.36 161.29 180)
+		(at 220.98 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "02fb17c2-18be-486d-8da3-ce063bb1bf6b")
-		(property "Reference" "C111"
-			(at 87.63 158.75 0)
+		(uuid "0d12a469-094e-466a-bd13-075f46193376")
+		(property "Reference" "C146"
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13955,7 +13960,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 87.63 163.83 0)
+			(at 222.25 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,7 +13969,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 85.3948 157.48 0)
+			(at 220.0148 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13973,7 +13978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 161.29 0)
+			(at 220.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13982,7 +13987,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 86.36 161.29 0)
+			(at 220.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +13996,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 86.36 161.29 0)
+			(at 220.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +14005,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 86.36 161.29 90)
+			(at 220.98 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,49 +14014,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a3bba12-8e12-4243-bc65-c55fe4fd32de")
+			(uuid "4574ed78-d9e0-4b03-846d-2e34cde62ac9")
 		)
 		(pin "2"
-			(uuid "ed056012-8b66-4321-8603-80fe367f22ec")
+			(uuid "28804338-595e-465c-ae77-1b790fb911c4")
 		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C111")
+					(reference "C146")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 71.12 161.29 180)
+		(lib_id "library:GND")
+		(at 259.08 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f9fefa3-a4c2-48ea-93c3-8475e6adf2fb")
-		(property "Reference" "C109"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 72.39 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 70.1548 157.48 0)
+		(fields_autoplaced yes)
+		(uuid "12a8c0cb-3fe8-4cc9-96b8-7a3ce354aa56")
+		(property "Reference" "#PWR059"
+			(at 259.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,8 +14047,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 71.12 161.29 0)
+		(property "Value" "GND"
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14068,8 +14064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 71.12 161.29 0)
+		(property "Datasheet" ""
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,17 +14073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 71.12 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 71.12 161.29 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14096,15 +14083,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a37ef801-2252-4ed1-a5fb-799e88d1b830")
-		)
-		(pin "2"
-			(uuid "c3d1da69-49b8-4dd4-bd32-abe4f94cbcb2")
+			(uuid "68e34549-9529-4483-872c-6476e285e01a")
 		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C109")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15790,93 +15774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 78.74 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37a1ed74-5705-4516-a519-e1cf60ca68a0")
-		(property "Reference" "C110"
-			(at 80.01 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 80.01 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 77.7748 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 78.74 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 78.74 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 78.74 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d841bc78-9a7c-4592-af43-dbef25902e16")
-		)
-		(pin "2"
-			(uuid "d094161b-a7c0-4600-9816-fa39a37a2bbf")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:SiT9365xx-xBx-xxE")
 		(at 99.06 116.84 0)
 		(mirror y)
@@ -16140,93 +16037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 109.22 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "580f7941-3d92-4cad-86e3-977d9f51e8fe")
-		(property "Reference" "C114"
-			(at 110.49 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 110.49 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.2548 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 109.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 109.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 109.22 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c65878b-5c4a-411b-b761-298e59752e13")
-		)
-		(pin "2"
-			(uuid "d818432b-6bf1-4684-884a-fa54216c9941")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:R_US")
 		(at 99.06 90.17 0)
 		(unit 1)
@@ -16298,15 +16108,15 @@
 	)
 	(symbol
 		(lib_id "library:C")
-		(at 93.98 161.29 180)
+		(at 259.08 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "718f03cf-0a83-4520-b0dd-14c8ee1800c4")
-		(property "Reference" "C112"
-			(at 95.25 158.75 0)
+		(uuid "87a7f07f-4441-47de-9807-dccb92b74c4e")
+		(property "Reference" "C151"
+			(at 260.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16315,7 +16125,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 95.25 163.83 0)
+			(at 260.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16324,7 +16134,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.0148 157.48 0)
+			(at 258.1148 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16333,7 +16143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 161.29 0)
+			(at 259.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +16152,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 93.98 161.29 0)
+			(at 259.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16161,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 93.98 161.29 0)
+			(at 259.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16360,7 +16170,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 93.98 161.29 90)
+			(at 259.08 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,81 +16179,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "09f50af8-2cc3-4973-80bd-d312b7b6ad40")
+			(uuid "46388486-0863-4101-8aea-afbd29e658ea")
 		)
 		(pin "2"
-			(uuid "0acb87d6-b736-4d41-90d3-ba897675b602")
+			(uuid "a1384400-dca5-4a9f-ac12-cefa34fc82b7")
 		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:GND")
-		(at 109.22 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801f5e50-0a8c-41e1-b480-8f4ac0e3ce16")
-		(property "Reference" "#PWR050"
-			(at 109.22 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc07d772-74e3-4fc9-a887-e330e228a0bc")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "#PWR050")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -16649,6 +16393,93 @@
 	)
 	(symbol
 		(lib_id "library:C")
+		(at 228.6 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a081f6ba-f0fc-4dfc-b88a-33d888466783")
+		(property "Reference" "C147"
+			(at 229.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 229.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 227.6348 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 228.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d1ee64e-5ebf-4b9f-9a10-9b27fa8b3981")
+		)
+		(pin "2"
+			(uuid "abbf9f46-6f64-4198-bb3d-3b9a35f97590")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
+					(reference "C147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
 		(at 259.08 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16729,6 +16560,93 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
 					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 236.22 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1b4322c-4b99-4b7d-a791-d6d4c68db39c")
+		(property "Reference" "C148"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 235.2548 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 236.22 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1753de4-c183-46a4-a5c4-f53584906bb1")
+		)
+		(pin "2"
+			(uuid "fd09d3f3-a7b3-4e95-bfb8-8c393f4cad8c")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -16877,93 +16795,6 @@
 	)
 	(symbol
 		(lib_id "library:C")
-		(at 101.6 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3bc25ea-c747-496e-8d8e-afd50c75441b")
-		(property "Reference" "C113"
-			(at 102.87 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 102.87 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.6348 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
-			(at 101.6 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 101.6 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Product Number" "C0402C104K4RACTU"
-			(at 101.6 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d0be9c5-1e8c-4dd2-813a-38a35546273b")
-		)
-		(pin "2"
-			(uuid "9aaf00cb-8634-4865-9945-0f446f92c297")
-		)
-		(instances
-			(project "RPi-HwAB-1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
-					(reference "C113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:C")
 		(at 228.6 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17044,6 +16875,180 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
 					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 243.84 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d20cca12-5fab-4f85-91ac-39a7339ee8b7")
+		(property "Reference" "C149"
+			(at 245.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 242.8748 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 243.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 243.84 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ef9c26b-6331-4b15-b7a6-a1322f453716")
+		)
+		(pin "2"
+			(uuid "258ff8e7-d04e-4d16-8228-6b430a5db874")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
+					(reference "C149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 251.46 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d67dfef1-68a5-4335-ae6f-fbd37746ef84")
+		(property "Reference" "C150"
+			(at 252.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 252.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 250.4948 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 251.46 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "536a1dd9-0245-41f8-8a5a-5f4077cebc19")
+		)
+		(pin "2"
+			(uuid "743dd84f-0cc3-4f1d-8b76-a4a8beea06c8")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/143e814b-c088-43b0-8f2f-ada8c438e494"
+					(reference "C150")
 					(unit 1)
 				)
 			)
