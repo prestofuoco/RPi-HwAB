@@ -1742,7 +1742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.1652 109.22 0)
 			(effects
 				(font
@@ -1761,6 +1761,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -1854,7 +1881,7 @@
 		(at 223.52 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "226eedbf-6168-45b2-9e42-4391ad726ef8")
@@ -1896,6 +1923,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 223.52 68.58 0)
 			(effects
 				(font
@@ -1952,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 90.17 0)
 			(effects
 				(font
@@ -1988,6 +2024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0402 4.7NF 50V X7R 5%"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74556e5d-5a13-4b4a-9d99-d45a0995b94e")
 		)
@@ -2013,7 +2058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7cda5d-f1cb-45b5-9f1d-9c36100c8055")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 196.85 80.01 90)
 			(effects
 				(font
@@ -2029,7 +2074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 196.596 82.804 90)
 			(effects
 				(font
@@ -2065,6 +2110,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 196.85 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "WSLP12065L000FEA"
+			(at 196.85 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 0.005 OHM 1% 1W 1206"
+			(at 196.85 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45c8ebcc-43ce-4a2d-8b06-32bb05ebdda9")
 		)
@@ -2074,7 +2146,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8df03438-1d61-4e69-aa7f-782e7268312b")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -2248,7 +2320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 167.64 90.17 0)
 			(effects
 				(font
@@ -2275,7 +2347,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CRCW040210K0FKED"
+		(property "Manufacturer Product Number" "CRCW040230K0FKED"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 30K OHM 1% 1/16W 0402"
 			(at 167.64 90.17 0)
 			(effects
 				(font
@@ -2293,7 +2374,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-1616"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1245A"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -2333,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -2351,7 +2432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" "Bourns Inc."
 			(at 138.43 93.98 90)
 			(effects
 				(font
@@ -2360,7 +2441,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "IHLP1616BZER1R0M01"
+		(property "Manufacturer Product Number" "SRP1265A-2R2M"
+			(at 138.43 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "FIXED IND 2.2UH 22A 4.2 MOHM SMD"
 			(at 138.43 93.98 90)
 			(effects
 				(font
@@ -2447,6 +2537,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KEMET"
+			(at 196.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 196.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 196.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04f84331-1b65-49e9-9aba-62d6be3a4f91")
 		)
@@ -2471,7 +2588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6ab9c22-81be-4be6-b7a2-58ebbb579740")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -2543,6 +2660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "RES 10 OHM 1% 1/16W 0402"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e350c3-ed97-41e1-8a2f-b4ea7819dcd4")
 		)
@@ -2552,7 +2678,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2630,6 +2756,15 @@
 			)
 		)
 		(property "Name" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC REG BUCK ADJ 3A UDFN20208"
 			(at 106.68 101.6 0)
 			(effects
 				(font
@@ -2749,7 +2884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da765703-e91b-4192-be09-93918aa70d8e")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -2776,7 +2911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -2803,7 +2938,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+		(property "Manufacturer Product Number" "CRCW040215K0FKED"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 15K OHM 1% 1/16W 0402"
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -2821,7 +2965,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2836,7 +2980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f36ead50-7a83-4a74-9658-f6b96eda730b")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 205.74 88.9 0)
 			(effects
 				(font
@@ -2908,6 +3052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "RES 10 OHM 1% 1/16W 0402"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2515f850-47de-49d7-8c46-4742d226a287")
 		)
@@ -2917,7 +3070,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)

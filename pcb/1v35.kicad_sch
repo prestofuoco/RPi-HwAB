@@ -1428,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0af89afc-2116-4598-8d67-195ff85e9dd7")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 165.1 83.8199 0)
 			(effects
 				(font
@@ -1446,7 +1446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.576 85.344 90)
 			(effects
 				(font
@@ -1473,6 +1473,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW040215K0FKED"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 15K OHM 1% 1/16W 0402"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4db244-411c-4a62-aedc-1b3d3235dd2d")
 		)
@@ -1482,7 +1509,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/ac4b7fa8-6267-4e3b-81b7-39bc9eb5247a"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1634,6 +1661,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "3-V TO 17-V, 3-A, HIGH-EFFICIENC"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "150f4fd6-19ee-42f5-a61b-4f24ed9abeca")
 		)
@@ -1686,7 +1722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41507945-55db-44cb-9c0e-a09f61a9f92d")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 165.1 96.5199 0)
 			(effects
 				(font
@@ -1704,7 +1740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.576 98.044 90)
 			(effects
 				(font
@@ -1731,6 +1767,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW040212K0FKED"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 12K OHM 1% 1/16W 0402"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3127a69-e6dd-40d2-9e03-a35af72ad509")
 		)
@@ -1740,7 +1803,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/ac4b7fa8-6267-4e3b-81b7-39bc9eb5247a"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1848,7 +1911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -1876,6 +1939,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C472J5RECTU"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 0402 4.7NF 50V X7R 5%"
 			(at 106.68 105.41 0)
 			(effects
 				(font
@@ -1970,7 +2042,7 @@
 		(at 198.12 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "83cc4f5c-e411-4de9-a48a-5fe5c2685a85")
@@ -2020,6 +2092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d949335a-ae59-4091-b476-f55183cf120d")
 		)
@@ -2059,7 +2140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 109.22 0)
 			(effects
 				(font
@@ -2078,6 +2159,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
 			(at 99.06 105.41 0)
 			(effects
 				(font
@@ -2327,7 +2435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.2948 95.25 0)
 			(effects
 				(font
@@ -2346,6 +2454,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM188R61A226ME15D"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 22UF 10V X5R 0603"
 			(at 175.26 91.44 0)
 			(effects
 				(font

@@ -13867,7 +13867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ce8eda-3f3b-487c-afd7-c4acac7df494")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR050"
 			(at 243.84 64.77 0)
 			(effects
 				(font
@@ -13917,7 +13917,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR029")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13933,7 +13933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06e1b55f-2b4e-4a8d-b979-08a20f51d8b7")
-		(property "Reference" "C162"
+		(property "Reference" "C89"
 			(at 201.93 102.87 0)
 			(effects
 				(font
@@ -13996,6 +13996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a191719d-b120-4633-a335-5531465b2323")
 		)
@@ -14005,7 +14014,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C162")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -14021,7 +14030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "082e817f-4f10-4483-afc4-488fe4265a89")
-		(property "Reference" "C186"
+		(property "Reference" "C98"
 			(at 217.17 128.27 0)
 			(effects
 				(font
@@ -14084,6 +14093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dccc081-2b64-4fd9-8fce-0ff9d3091152")
 		)
@@ -14093,7 +14111,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C186")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -14109,7 +14127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d73e159-ef0f-407e-9bca-4271971752aa")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR039"
 			(at 91.44 184.15 0)
 			(effects
 				(font
@@ -14159,7 +14177,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR027")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14175,7 +14193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1469d80e-cf72-457e-a49e-0b7eea516a27")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR048"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -14225,7 +14243,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR069")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14241,7 +14259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16296a13-2039-4983-b492-e6f2e1bbd093")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR047"
 			(at 205.74 64.77 0)
 			(effects
 				(font
@@ -14291,7 +14309,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR068")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14307,7 +14325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc82347-4607-4986-ae72-09b1b2a63d7b")
-		(property "Reference" "C159"
+		(property "Reference" "C100"
 			(at 224.79 102.87 0)
 			(effects
 				(font
@@ -14370,6 +14388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 226.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d76dfb41-cdce-4735-b584-bc7b2e91068f")
 		)
@@ -14379,7 +14406,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C159")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -14395,7 +14422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c95927c-1d64-4393-92b3-efd39b785092")
-		(property "Reference" "C166"
+		(property "Reference" "C96"
 			(at 217.17 77.47 0)
 			(effects
 				(font
@@ -14458,6 +14485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cd0072c-c345-4498-b34c-f2c9419b68a3")
 		)
@@ -14467,7 +14503,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C166")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -14483,7 +14519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21aaa7f8-1e78-49d3-8fb5-d2f164216075")
-		(property "Reference" "C170"
+		(property "Reference" "C82"
 			(at 186.69 77.47 0)
 			(effects
 				(font
@@ -14546,6 +14582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 187.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94375438-72cd-4def-92cf-44f1f5f3c43c")
 		)
@@ -14555,7 +14600,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C170")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -14571,7 +14616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2572a1c8-1eb4-41e8-b0a3-32afc25891a1")
-		(property "Reference" "C181"
+		(property "Reference" "C80"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -14634,6 +14679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 180.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59a522a2-2ef4-4228-bf0b-fb181ed3adbe")
 		)
@@ -14643,7 +14697,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C181")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -14659,7 +14713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28676044-e482-4794-8667-bd13a657b8be")
-		(property "Reference" "C185"
+		(property "Reference" "C94"
 			(at 209.55 128.27 0)
 			(effects
 				(font
@@ -14722,6 +14776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62048b29-e29c-4111-a10b-aecfd58da8da")
 		)
@@ -14731,7 +14794,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C185")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -14747,7 +14810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe3077f-3c76-4c22-978e-84e420a22a8a")
-		(property "Reference" "C172"
+		(property "Reference" "C74"
 			(at 171.45 77.47 0)
 			(effects
 				(font
@@ -14810,6 +14873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "178e9fc9-5749-4a3d-8940-fd82d394300a")
 		)
@@ -14819,7 +14891,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C172")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37c43ed2-5fc5-44b7-8463-f61005735981")
-		(property "Reference" "C180"
+		(property "Reference" "C76"
 			(at 171.45 128.27 0)
 			(effects
 				(font
@@ -14889,6 +14961,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18e0e264-4748-4641-85d0-a93d51f1d065")
 		)
@@ -14898,7 +14997,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C180")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -14914,7 +15013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38e30981-b9d6-445b-9cde-34a0d127c1b7")
-		(property "Reference" "C167"
+		(property "Reference" "C92"
 			(at 209.55 77.47 0)
 			(effects
 				(font
@@ -14977,6 +15076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "228a8e1b-9e2d-4373-bbbc-dbe53560bff8")
 		)
@@ -14986,7 +15094,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C167")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -15002,7 +15110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c0a7e67-2a52-40a0-ad51-71198e5829df")
-		(property "Reference" "C178"
+		(property "Reference" "C75"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -15065,6 +15173,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a24e5db-bf97-4dcd-8098-3123115b5e0e")
 		)
@@ -15074,7 +15191,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C178")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -15090,7 +15207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ba7edd-5b39-42c9-963a-da22b123e880")
-		(property "Reference" "C173"
+		(property "Reference" "C72"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -15108,7 +15225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 164.1348 109.22 0)
 			(effects
 				(font
@@ -15144,6 +15261,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a94de452-a133-43c3-9aed-d7b7d2efdba4")
 		)
@@ -15153,7 +15297,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C173")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -15169,7 +15313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41711301-614a-4c86-8611-af88c84dc00c")
-		(property "Reference" "C175"
+		(property "Reference" "C86"
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -15232,6 +15376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7566b767-a6f8-46da-ada6-ba0b9b46165c")
 		)
@@ -15241,7 +15394,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C175")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -15257,7 +15410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4478cfcd-f15c-426e-a638-5c642488688d")
-		(property "Reference" "C25"
+		(property "Reference" "C69"
 			(at 146.05 46.99 0)
 			(effects
 				(font
@@ -15275,7 +15428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 146.3548 53.34 0)
 			(effects
 				(font
@@ -15311,6 +15464,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27dc34d3-3d9f-4c7e-a5ba-1784a319972f")
 		)
@@ -15320,7 +15500,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C25")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -15337,7 +15517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4abfc115-050e-4572-b088-5faa208df637")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR042"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -15387,7 +15567,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR067")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15403,7 +15583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56dd12fc-a71b-414b-9143-c9a1c960f58f")
-		(property "Reference" "C30"
+		(property "Reference" "C70"
 			(at 153.67 46.99 0)
 			(effects
 				(font
@@ -15457,6 +15637,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8bb5f82c-8cd2-4406-8c77-4c7ea6b775e2")
 		)
@@ -15466,7 +15673,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C30")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -15482,7 +15689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58fe3f4c-ee84-4fb9-9e90-f1aedcaa1406")
-		(property "Reference" "C179"
+		(property "Reference" "C73"
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -15500,7 +15707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 164.1348 134.62 0)
 			(effects
 				(font
@@ -15536,6 +15743,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fef5f112-a9d1-43dc-86b1-449e7d7a6f3c")
 		)
@@ -15545,7 +15779,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C179")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -15561,7 +15795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ffaa0b8-ac21-41a9-bc87-595b8977ed1b")
-		(property "Reference" "C22"
+		(property "Reference" "C104"
 			(at 242.57 46.99 0)
 			(effects
 				(font
@@ -15615,6 +15849,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8be6f5ea-f930-4816-9921-43b3b4d5edc9")
 		)
@@ -15624,7 +15885,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C22")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -15640,7 +15901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76dbc25b-9c27-4b49-85c9-1bc15b0794bd")
-		(property "Reference" "C21"
+		(property "Reference" "C103"
 			(at 234.95 46.99 0)
 			(effects
 				(font
@@ -15658,7 +15919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 235.2548 53.34 0)
 			(effects
 				(font
@@ -15694,6 +15955,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2112ef4-ac02-4f2b-9a7e-78a64f1403d1")
 		)
@@ -15703,7 +15991,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C21")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -15719,7 +16007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d2f05c-b1d9-47b8-a79f-87c90964fcd8")
-		(property "Reference" "C171"
+		(property "Reference" "C78"
 			(at 179.07 77.47 0)
 			(effects
 				(font
@@ -15782,6 +16070,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96d2546a-5f03-45b2-b2a4-c338e32ec8a3")
 		)
@@ -15791,7 +16088,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C171")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -15808,7 +16105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a43a55-c468-43fd-940a-2dc2e63671d4")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR043"
 			(at 165.1 120.65 0)
 			(effects
 				(font
@@ -15858,7 +16155,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR065")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15874,7 +16171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83c98a81-160a-484e-92cd-f3d457a5bf8a")
-		(property "Reference" "C158"
+		(property "Reference" "C81"
 			(at 184.15 46.99 0)
 			(effects
 				(font
@@ -15928,6 +16225,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce0457c5-a26d-42ee-97f4-bad6ab9cf35e")
 		)
@@ -15937,7 +16261,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C158")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -15953,7 +16277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eef45c6-ec20-4f01-9231-a7d0542d35d2")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR041"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -16003,7 +16327,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR062")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16019,7 +16343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "907a122f-983b-417e-8d2d-247a258311bb")
-		(property "Reference" "C174"
+		(property "Reference" "C71"
 			(at 163.83 77.47 0)
 			(effects
 				(font
@@ -16073,6 +16397,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9eef7fed-4b13-4cb4-af0e-4a373c3b7440")
 		)
@@ -16082,7 +16433,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C174")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -16098,7 +16449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96c7f1ee-9cc2-4a9c-aaf0-8b050cf89211")
-		(property "Reference" "C164"
+		(property "Reference" "C101"
 			(at 232.41 77.47 0)
 			(effects
 				(font
@@ -16161,6 +16512,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53f147ca-51da-420d-a885-35c6e01eb077")
 		)
@@ -16170,7 +16530,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C164")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -16186,7 +16546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9add2720-4efb-476f-acd6-1ddc226dcacf")
-		(property "Reference" "C163"
+		(property "Reference" "C102"
 			(at 232.41 102.87 0)
 			(effects
 				(font
@@ -16249,6 +16609,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7218f456-f50c-49a1-94ba-9bf508d4923f")
 		)
@@ -16258,7 +16627,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C163")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -16274,7 +16643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9ab55b-a15a-42b4-a876-bba27b68b46d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR049"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -16324,7 +16693,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR028")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -16340,7 +16709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5d31b5-82c1-45db-aa6e-003154d5a34e")
-		(property "Reference" "C165"
+		(property "Reference" "C99"
 			(at 224.79 77.47 0)
 			(effects
 				(font
@@ -16403,6 +16772,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 226.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07071116-cb51-4345-a00e-442bc7cbf543")
 		)
@@ -16412,7 +16790,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C165")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -16428,7 +16806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e563eb9-73d4-42d2-b47a-e876cceddb20")
-		(property "Reference" "C184"
+		(property "Reference" "C90"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -16491,6 +16869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78f827ab-1a13-4c18-8ac6-b56cefbd3581")
 		)
@@ -16500,7 +16887,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C184")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -16516,7 +16903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8cc37aa-a55f-4592-8af5-f8c2780d1580")
-		(property "Reference" "C187"
+		(property "Reference" "C91"
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -16534,7 +16921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 204.7748 53.34 0)
 			(effects
 				(font
@@ -16570,6 +16957,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f1c3eb2-a71a-41cf-966a-298ff0f6c349")
 		)
@@ -16579,7 +16993,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C187")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -16595,7 +17009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6a6bc93-4b56-4055-ae07-f3ed6365dc1b")
-		(property "Reference" "C176"
+		(property "Reference" "C83"
 			(at 186.69 102.87 0)
 			(effects
 				(font
@@ -16658,6 +17072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5cdce5-292e-41af-af28-a9274fd10c6e")
 		)
@@ -16667,7 +17090,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C176")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -16683,7 +17106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b84f0cd6-d0f8-4dfc-b3a2-37f2218a1109")
-		(property "Reference" "C177"
+		(property "Reference" "C79"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -16746,6 +17169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aef70bf0-8ff0-447c-b4c4-9e480a524f31")
 		)
@@ -16755,7 +17187,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C177")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -16771,7 +17203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb2dd892-976e-4d52-bd94-c3fca5c0baae")
-		(property "Reference" "C161"
+		(property "Reference" "C93"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -16834,6 +17266,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4ff2876-1cd8-472d-9ed2-29ce17fbf86c")
 		)
@@ -16843,7 +17284,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C161")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -16884,12 +17325,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/search/all?value-filters=Document_Type_custom~%2522Data+Sheet%2522_%2522Introductory+Resources%257CSelection+Guide%2522_%2522Introductory+Resources%257CWhite+Paper%2522*Product_custom~%2522Adaptive+SoCs+%2526+FPGAs%257CFPGA%257CArtix+7%2522&content-lang=en-US"
 			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
@@ -16902,6 +17344,33 @@
 			)
 		)
 		(property "Name" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMD"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "XC7A100T-1FGG484C"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC FPGA 285 I/O 484FBGA"
 			(at 63.5 78.74 0)
 			(effects
 				(font
@@ -18381,7 +18850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0db5ffc-09d0-45e6-9a49-bb8157247851")
-		(property "Reference" "C183"
+		(property "Reference" "C87"
 			(at 194.31 128.27 0)
 			(effects
 				(font
@@ -18444,6 +18913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 195.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b9de8f9-8b78-4c31-bdff-28338d294a85")
 		)
@@ -18453,7 +18931,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C183")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -18469,7 +18947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2a08b35-2b94-4437-a014-4c3a55130466")
-		(property "Reference" "C188"
+		(property "Reference" "C95"
 			(at 212.09 46.99 0)
 			(effects
 				(font
@@ -18523,6 +19001,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1528e3ec-b1ed-4730-b203-93dfe7c03c9a")
 		)
@@ -18532,7 +19037,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C188")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -18549,7 +19054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a0f3e8-0985-4ed5-bf66-5464fccdba93")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR044"
 			(at 165.1 146.05 0)
 			(effects
 				(font
@@ -18599,7 +19104,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR066")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -18614,7 +19119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7f51e65-aa32-40d1-b32d-a0bc17e3afde")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR046"
 			(at 185.42 64.77 0)
 			(effects
 				(font
@@ -18664,7 +19169,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR064")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18680,7 +19185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d29624dd-8dd5-4ac8-bda5-f5d7b0f171f1")
-		(property "Reference" "C109"
+		(property "Reference" "C77"
 			(at 176.53 46.99 0)
 			(effects
 				(font
@@ -18698,7 +19203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 176.8348 53.34 0)
 			(effects
 				(font
@@ -18734,6 +19239,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "TAJA476K006SNJV"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP TANT 47UF 10% 6.3V 1206"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f134c09a-c886-4aab-ae4a-b629368b820e")
 		)
@@ -18743,7 +19275,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C109")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -18759,7 +19291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc7267be-e446-4c54-b122-d30fb7bf7f7f")
-		(property "Reference" "C168"
+		(property "Reference" "C88"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -18822,6 +19354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fda57dea-a9a2-4633-92c7-cd82ed808ff9")
 		)
@@ -18831,7 +19372,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C168")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -18847,7 +19388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2bacfe5-855b-4f2c-accd-342a3d0020ab")
-		(property "Reference" "C169"
+		(property "Reference" "C85"
 			(at 194.31 77.47 0)
 			(effects
 				(font
@@ -18910,6 +19451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b42144d2-0034-4f0b-b6d0-d5f13a79df30")
 		)
@@ -18919,7 +19469,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C169")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -18935,7 +19485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36979b7-57db-4f28-903a-c1bdca9ffd42")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR040"
 			(at 147.32 64.77 0)
 			(effects
 				(font
@@ -18985,7 +19535,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR061")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19000,7 +19550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f320ebcf-a610-4161-bafb-047ced985545")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR045"
 			(at 177.8 64.77 0)
 			(effects
 				(font
@@ -19050,7 +19600,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR063")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19066,7 +19616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3910bd8-527b-42fe-be8e-9e1d1c0c069b")
-		(property "Reference" "C182"
+		(property "Reference" "C84"
 			(at 186.69 128.27 0)
 			(effects
 				(font
@@ -19129,6 +19679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "839292b6-c67e-4085-a6be-d038fd9c5538")
 		)
@@ -19138,7 +19697,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C182")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -19154,7 +19713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8ac523a-1548-442a-9ce2-5d7c6907c194")
-		(property "Reference" "C160"
+		(property "Reference" "C97"
 			(at 217.17 102.87 0)
 			(effects
 				(font
@@ -19217,6 +19776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a9a62a-377b-4fcc-be80-0aa7ec959d3d")
 		)
@@ -19226,7 +19794,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "C160")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -19243,7 +19811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd38432-a0cd-4003-bb62-db83d7017f02")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR038"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -19293,7 +19861,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/94db1840-7840-4b32-9939-76c2575d480c"
-					(reference "#PWR026")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

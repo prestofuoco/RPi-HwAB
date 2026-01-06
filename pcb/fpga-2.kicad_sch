@@ -19017,7 +19017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0292b46e-9097-410b-9508-e44cde286ed1")
-		(property "Reference" "C140"
+		(property "Reference" "C31"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -19080,6 +19080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5233538-93fc-429a-89eb-60a73c62ef3c")
 		)
@@ -19089,7 +19098,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C140")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -19130,12 +19139,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/search/all?value-filters=Document_Type_custom~%2522Data+Sheet%2522_%2522Introductory+Resources%257CSelection+Guide%2522_%2522Introductory+Resources%257CWhite+Paper%2522*Product_custom~%2522Adaptive+SoCs+%2526+FPGAs%257CFPGA%257CArtix+7%2522&content-lang=en-US"
 			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
@@ -19148,6 +19158,33 @@
 			)
 		)
 		(property "Name" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMD"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "XC7A100T-1FGG484C"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC FPGA 285 I/O 484FBGA"
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -20626,7 +20663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1449be01-7420-40c1-b34a-0c437d7da434")
-		(property "Reference" "C137"
+		(property "Reference" "C36"
 			(at 240.03 97.79 0)
 			(effects
 				(font
@@ -20689,6 +20726,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ad23027-020c-4aa4-9c58-d085048c65eb")
 		)
@@ -20698,7 +20744,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C137")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -20713,7 +20759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b00224f-cb7c-42c2-a50b-72debea67150")
-		(property "Reference" "C141"
+		(property "Reference" "C33"
 			(at 224.79 123.19 0)
 			(effects
 				(font
@@ -20776,6 +20822,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b19faab-0cf5-44a9-978d-7f14e0f28e17")
 		)
@@ -20785,7 +20840,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C141")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -20800,7 +20855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e758e8c-376e-4ea9-876e-bd2cf00d5baf")
-		(property "Reference" "C138"
+		(property "Reference" "C38"
 			(at 247.65 97.79 0)
 			(effects
 				(font
@@ -20863,6 +20918,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad869fe7-e865-48d1-9da2-ecbcca07783e")
 		)
@@ -20872,7 +20936,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C138")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -20887,7 +20951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23fef52b-4260-4e52-8f88-8c73cae4b4fd")
-		(property "Reference" "C129"
+		(property "Reference" "C30"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -20950,6 +21014,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdb1716c-cb3e-49a5-96ad-72917b0aab83")
 		)
@@ -20959,7 +21032,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C129")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -20974,7 +21047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3060c8bc-b69b-4d48-962f-174596782601")
-		(property "Reference" "C142"
+		(property "Reference" "C35"
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -21037,6 +21110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 231.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9f01bdb-5081-49a7-9ca3-6616af55099f")
 		)
@@ -21046,7 +21128,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C142")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -21061,7 +21143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31a41e1a-3f3c-4188-9007-2786c6fd5d67")
-		(property "Reference" "C144"
+		(property "Reference" "C39"
 			(at 247.65 123.19 0)
 			(effects
 				(font
@@ -21124,6 +21206,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9d15ee9-16e6-4c22-ab56-aabd0cd2efdb")
 		)
@@ -21133,7 +21224,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C144")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -21149,7 +21240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc4b123-acb3-41cb-b269-440f8216b00e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR029"
 			(at 254 140.97 0)
 			(effects
 				(font
@@ -21199,7 +21290,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "#PWR058")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -21214,7 +21305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40a683c4-7094-44c4-ad9d-d3754299734a")
-		(property "Reference" "C143"
+		(property "Reference" "C37"
 			(at 240.03 123.19 0)
 			(effects
 				(font
@@ -21277,6 +21368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "226eba19-d119-4143-ad04-56d75370e698")
 		)
@@ -21286,7 +21386,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C143")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -21303,7 +21403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78edae3c-f75c-470a-98cd-69dcd1218220")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 38.1 17.78 0)
 			(effects
 				(font
@@ -21328,12 +21428,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.amd.com/search/all?value-filters=Document_Type_custom~%2522Data+Sheet%2522_%2522Introductory+Resources%257CSelection+Guide%2522_%2522Introductory+Resources%257CWhite+Paper%2522*Product_custom~%2522Adaptive+SoCs+%2526+FPGAs%257CFPGA%257CArtix+7%2522&content-lang=en-US"
 			(at 38.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
@@ -21346,6 +21447,33 @@
 			)
 		)
 		(property "Name" ""
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AMD"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "XC7A100T-1FGG484C"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC FPGA 285 I/O 484FBGA"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -22809,7 +22937,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "U8")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -22824,7 +22952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c27b8e9-51f9-4bc1-b1c2-2752250ef561")
-		(property "Reference" "C139"
+		(property "Reference" "C40"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -22887,6 +23015,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d9a4e1a-4cea-45bd-9405-7819a31648b4")
 		)
@@ -22896,7 +23033,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C139")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -22911,7 +23048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31f41b4-6378-4af6-b7d4-59065cb774e9")
-		(property "Reference" "C136"
+		(property "Reference" "C34"
 			(at 232.41 97.79 0)
 			(effects
 				(font
@@ -22974,6 +23111,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 231.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5962719-7d67-492b-a1a0-991fb706226e")
 		)
@@ -22983,7 +23129,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C136")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -22999,7 +23145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f6455f-6469-448e-a3a4-8c62d5926d12")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR028"
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -23049,7 +23195,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "#PWR057")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -23064,7 +23210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dde49700-d15d-456f-a908-90489e911833")
-		(property "Reference" "C145"
+		(property "Reference" "C41"
 			(at 255.27 123.19 0)
 			(effects
 				(font
@@ -23127,6 +23273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 254 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a195a03-1f32-4084-a6be-9e97b69a2284")
 		)
@@ -23136,7 +23291,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C145")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -23151,7 +23306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faba6ef7-132c-4bf7-8771-40da807133f6")
-		(property "Reference" "C135"
+		(property "Reference" "C32"
 			(at 224.79 97.79 0)
 			(effects
 				(font
@@ -23214,6 +23369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a32464fa-360d-44cc-8064-4acb11d1b5f8")
 		)
@@ -23223,7 +23387,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C135")
+					(reference "C32")
 					(unit 1)
 				)
 			)

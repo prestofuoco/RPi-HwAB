@@ -931,7 +931,7 @@
 		(at 195.58 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd6953a-728e-40d7-991d-e949a2f3cfff")
@@ -973,6 +973,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
 			(at 195.58 73.66 0)
 			(effects
 				(font
@@ -1196,6 +1205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "IC REG LINEAR 1.2V 300MA SOT23-5"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fede8dfd-52e9-4c19-8939-817408bde0b6")
 		)
@@ -1292,6 +1310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Description" "CAP CER 1UF 6.3V X5R 0402"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffc8f137-b01d-4fb4-affc-6c744a823ebb")
 		)
@@ -1372,6 +1399,15 @@
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C105K9PACTU"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "CAP CER 1UF 6.3V X5R 0402"
 			(at 170.18 100.33 0)
 			(effects
 				(font
