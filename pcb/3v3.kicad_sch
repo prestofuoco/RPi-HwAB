@@ -1934,7 +1934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94fda3ca-41d2-4d0e-b31d-a77a84d31849")
-		(property "Reference" "3V3_FD"
+		(property "Reference" "3V3_FD1"
 			(at 210.82 63.5 90)
 			(effects
 				(font
@@ -1995,7 +1995,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/623ac269-424c-4b40-80d6-6e60349ac538"
-					(reference "3V3_FD")
+					(reference "3V3_FD1")
 					(unit 1)
 				)
 			)
