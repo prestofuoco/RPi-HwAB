@@ -1724,7 +1724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0add6211-ae86-49d1-a063-4f5082d328a4")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 72.39 104.1399 0)
 			(effects
 				(font
@@ -1742,7 +1742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 77.1652 109.22 0)
 			(effects
 				(font
@@ -1769,7 +1769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -1778,7 +1778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "GRM155R61A106ME11D"
+		(property "Manufacturer Product Number" "TAJA106M010RNJ"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "CAP CER 10UF 10V X5R 0402"
+		(property "Part Description" "CAP TANT 10UF 20% 10V 1206"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -1805,7 +1805,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -1820,7 +1820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a9154da-b693-403d-85ba-5809e2ff8c73")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 167.64 115.57 0)
 			(effects
 				(font
@@ -1870,7 +1870,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1961,7 +1961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "382e0a3a-82a1-4ad5-894d-0d16f4954f8b")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -2042,7 +2042,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2058,7 +2058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b7cda5d-f1cb-45b5-9f1d-9c36100c8055")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 196.85 80.01 90)
 			(effects
 				(font
@@ -2146,7 +2146,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2228,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0a8254-ef7a-4d0f-8bb2-a8affd2b7ab5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 76.2 118.11 0)
 			(effects
 				(font
@@ -2278,7 +2278,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2293,7 +2293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8df03438-1d61-4e69-aa7f-782e7268312b")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -2374,7 +2374,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf82f20-b24b-454b-afc5-d76fc1c77f30")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 196.85 91.44 90)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d818b3-6c5a-4035-bfac-c8bbf1b47392")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 124.46 118.11 0)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da765703-e91b-4192-be09-93918aa70d8e")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -2965,7 +2965,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2980,7 +2980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f36ead50-7a83-4a74-9658-f6b96eda730b")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 205.74 88.9 0)
 			(effects
 				(font
@@ -3070,7 +3070,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f9ebb56c-78c7-42ac-bc19-ccbf788f5318/40f8c9cc-8de9-43ac-8cba-fe7ae095cfae"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)

@@ -1,36 +1,18 @@
 (version 1)
-#PCBWay Custom DRC for Kicad 7
+# JLCPCB Custom DRC for KiCad 7/8 - 6 Layer Setup
+# Based on JLCPCB Capabilities: https://jlcpcb.com/capabilities/Capabilities
 
-# ----------------------------------- Minimum trace width and spacing (PICK ONE) --------------------
+# ----------------------------------- Minimum trace width and spacing --------------------
 
-# 2oz copper
-#(rule "Minimum Trace Width and Spacing (outer layer)"
-	#(constraint track_width (min 0.1524mm))
-	#(constraint clearance (min 0.1778mm))
-	#(layer outer)
-	#(condition "A.Type == 'track'"))
+(rule "BGA_Escape_Override"
+    (constraint clearance (min 0.09mm))
+    (constraint hole_clearance (min 0.19mm))
+    (condition "A.Type == 'via' && B.Type == 'track'"))
 
-#(rule "Minimum Trace Width and Spacing (innner layer)"
-	#(constraint track_width (min 0.1524mm))
-	#(constraint clearance (min 0.1778mm))
-	#(layer inner)
-	#(condition "A.Type == 'track'"))
+# 6-Layer Standard (Weight: 1oz Outer / 0.5oz Inner)
+# JLCPCB allows down to 0.09mm (3.5mil) for multi-layer boards.
+# We set 0.09mm to allow for BGA escape routing.
 
-
-# 2-layer, 1oz copper
-#(rule "Minimum Trace Width and Spacing (outer layer)"
-	#(constraint track_width (min 0.127mm))
-	#(constraint clearance (min 0.127mm))
-	#(layer outer)
-	#(condition "A.Type == 'track'"))
-
-#(rule "Minimum Trace Width and Spacing (inner layer)"
-	#(constraint track_width (min 0.1mm))
-	#(constraint clearance (min 0.1mm))
-	#(layer inner)
-	#(condition "A.Type == 'track'"))
-
-# 4-layer , 1oz and 0.5oz copper
 (rule "Minimum Trace Width and Spacing (outer layer)"
 	(constraint track_width (min 0.09mm))
 	(constraint clearance (min 0.09mm))
@@ -38,54 +20,38 @@
 	(condition "A.Type == 'track'"))
 
 (rule "Minimum Trace Width and Spacing (inner layer)"
-	(constraint track_width (min 0.1mm))
+	(constraint track_width (min 0.09mm))
 	(constraint clearance (min 0.09mm))
 	(layer inner)
 	(condition "A.Type == 'track'"))
 
 # ------------------------------------------------------------------------------------------------------
 
-# Drill/hole size - listed here to maintain order of rule application. Must not override rule set in Via hole/diameter size below.
+# Drill/hole size - listed here to maintain order of application.
 (rule "drill hole size (mechanical)"
-(constraint hole_size (min 0.15mm) (max 6.3mm)))
+	(constraint hole_size (min 0.15mm) (max 6.3mm)))
 
-# ----------------------------------- Via hole/diameter size (PICK ONE) ------------------------------------
+# ----------------------------------- Via hole/diameter size ------------------------------------
 
-# 2-layer standard
-#(rule "Minimum Via Diameter and Hole Size"
+# OPTION 1: "Standard" (Lowest Cost) - 0.3mm Hole / 0.5mm Via
+# Use this if you want to save money and don't strictly need 0.2mm vias.
+#(rule "Minimum Via Diameter and Hole Size (Standard Cost)"
 	#(constraint hole_size (min 0.3mm))
 	#(constraint via_diameter (min 0.5mm))
 	#(condition "A.Type == 'via'"))
 
-# 4-layer standard
-#(rule "Minimum Via Diameter and Hole Size"
-	#(constraint hole_size (min 0.3mm))
-	#(constraint via_diameter (min 0.45mm))
-	#(condition "A.Type == 'via'"))
-
-# 4-layer advanced
-#(rule "Minimum Via Diameter and Hole Size"
-	#(constraint hole_size (min 0.25mm))
-	#(constraint via_diameter (min 0.4mm))
-	#(constraint disallow buried_via)
-	#(condition "A.Type == 'via'"))
-
-# 4-layer advanced
-#(rule "Minimum Via Diameter and Hole Size"
-	#(constraint hole_size (min 0.2mm))
-	#(constraint via_diameter (min 0.35mm))
-	#(condition "A.Type == 'via'"))
-
-# 4-layer advanced
-(rule "Minimum Via Diameter and Hole Size"
-	(constraint hole_size (min 0.15mm))
-	(constraint via_diameter (min 0.3mm))
+# OPTION 2: "Advanced" (Required for Artix-7 BGA) - 0.2mm Hole / 0.4mm Via
+# JLCPCB supports 0.2mm hole with 0.4mm or 0.45mm pad.
+# This rule is ENABLED by default for your project.
+(rule "Minimum Via Diameter and Hole Size (BGA/High Density)"
+	(constraint hole_size (min 0.2mm))
+	(constraint via_diameter (min 0.4mm))
 	(condition "A.Type == 'via'"))
 
 # ----------------------------------- Drill/hole size ------------------------------------
 
 (rule "PTH Hole Size"
-	(constraint hole_size (min 0.2mm) (max 6.35mm))
+	(constraint hole_size (min 0.2mm) (max 6.3mm))
 	(condition "A.Type != 'Via' && A.isPlated()"))
 
 (rule "Minimum Non-plated Hole Size"
@@ -93,8 +59,8 @@
 	(condition "A.Type == 'pad' && !A.isPlated()"))
 
 (rule "Pad Size"
-	(constraint hole_size (min 0.5mm))
-	(constraint annular_width (min 0.25mm))
+	(constraint hole_size (min 0.2mm))
+	(constraint annular_width (min 0.13mm))
 	(condition "A.Type == 'Pad' && A.isPlated()"))
 
 (rule "Minimum Castellated Hole Size"
@@ -110,54 +76,47 @@
 	(condition "(A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()"))
 
 # ----------------------------------- Minimum clearance ----------------------------------
+
+# JLCPCB requires slightly larger clearances for PTH to Track to avoid breakout.
+
 (rule "hole to hole clearance (different nets)"
 	(constraint hole_to_hole (min 0.25mm))
 	(condition "A.Net != B.Net"))
 
-(rule "via to track clearance"
-	(constraint hole_clearance (min 0.25mm))
-	(condition "A.Type == 'via' && B.Type == 'track'"))
-
 (rule "via to via clearance (same nets)"
-	(constraint hole_to_hole (min 0.25mm))
+	(constraint hole_to_hole (min 0.2mm))
 	(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
 
 (rule "pad to pad clearance (with hole, different nets)"
 	(constraint hole_to_hole (min 0.5mm))
 	(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
 
-(rule "pad to pad clearance (without hole, different nets)"
-	(constraint clearance (min 0.12mm))
+(rule "pad to pad clearance (SMD, different nets)"
+	(constraint clearance (min 0.127mm))
 	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
 
 (rule "NPTH to Track clearance"
 	(constraint hole_clearance (min 0.25mm))
 	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
 
-(rule "NPTH with copper around"
-	(constraint hole_clearance (min 0.20mm))
-	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
-
 (rule "PTH to Track clearance"
 	(constraint hole_clearance (min 0.33mm))
 	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
 
-(rule "Pad to Track clearance"
-	(constraint clearance (min 0.2mm))
-	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+# ----------------------------------- Board Outlines -------------------------------------
 
-# ----------------------------------- Board Outlines (PICK ONE) -------------------------------------
-#Default Routed Edge Clearance
+# Standard routed edge clearance for multi-layer boards
 (rule "Trace to Outline"
 	(constraint edge_clearance (min 0.3mm))
 	(condition "A.Type == 'track'"))
 
-#Special Clearance for V-Score Edges
+# Copper to V-Cut (if you use V-Score panels, uncomment this)
 #(rule "Trace to V-Cut"
 	#(constraint edge_clearance (min 0.4mm))
 	#(condition "A.Type == 'track'"))
 
-# ----------------------------------- silkscreen --------------------------
+# ----------------------------------- Silkscreen --------------------------
+
 (rule "Minimum Text"
 	(constraint text_thickness (min 0.15mm))
 	(constraint text_height (min 0.8mm))
@@ -168,7 +127,18 @@
 	(layer outer)
 	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
 
-# --------------------------------- andre rule ----------------------------
+# --------------------------------- Custom Rules ----------------------------
+
+# Zone connection optimization (Prevents thermal spokes from being too thin)
 (rule "Zone_to_Track_Clearance"
-    (constraint clearance (min 0.25mm))
-    (condition "A.Type == 'Zone' && B.Type == 'Track'"))
+	(constraint clearance (min 0.2mm))
+	(condition "A.Type == 'Zone' && B.Type == 'Track'"))
+
+# BGA Specific - Disallow Vias inside pads (unless you pay for Via-in-Pad)
+(rule "No Vias in Pads"
+	(constraint clearance (min 0.1mm))
+	(condition "A.Type == 'Via' && B.Type == 'Pad'"))
+
+(rule "via to track clearance"
+	(constraint hole_clearance (min 0.2mm))
+	(condition "A.Type == 'via' && B.Type == 'track'"))

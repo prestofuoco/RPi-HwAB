@@ -899,7 +899,7 @@
 				(justify left)
 			)
 		)
-		(pin "BA0" bidirectional
+		(pin "DDR_BA0" bidirectional
 			(at 132.08 86.36 180)
 			(uuid "67dc3e74-680b-4aa6-bf21-9f5d73d2bbea")
 			(effects
@@ -909,7 +909,7 @@
 				(justify left)
 			)
 		)
-		(pin "BA1" bidirectional
+		(pin "DDR_BA1" bidirectional
 			(at 132.08 88.9 180)
 			(uuid "2b4c320b-692c-4f93-85fc-e6c4d8de2a38")
 			(effects
@@ -919,7 +919,7 @@
 				(justify left)
 			)
 		)
-		(pin "BA2" bidirectional
+		(pin "DDR_BA2" bidirectional
 			(at 132.08 91.44 180)
 			(uuid "32d7b485-2e9b-4b75-bbee-a89d3897c93f")
 			(effects
@@ -929,7 +929,7 @@
 				(justify left)
 			)
 		)
-		(pin "CASn" bidirectional
+		(pin "DDR_CASn" bidirectional
 			(at 132.08 109.22 180)
 			(uuid "54032409-efad-4741-a704-f3ba58b0f763")
 			(effects
@@ -939,7 +939,7 @@
 				(justify left)
 			)
 		)
-		(pin "CKE" bidirectional
+		(pin "DDR_CKE" bidirectional
 			(at 132.08 99.06 180)
 			(uuid "5babf319-0f42-4cd3-8d60-d212db35f0fe")
 			(effects
@@ -949,7 +949,7 @@
 				(justify left)
 			)
 		)
-		(pin "CKn" bidirectional
+		(pin "DDR_CKn" bidirectional
 			(at 132.08 116.84 180)
 			(uuid "9ff4e595-194e-446c-9696-1f1087527d7a")
 			(effects
@@ -959,7 +959,7 @@
 				(justify left)
 			)
 		)
-		(pin "CKp" bidirectional
+		(pin "DDR_CKp" bidirectional
 			(at 132.08 119.38 180)
 			(uuid "6a9a8d82-31c6-4182-8bef-e64828667e33")
 			(effects
@@ -969,7 +969,7 @@
 				(justify left)
 			)
 		)
-		(pin "CSn" bidirectional
+		(pin "DDR_CSn" bidirectional
 			(at 132.08 104.14 180)
 			(uuid "330a791d-29ca-416f-9e9a-6a22fd77b348")
 			(effects
@@ -989,7 +989,7 @@
 				(justify left)
 			)
 		)
-		(pin "LDM" bidirectional
+		(pin "DDR_LDM" bidirectional
 			(at 132.08 78.74 180)
 			(uuid "b2435910-4407-4c8e-b2e0-053895ba9dbd")
 			(effects
@@ -999,7 +999,7 @@
 				(justify left)
 			)
 		)
-		(pin "LDQS_N" bidirectional
+		(pin "DDR_LDQS_N" bidirectional
 			(at 132.08 66.04 180)
 			(uuid "9f19cbe6-9ef7-4c64-8c2e-3b9a8335f2ae")
 			(effects
@@ -1009,7 +1009,7 @@
 				(justify left)
 			)
 		)
-		(pin "LDQS_P" bidirectional
+		(pin "DDR_LDQS_P" bidirectional
 			(at 132.08 68.58 180)
 			(uuid "7e1cf260-6ce7-4855-882e-7093fbdc24b3")
 			(effects
@@ -1019,7 +1019,7 @@
 				(justify left)
 			)
 		)
-		(pin "ODT" bidirectional
+		(pin "DDR_ODT" bidirectional
 			(at 132.08 96.52 180)
 			(uuid "54b60adb-bb34-47c9-8018-4c957cb69a9c")
 			(effects
@@ -1029,7 +1029,7 @@
 				(justify left)
 			)
 		)
-		(pin "RASn" bidirectional
+		(pin "DDR_RASn" bidirectional
 			(at 132.08 106.68 180)
 			(uuid "3c68c0f8-d6a1-4d1c-86b7-99d054740636")
 			(effects
@@ -1039,7 +1039,7 @@
 				(justify left)
 			)
 		)
-		(pin "RESETn" bidirectional
+		(pin "DDR_RESETn" bidirectional
 			(at 132.08 124.46 180)
 			(uuid "e96e675e-519e-4afc-af54-b7156589c460")
 			(effects
@@ -1049,7 +1049,7 @@
 				(justify left)
 			)
 		)
-		(pin "UDM" bidirectional
+		(pin "DDR_UDM" bidirectional
 			(at 132.08 81.28 180)
 			(uuid "50ee6797-2225-4c5f-9666-3e66b4b03906")
 			(effects
@@ -1059,7 +1059,7 @@
 				(justify left)
 			)
 		)
-		(pin "UDQS_N" bidirectional
+		(pin "DDR_UDQS_N" bidirectional
 			(at 132.08 71.12 180)
 			(uuid "e0818457-f9cf-4653-b573-dd76cc1ad292")
 			(effects
@@ -1069,7 +1069,7 @@
 				(justify left)
 			)
 		)
-		(pin "UDQS_P" bidirectional
+		(pin "DDR_UDQS_P" bidirectional
 			(at 132.08 73.66 180)
 			(uuid "f6bf4e4e-de50-491c-a615-e0431acfcb10")
 			(effects
@@ -1079,7 +1079,7 @@
 				(justify left)
 			)
 		)
-		(pin "WEn" bidirectional
+		(pin "DDR_WEn" bidirectional
 			(at 132.08 111.76 180)
 			(uuid "b25b6d98-3cce-4e19-add1-69686252ba95")
 			(effects
@@ -1477,7 +1477,7 @@
 				(justify right)
 			)
 		)
-		(pin "BA0" bidirectional
+		(pin "DDR_BA0" bidirectional
 			(at 124.46 86.36 0)
 			(uuid "119512c7-a66b-41a4-b396-933222f2c5ac")
 			(effects
@@ -1487,7 +1487,7 @@
 				(justify right)
 			)
 		)
-		(pin "BA1" bidirectional
+		(pin "DDR_BA1" bidirectional
 			(at 124.46 88.9 0)
 			(uuid "5e7725a7-93d1-4eab-930f-441435f2696f")
 			(effects
@@ -1497,7 +1497,7 @@
 				(justify right)
 			)
 		)
-		(pin "BA2" bidirectional
+		(pin "DDR_BA2" bidirectional
 			(at 124.46 91.44 0)
 			(uuid "ff71b317-3644-45b8-b668-e7499f9844dd")
 			(effects
@@ -1507,7 +1507,7 @@
 				(justify right)
 			)
 		)
-		(pin "CASn" bidirectional
+		(pin "DDR_CASn" bidirectional
 			(at 124.46 109.22 0)
 			(uuid "bdeb5d94-0012-4af4-9a3a-9dff15598efe")
 			(effects
@@ -1517,7 +1517,7 @@
 				(justify right)
 			)
 		)
-		(pin "CKE" bidirectional
+		(pin "DDR_CKE" bidirectional
 			(at 124.46 99.06 0)
 			(uuid "cb962f8d-8d83-4471-b04d-00020695d08b")
 			(effects
@@ -1527,7 +1527,7 @@
 				(justify right)
 			)
 		)
-		(pin "CKn" bidirectional
+		(pin "DDR_CKn" bidirectional
 			(at 124.46 116.84 0)
 			(uuid "b7f1345d-2752-46d9-a453-9cd2ca36e05e")
 			(effects
@@ -1537,7 +1537,7 @@
 				(justify right)
 			)
 		)
-		(pin "CKp" bidirectional
+		(pin "DDR_CKp" bidirectional
 			(at 124.46 119.38 0)
 			(uuid "ad2f8c24-40ae-4add-b74e-595f03f5991a")
 			(effects
@@ -1547,7 +1547,7 @@
 				(justify right)
 			)
 		)
-		(pin "CSn" bidirectional
+		(pin "DDR_CSn" bidirectional
 			(at 124.46 104.14 0)
 			(uuid "771e472a-d84a-4e0f-a092-fa5bbe4c1b05")
 			(effects
@@ -1557,7 +1557,7 @@
 				(justify right)
 			)
 		)
-		(pin "LDM" bidirectional
+		(pin "DDR_LDM" bidirectional
 			(at 124.46 78.74 0)
 			(uuid "6c03a3f0-4415-4017-b47b-0c4589310dac")
 			(effects
@@ -1567,7 +1567,7 @@
 				(justify right)
 			)
 		)
-		(pin "LDQS_N" bidirectional
+		(pin "DDR_LDQS_N" bidirectional
 			(at 124.46 66.04 0)
 			(uuid "4944d17d-116d-4a52-9f64-aff283af6d96")
 			(effects
@@ -1577,7 +1577,7 @@
 				(justify right)
 			)
 		)
-		(pin "LDQS_P" bidirectional
+		(pin "DDR_LDQS_P" bidirectional
 			(at 124.46 68.58 0)
 			(uuid "6ef27653-c84b-4a1f-8183-5664cc3560e4")
 			(effects
@@ -1587,7 +1587,7 @@
 				(justify right)
 			)
 		)
-		(pin "ODT" bidirectional
+		(pin "DDR_ODT" bidirectional
 			(at 124.46 96.52 0)
 			(uuid "523c2996-9ce6-49ec-a597-f89fe7da11b3")
 			(effects
@@ -1597,7 +1597,7 @@
 				(justify right)
 			)
 		)
-		(pin "RASn" bidirectional
+		(pin "DDR_RASn" bidirectional
 			(at 124.46 106.68 0)
 			(uuid "40bdd35d-047b-4c98-ab78-6757b2304a77")
 			(effects
@@ -1607,7 +1607,7 @@
 				(justify right)
 			)
 		)
-		(pin "RESETn" bidirectional
+		(pin "DDR_RESETn" bidirectional
 			(at 124.46 124.46 0)
 			(uuid "c2376dab-6dd8-4c74-9586-411006e28fc9")
 			(effects
@@ -1617,7 +1617,7 @@
 				(justify right)
 			)
 		)
-		(pin "UDM" bidirectional
+		(pin "DDR_UDM" bidirectional
 			(at 124.46 81.28 0)
 			(uuid "a8a465d4-b1ee-4fb3-b465-db8f03e6c471")
 			(effects
@@ -1627,7 +1627,7 @@
 				(justify right)
 			)
 		)
-		(pin "UDQS_N" bidirectional
+		(pin "DDR_UDQS_N" bidirectional
 			(at 124.46 71.12 0)
 			(uuid "eeec15fc-2597-471d-bab9-b2acdf8a0db0")
 			(effects
@@ -1637,7 +1637,7 @@
 				(justify right)
 			)
 		)
-		(pin "UDQS_P" bidirectional
+		(pin "DDR_UDQS_P" bidirectional
 			(at 124.46 73.66 0)
 			(uuid "f366b75a-c0a0-467c-9013-6f7c208abd44")
 			(effects
@@ -1647,7 +1647,7 @@
 				(justify right)
 			)
 		)
-		(pin "WEn" bidirectional
+		(pin "DDR_WEn" bidirectional
 			(at 124.46 111.76 0)
 			(uuid "b41c42cd-b137-41f6-ae9b-0983bc475745")
 			(effects

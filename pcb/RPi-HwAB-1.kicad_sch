@@ -998,7 +998,7 @@
 	)
 	(text "CONNECTORS"
 		(exclude_from_sim no)
-		(at 76.2 91.44 0)
+		(at 76.2 50.8 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1060,16 +1060,16 @@
 		(uuid "1831fb37-1c5d-42c4-b898-151be6fca9dc")
 	)
 	(junction
-		(at 99.06 33.02)
-		(diameter 0)
-		(color 0 0 255 1)
-		(uuid "2bd3b172-c33b-4c7a-913d-1a557c97c824")
-	)
-	(junction
 		(at 101.6 165.1)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "3cd1bda0-18db-417d-b581-a0c50623df68")
+	)
+	(junction
+		(at 152.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84b5c37-b737-41d6-bd81-5c2a788b1ae4")
 	)
 	(junction
 		(at 101.6 177.8)
@@ -1091,17 +1091,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "025d675a-a52e-4ee5-b1b5-44aeceb650e8")
-	)
-	(wire
-		(pts
 			(xy 81.28 165.1) (xy 93.98 165.1)
 		)
 		(stroke
@@ -1109,17 +1098,6 @@
 			(type solid)
 		)
 		(uuid "070d8c6a-2ebf-42c1-8318-37fabbee6ffb")
-	)
-	(wire
-		(pts
-			(xy 99.06 33.02) (xy 99.06 50.8)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "260a220c-1ce6-4ba2-a6a6-6fa25824c193")
 	)
 	(wire
 		(pts
@@ -1181,6 +1159,26 @@
 			(type solid)
 		)
 		(uuid "471e5a22-03a8-48a4-9d0f-23177f21743e")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480d0688-57f0-43fb-ba17-8c2f3e0bc4a9")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c296603-3821-42e6-a93a-0c90c30a220c")
 	)
 	(wire
 		(pts
@@ -1294,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 33.02) (xy 193.04 33.02)
+			(xy 93.98 33.02) (xy 193.04 33.02)
 		)
 		(stroke
 			(width 0.254)
@@ -1415,13 +1413,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 152.4 99.06)
+			(xy 152.4 88.9) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3c8ecf5-9bf4-491e-9a22-636820b99c26")
+		(uuid "c43e3393-40a2-4527-b6ad-375405c4df3a")
 	)
 	(wire
 		(pts
@@ -1492,17 +1490,6 @@
 			(type default)
 		)
 		(uuid "dc8b5641-e6de-4e08-9903-655d1934a176")
-	)
-	(wire
-		(pts
-			(xy 93.98 33.02) (xy 99.06 33.02)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "df3f8f65-3c91-43fc-8bfd-1f11311237d3")
 	)
 	(wire
 		(pts
@@ -1842,7 +1829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55bbe0f6-d435-4137-8361-5f963fa98019")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 104.14 166.37 0)
 			(effects
 				(font
@@ -1851,7 +1838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3_RPi"
 			(at 104.5083 158.2356 0)
 			(effects
 				(font
@@ -1892,7 +1879,7 @@
 		(instances
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1f566e9-0031-4962-855e-0c4a126ebda1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 81.28 196.85 0)
 			(effects
 				(font
@@ -2067,7 +2054,7 @@
 		(instances
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3_RPi"
 			(at 104.7751 180.7083 90)
 			(effects
 				(font
@@ -2269,16 +2256,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 193.04 33.02 180)
-			(uuid "7fc0e0be-3eb1-4b83-b5ed-bf86fb7aeb23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C1{I2C}" bidirectional
 			(at 193.04 38.1 180)
 			(uuid "54b443c3-5a74-4b72-a2ed-9a200ce345e7")
@@ -2342,6 +2319,16 @@
 		(pin "1V8_SENS_P" input
 			(at 193.04 73.66 180)
 			(uuid "2be8cf03-02d1-4980-86bd-dd54721dde9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_RPi" input
+			(at 193.04 33.02 180)
+			(uuid "d94bd82c-03dc-4b54-9c69-59c18326e2e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,16 +2550,6 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" output
-			(at 93.98 33.02 0)
-			(uuid "d296507b-040c-49da-9abe-020681191c99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "5V0" output
 			(at 93.98 60.96 0)
 			(uuid "df58abb7-3b04-4c7e-91ad-10a6a6e58821")
@@ -2616,6 +2593,26 @@
 		(pin "QSPI0{QSPI}" bidirectional
 			(at 93.98 127 0)
 			(uuid "993ecfaf-f27c-4f92-a1b7-5009e75bd22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_FD" input
+			(at 93.98 88.9 0)
+			(uuid "87d9801b-62b5-4a22-9ca7-f6b6f347bf6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_RPi" output
+			(at 93.98 33.02 0)
+			(uuid "53b032e2-a14e-4664-b44b-a0366fc65d5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,16 +2710,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "3V3" input
-			(at 109.22 50.8 180)
-			(uuid "869e6e2a-c694-4f52-8af5-838d53dbec9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PCIE.PWR_EN" input
