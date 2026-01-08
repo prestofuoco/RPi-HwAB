@@ -9438,6 +9438,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cff363c-73c8-4adf-8760-3e9fcfa25316")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 170.18 38.1)
 		)
 		(stroke
@@ -9488,13 +9498,23 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 22.86) (xy 172.72 22.86)
+			(xy 175.26 25.4) (xy 172.72 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23f4d270-a5de-4f90-b2d2-3b7e88de9337")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fd3b90-6298-451a-89b2-f2d4733dcc42")
 	)
 	(wire
 		(pts
@@ -9638,7 +9658,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 149.86 60.96)
+			(xy 167.64 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9938,7 +9958,7 @@
 	)
 	(bus
 		(pts
-			(xy 261.62 22.86) (xy 269.24 22.86)
+			(xy 261.62 22.86) (xy 264.16 22.86)
 		)
 		(stroke
 			(width 0)
@@ -10028,6 +10048,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 111.76) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9468cf6-5a72-4253-8bc9-132cb8104a47")
+	)
+	(wire
+		(pts
 			(xy 223.52 139.7) (xy 223.52 142.24)
 		)
 		(stroke
@@ -10108,7 +10138,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 22.86) (xy 172.72 27.94)
+			(xy 172.72 25.4) (xy 172.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10196,6 +10226,16 @@
 		)
 		(uuid "fe4d05df-deb7-45c3-83bc-d08dba14c5ec")
 	)
+	(label "DDR_INIT_CALIB_COMPLETE"
+		(at 180.34 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00cb3569-4d0a-4bdb-b6b1-fd1182ee3858")
+	)
 	(label "QSPI0.SCLK"
 		(at 256.54 40.64 180)
 		(effects
@@ -10216,6 +10256,16 @@
 		)
 		(uuid "045f1396-df2e-49cb-a145-bd69f36a3521")
 	)
+	(label "DDR_TG_COMPARE_ERROR"
+		(at 180.34 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0af964fa-f6b6-40d7-841e-8a7ce5f2d1fd")
+	)
 	(label "TCK"
 		(at 256.54 35.56 180)
 		(effects
@@ -10235,6 +10285,16 @@
 			(justify right bottom)
 		)
 		(uuid "10647b35-7351-40cd-956a-1dbe4a435309")
+	)
+	(label "DDR_SYS_RESET"
+		(at 180.34 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73c3b305-99df-4361-8df2-1077da5d9b12")
 	)
 	(label "QSPI0.SIO2"
 		(at 167.64 35.56 180)
@@ -10339,7 +10399,7 @@
 	)
 	(hierarchical_label "QSPI0{QSPI}"
 		(shape bidirectional)
-		(at 180.34 22.86 0)
+		(at 175.26 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10361,7 +10421,7 @@
 	)
 	(hierarchical_label "PCIE.RST_B"
 		(shape input)
-		(at 180.34 60.96 0)
+		(at 167.64 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10394,7 +10454,7 @@
 	)
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
-		(at 269.24 22.86 0)
+		(at 264.16 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
