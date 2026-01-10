@@ -18707,7 +18707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f717b9-2bfb-4e79-9121-14c17cee55c3")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 127 17.78 0)
 			(effects
 				(font
@@ -20241,7 +20241,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "U7")
+					(reference "U4")
 					(unit 4)
 				)
 			)
@@ -20256,7 +20256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1449be01-7420-40c1-b34a-0c437d7da434")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 240.03 97.79 0)
 			(effects
 				(font
@@ -20337,7 +20337,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -20352,7 +20352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e758e8c-376e-4ea9-876e-bd2cf00d5baf")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 247.65 97.79 0)
 			(effects
 				(font
@@ -20433,7 +20433,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -20448,7 +20448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23fef52b-4260-4e52-8f88-8c73cae4b4fd")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 217.17 97.79 0)
 			(effects
 				(font
@@ -20529,7 +20529,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -20546,7 +20546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78edae3c-f75c-470a-98cd-69dcd1218220")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 55.88 17.78 0)
 			(effects
 				(font
@@ -22080,7 +22080,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "U7")
+					(reference "U4")
 					(unit 3)
 				)
 			)
@@ -22095,7 +22095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c27b8e9-51f9-4bc1-b1c2-2752250ef561")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 255.27 97.79 0)
 			(effects
 				(font
@@ -22176,7 +22176,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -22191,7 +22191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c31f41b4-6378-4af6-b7d4-59065cb774e9")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 232.41 97.79 0)
 			(effects
 				(font
@@ -22272,7 +22272,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -22288,7 +22288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f6455f-6469-448e-a3a4-8c62d5926d12")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 254 115.57 0)
 			(effects
 				(font
@@ -22338,7 +22338,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22353,7 +22353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faba6ef7-132c-4bf7-8771-40da807133f6")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 224.79 97.79 0)
 			(effects
 				(font
@@ -22434,7 +22434,7 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/59d21473-a004-4514-8090-fd93db818925/ef42fd34-c1d8-421f-b8cb-1078e483aec9"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)

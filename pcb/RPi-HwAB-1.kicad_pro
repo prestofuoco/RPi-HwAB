@@ -514,7 +514,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -589,6 +589,18 @@
       "/Connectors/PCIE.TX_P": [
         "Differential"
       ],
+      "/Main Power/1V2_MGT": [
+        "PWR"
+      ],
+      "/Main Power/1V35_DDR": [
+        "PWR"
+      ],
+      "/Main Power/1V8_FD": [
+        "PWR"
+      ],
+      "/Main Power/3V3_FD": [
+        "PWR"
+      ],
       "/PCIE_CLK_N": [
         "Differential"
       ],
@@ -635,11 +647,11 @@
       },
       {
         "netclass": "PWR",
-        "pattern": " /Main Power/5V0_N"
+        "pattern": "/Main Power/5V0_N"
       },
       {
         "netclass": "PWR",
-        "pattern": "*_LX"
+        "pattern": "*LX*"
       },
       {
         "netclass": "90DIFF",
@@ -651,15 +663,15 @@
       },
       {
         "netclass": "100DIFF",
-        "pattern": "/FPGA/FPGA 3/DQ*"
+        "pattern": "/FPGA/FPGA 34, 35/DQ*"
       },
       {
         "netclass": "100DIFF",
-        "pattern": "/FPGA/FPGA 3/DDR*"
+        "pattern": "/FPGA/FPGA 34, 35/DDR*"
       },
       {
         "netclass": "100DIFF",
-        "pattern": "/FPGA/FPGA 3/A*"
+        "pattern": "/FPGA/FPGA 34, 35/A*"
       },
       {
         "netclass": "PWR",
@@ -881,20 +893,8 @@
       "1V0"
     ],
     [
-      "1d9f07e5-efc9-447f-a372-e965921820d7",
-      "1V2"
-    ],
-    [
-      "ac4b7fa8-6267-4e3b-81b7-39bc9eb5247a",
-      "1V35"
-    ],
-    [
-      "40f8c9cc-8de9-43ac-8cba-fe7ae095cfae",
-      "1V8"
-    ],
-    [
-      "623ac269-424c-4b40-80d6-6e60349ac538",
-      "3V3"
+      "52c90cf6-808f-45af-8f4d-5b19ae6fb498",
+      "Quad Buck"
     ],
     [
       "59d21473-a004-4514-8090-fd93db818925",
@@ -902,19 +902,19 @@
     ],
     [
       "350bfe7d-9948-4ca7-a542-a75eb385def4",
-      "FPGA 1"
+      "FPGA 0, 13, 14"
     ],
     [
       "ef42fd34-c1d8-421f-b8cb-1078e483aec9",
-      "FPGA 2"
+      "FPGA 15, 16"
     ],
     [
       "143e814b-c088-43b0-8f2f-ada8c438e494",
-      "FPGA 3"
+      "FPGA 34, 35"
     ],
     [
       "1a53bf83-d036-4e40-a4d5-3697b8dd72a6",
-      "FPGA 4"
+      "FPGA 216"
     ],
     [
       "b633a666-4c3d-4ac9-9e0f-b350177ade0b",
