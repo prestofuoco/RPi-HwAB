@@ -625,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 134.62) (xy 233.68 134.62)
+			(xy 58.42 144.78) (xy 233.68 144.78)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 58.42 134.62)
+			(xy 58.42 68.58) (xy 58.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -747,13 +747,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 132.08) (xy 233.68 132.08)
+			(xy 71.12 142.24) (xy 233.68 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a17c8b58-d6f3-4e6c-a0ff-eee9a52b9a65")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46dd074-ece4-461a-9590-b3c89357f590")
 	)
 	(wire
 		(pts
@@ -901,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 71.12 132.08)
+			(xy 71.12 68.58) (xy 71.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -960,6 +970,16 @@
 		)
 		(uuid "002eba19-2eb1-4b6c-b858-e5870ff79354")
 	)
+	(label "3V3_PG"
+		(at 231.14 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "046bb84e-f66e-4539-a5da-3b30d00baaf6")
+	)
 	(label "PCIE.PWR_EN"
 		(at 114.3 76.2 0)
 		(effects
@@ -971,7 +991,7 @@
 		(uuid "2336ce8f-5201-48cb-9133-54eb979e963b")
 	)
 	(label "5V0_SENS_N"
-		(at 231.14 134.62 180)
+		(at 231.14 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,7 +1081,7 @@
 		(uuid "efa4634d-6d5f-40f0-b767-523c294b5cc3")
 	)
 	(label "5V0_SENS_P"
-		(at 231.14 132.08 180)
+		(at 231.14 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1125,6 +1145,17 @@
 		)
 		(uuid "392883e9-3b3b-4135-b1c0-855319747e6e")
 	)
+	(hierarchical_label "3V3_PG"
+		(shape output)
+		(at 233.68 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "538966ee-8c6e-4117-b4bf-872ff4067fd7")
+	)
 	(hierarchical_label "3V3_FD"
 		(shape output)
 		(at 233.68 116.84 0)
@@ -1160,7 +1191,7 @@
 	)
 	(hierarchical_label "5V0_SENS_N"
 		(shape output)
-		(at 233.68 134.62 0)
+		(at 233.68 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1182,7 +1213,7 @@
 	)
 	(hierarchical_label "5V0_SENS_P"
 		(shape output)
-		(at 233.68 132.08 0)
+		(at 233.68 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2069,7 +2100,7 @@
 	)
 	(sheet
 		(at 147.32 99.06)
-		(size 25.4 20.32)
+		(size 25.4 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2093,7 +2124,7 @@
 			)
 		)
 		(property "Sheetfile" "quad-pwr.kicad_sch"
-			(at 147.32 119.9646 0)
+			(at 147.32 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,6 +2190,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "3V3_PG" output
+			(at 172.72 124.46 0)
+			(uuid "85f71135-bec6-41bd-8e05-67148034c76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

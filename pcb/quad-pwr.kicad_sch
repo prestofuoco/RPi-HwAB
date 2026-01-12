@@ -1353,6 +1353,12 @@
 		(uuid "cc90e1c6-abd0-47b7-b48d-6d70e348b56a")
 	)
 	(junction
+		(at 114.3 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0826670-4748-48f5-a0f0-d7eceffebe7b")
+	)
+	(junction
 		(at 81.28 73.66)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -1596,6 +1602,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 104.14) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42afba36-be34-4e68-b660-f548d30d48af")
+	)
+	(wire
+		(pts
 			(xy 193.04 86.36) (xy 213.36 86.36)
 		)
 		(stroke
@@ -1704,6 +1720,16 @@
 			(type default)
 		)
 		(uuid "59008a84-4734-4211-8589-174a26d67f71")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 238.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d6df12-278f-4b89-83b0-2b7f67771cee")
 	)
 	(wire
 		(pts
@@ -2068,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 104.14) (xy 142.24 104.14)
+			(xy 60.96 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2170,6 +2196,16 @@
 			(type default)
 		)
 		(uuid "d3530e0d-c2ce-4181-963f-3fd35d0442ea")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50d4422-b0c5-434d-8a40-9ff8eb6f1daa")
 	)
 	(wire
 		(pts
@@ -8829,6 +8865,16 @@
 		)
 		(uuid "64b3fab9-4016-498b-85c3-b7c73d2df8fa")
 	)
+	(label "3V3_PG"
+		(at 236.22 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dea79dd-80b1-460b-8848-0c5d889bacf6")
+	)
 	(label "3V3_FD"
 		(at 233.68 96.52 180)
 		(effects
@@ -8858,6 +8904,17 @@
 			(justify right bottom)
 		)
 		(uuid "aa50d278-41c5-4707-b7b8-bbd191dba80e")
+	)
+	(hierarchical_label "3V3_PG"
+		(shape output)
+		(at 238.76 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5206a2a3-72bd-4add-b01c-1e08ff58791c")
 	)
 	(hierarchical_label "1V35_DDR"
 		(shape output)
