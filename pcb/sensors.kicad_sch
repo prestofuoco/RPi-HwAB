@@ -2209,7 +2209,7 @@
 	(junction
 		(at 162.56 106.68)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 0 255 1)
 		(uuid "0bfde47d-4476-4326-8fff-41379e18f559")
 	)
 	(junction
