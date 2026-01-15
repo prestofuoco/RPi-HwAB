@@ -11625,7 +11625,7 @@
 		(uuid "2ff798ba-b70d-4c5e-9b78-6e6bc777a940")
 	)
 	(label "DQ6"
-		(at 198.12 76.2 180)
+		(at 198.12 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11679,7 +11679,7 @@
 		(uuid "53442ca5-e7b9-471e-9127-eddb96391f0e")
 	)
 	(label "DQ7"
-		(at 198.12 63.5 180)
+		(at 198.12 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11745,7 +11745,7 @@
 		(uuid "75bdb72e-6d0d-4398-bdce-5472be300c65")
 	)
 	(label "DQ0"
-		(at 198.12 78.74 180)
+		(at 198.12 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11778,7 +11778,7 @@
 		(uuid "89ff3fa7-b6cd-4bd5-aff4-167dc0b4d8be")
 	)
 	(label "DQ1"
-		(at 198.12 66.04 180)
+		(at 198.12 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11800,7 +11800,7 @@
 		(uuid "9ea10245-42b2-48df-8369-0ce3f644e14a")
 	)
 	(label "DQ3"
-		(at 198.12 81.28 180)
+		(at 198.12 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11811,7 +11811,7 @@
 		(uuid "9ef91e9f-65ab-47ea-b9cc-226bd518efc3")
 	)
 	(label "DQ5"
-		(at 198.12 60.96 180)
+		(at 198.12 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11843,7 +11843,7 @@
 		(uuid "b5e3bbe3-e867-426c-9034-e947405f9654")
 	)
 	(label "DQ2"
-		(at 198.12 83.82 180)
+		(at 198.12 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
