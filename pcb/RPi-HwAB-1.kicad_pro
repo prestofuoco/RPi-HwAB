@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -266,7 +266,28 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 8,
+        "enabled": true,
+        "topLayer": 6
+      },
+      {
+        "bottomLayer": 10,
+        "enabled": true,
+        "topLayer": 12
+      },
+      {
+        "bottomLayer": 14,
+        "enabled": true,
+        "topLayer": 2
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
