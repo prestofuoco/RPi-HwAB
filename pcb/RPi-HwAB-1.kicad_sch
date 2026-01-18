@@ -381,8 +381,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21969200-7262-4b74-ab5b-4710e0339a83")
-		(property "Reference" "FID2"
+		(uuid "0e179056-386e-4c70-8c46-11d1d38666a5")
+		(property "Reference" "FID3"
 			(at 22.86 189.2299 0)
 			(effects
 				(font
@@ -400,7 +400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask4.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 20.32 190.5 0)
 			(effects
 				(font
@@ -439,7 +439,80 @@
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "FID2")
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 20.32 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e4e07d-0653-40ea-ae56-38f8f8a8583a")
+		(property "Reference" "FID1"
+			(at 22.86 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 22.86 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 20.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -454,8 +527,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "67e4e07d-0653-40ea-ae56-38f8f8a8583a")
-		(property "Reference" "FID1"
+		(uuid "a4590c7d-eaf9-44fe-ae2c-503bc4708c35")
+		(property "Reference" "FID2"
 			(at 22.86 181.6099 0)
 			(effects
 				(font
@@ -473,7 +546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask4.5mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 20.32 182.88 0)
 			(effects
 				(font
@@ -510,9 +583,9 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "FID1")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
