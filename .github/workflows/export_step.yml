@@ -4,7 +4,8 @@ on: [push, workflow_dispatch]
 jobs:
   export:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad_auto:nightly
+    # SWITCHING TO OFFICIAL IMAGE (Fresh updates daily)
+    container: kicad/kicad:nightly
     
     steps:
       - uses: actions/checkout@v4
@@ -12,25 +13,14 @@ jobs:
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
-      - name: Auto-Detect and Export
+      - name: Export STEP
+        # In the official image, the tool is just named 'kicad-cli'
         run: |
-          # 1. Hunt for the binary in common locations
-          echo "Searching for KiCad CLI..."
-          KICAD_BIN=$(find /usr/bin /usr/local/bin /opt -name "kicad-cli*" -type f | head -n 1)
+          echo "Using Version:"
+          kicad-cli --version
           
-          if [ -z "$KICAD_BIN" ]; then
-            echo "CRITICAL ERROR: Could not find any kicad-cli binary!"
-            exit 1
-          fi
-
-          echo "✅ Found Binary: $KICAD_BIN"
-          
-          # 2. check version
-          $KICAD_BIN --version
-          
-          # 3. Run the export using the found binary
-          echo "Starting Export..."
-          $KICAD_BIN pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
+          echo "Exporting..."
+          kicad-cli pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
