@@ -14,16 +14,26 @@ jobs:
       - name: Install 3D Libraries
         run: |
           apt-get update
-          apt-get install -y --no-install-recommends kicad-nightly-packages3d
+          # Use the standard Debian package name
+          apt-get install -y --no-install-recommends kicad-packages3d
 
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
       - name: Export STEP
-        # --include-tracks: Copper traces
-        # --include-zones:  Copper fills/planes
-        # --fill-all-vias:  Solid vias (no holes)
-        run: kicad-cli pcb export step --subst-models --include-tracks --include-zones --include-pads --fill-all-vias -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
+        # 1. We set the Environment Variable so V9 finds the installed models
+        # 2. We add the flags for Copper (--include-tracks, etc)
+        env:
+          KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
+        run: >
+          kicad-cli pcb export step 
+          --subst-models 
+          --include-tracks 
+          --include-zones 
+          --include-pads 
+          --fill-all-vias 
+          -o 3d_models/RPi-HwAB.step 
+          pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
