@@ -4,15 +4,15 @@ on: [push, workflow_dispatch]
 jobs:
   export:
     runs-on: ubuntu-latest
+    # This line runs the entire job INSIDE the KiCad Nightly container
+    container: ghcr.io/inti-cmnb/kicad_auto:nightly
+    
     steps:
       - uses: actions/checkout@v4
       
-      - name: Run KiBot Nightly
-        # This bypasses the wrapper and uses the raw Docker image
-        uses: docker://ghcr.io/inti-cmnb/kicad_auto:nightly
-        with:
-          # Arguments: -c config, -b board, -e schema, -d output dir, -i (install 3d models)
-          args: -c kibot.yaml -b pcb/RPi-HwAB-1.kicad_pcb -e pcb/RPi-HwAB-1.kicad_sch -d 3d_models -i
+      - name: Run KiBot
+        # Now we can just type the command like a normal human
+        run: kibot -c kibot.yaml -b pcb/RPi-HwAB-1.kicad_pcb -e pcb/RPi-HwAB-1.kicad_sch -d 3d_models -i
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
