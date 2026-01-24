@@ -28,6 +28,7 @@ jobs:
           --include-tracks 
           --include-zones 
           --include-pads 
+          --user-origin
           -o 3d_models/RPi-HwAB.glb 
           pcb/RPi-HwAB-1.kicad_pcb
 
