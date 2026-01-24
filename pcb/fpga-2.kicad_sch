@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "4fae552e-68c5-4ffc-9295-83c903499d5c")
 	(paper "A4")
 	(title_block
@@ -18,8 +18,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U5"
 				(at 0 58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,6 +32,8 @@
 			)
 			(property "Value" "XC7A100T-FGG484"
 				(at 0 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,15 +42,19 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,24 +63,30 @@
 			)
 			(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
 				(at 0 -111.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Name" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -79,11 +95,13 @@
 			)
 			(property "ki_keywords" "FPGA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XC7A100T-FGG484_1_1_1"
@@ -1870,17 +1888,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 48.26 180)
+				(pin power_in line
+					(at 22.86 -91.44 180)
 					(length 6.35)
-					(name "IO_L1P_T0_AD0P_15"
+					(name "VCCO_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H13"
+					(number "N21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,16 +2015,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 30.48 180)
+					(at 22.86 -40.64 180)
 					(length 6.35)
-					(name "IO_L4N_T0_15"
+					(name "IO_L18N_T2_A23_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "M20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2501,16 +2519,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -40.64 180)
+					(at 22.86 30.48 180)
 					(length 6.35)
-					(name "IO_L18N_T2_A23_15"
+					(name "IO_L4N_T0_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M20"
+					(number "G18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2842,17 +2860,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -91.44 180)
+				(pin bidirectional line
+					(at 22.86 48.26 180)
 					(length 6.35)
-					(name "VCCO_15"
+					(name "IO_L1P_T0_AD0P_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N21"
+					(number "H13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2874,16 +2892,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -35.56 180)
 					(length 6.35)
-					(name "IO_0_16"
+					(name "IO_L17N_T2_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F15"
+					(number "A19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,17 +2909,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 48.26 180)
+				(pin power_in line
+					(at 22.86 -91.44 180)
 					(length 6.35)
-					(name "IO_L1P_T0_16"
+					(name "VCCO_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F13"
+					(number "F22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3018,16 +3036,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 30.48 180)
+					(at 22.86 -20.32 180)
 					(length 6.35)
-					(name "IO_L4N_T0_16"
+					(name "IO_L14N_T2_SRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E14"
+					(number "D19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3306,16 +3324,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -10.16 180)
+					(at 22.86 30.48 180)
 					(length 6.35)
-					(name "IO_L12N_T1_MRCC_16"
+					(name "IO_L4N_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C17"
+					(number "E14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3378,16 +3396,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L14N_T2_SRCC_16"
+					(name "IO_0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D19"
+					(number "F15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3486,16 +3504,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -35.56 180)
+					(at 22.86 -10.16 180)
 					(length 6.35)
-					(name "IO_L17N_T2_16"
+					(name "IO_L12N_T1_MRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A19"
+					(number "C17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3863,17 +3881,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -91.44 180)
+				(pin bidirectional line
+					(at 22.86 48.26 180)
 					(length 6.35)
-					(name "VCCO_16"
+					(name "IO_L1P_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F22"
+					(number "F13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3895,16 +3913,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -35.56 180)
 					(length 6.35)
-					(name "IO_0_34"
+					(name "IO_L17N_T2_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T3"
+					(number "T6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4399,16 +4417,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L14N_T2_SRCC_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U5"
+					(number "T3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4506,17 +4524,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 -35.56 180)
+				(pin power_in line
+					(at 22.86 -88.9 180)
 					(length 6.35)
-					(name "IO_L17N_T2_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T6"
+					(number "V6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4687,16 +4705,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -60.96 180)
+					(at 22.86 -20.32 180)
 					(length 6.35)
-					(name "IO_L22N_T3_34"
+					(name "IO_L14N_T2_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB8"
+					(number "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4866,17 +4884,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -88.9 180)
+				(pin bidirectional line
+					(at 22.86 -60.96 180)
 					(length 6.35)
-					(name "VCCO_34"
+					(name "IO_L22N_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V6"
+					(number "AB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4916,16 +4934,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -15.24 180)
 					(length 6.35)
-					(name "IO_0_35"
+					(name "IO_L13N_T2_MRCC_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F4"
+					(number "J4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5204,16 +5222,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L8N_T1_AD14N_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "F4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5384,16 +5402,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -15.24 180)
+					(at 22.86 10.16 180)
 					(length 6.35)
-					(name "IO_L13N_T2_MRCC_35"
+					(name "IO_L8N_T1_AD14N_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J4"
+					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5936,17 +5954,17 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 50.8 180)
+				(pin power_in line
+					(at 19.05 -25.4 180)
 					(length 6.35)
-					(name "MGTPTXP0_216"
+					(name "MGTAVTT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B4"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5954,17 +5972,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 48.26 180)
+				(pin power_in line
+					(at 19.05 -40.64 180)
 					(length 6.35)
-					(name "MGTPTXN0_216"
+					(name "MGTRREF_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6404,17 +6422,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 19.05 -25.4 180)
+				(pin bidirectional line
+					(at 19.05 50.8 180)
 					(length 6.35)
-					(name "MGTAVTT"
+					(name "MGTPTXP0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B7"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6494,17 +6512,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 19.05 -40.64 180)
+				(pin bidirectional line
+					(at 19.05 48.26 180)
 					(length 6.35)
-					(name "MGTRREF_216"
+					(name "MGTPTXN0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F8"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6899,16 +6917,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 50.8 0)
+					(at -25.4 -35.56 0)
 					(length 6.35)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6917,16 +6935,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 48.26 0)
+					(at 25.4 -96.52 180)
 					(length 6.35)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K12"
+					(number "AB19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7439,16 +7457,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 -35.56 0)
+					(at -25.4 50.8 0)
 					(length 6.35)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D12"
+					(number "H12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8897,16 +8915,16 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -96.52 180)
+					(at -25.4 48.26 0)
 					(length 6.35)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB19"
+					(number "K12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8927,8 +8945,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8938,6 +8960,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8947,47 +8971,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -9020,7 +9054,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9038,7 +9072,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9057,7 +9091,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "library:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -9068,17 +9102,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9087,38 +9127,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -9139,7 +9187,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9164,8 +9212,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U5"
 				(at 0 58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9174,6 +9226,8 @@
 			)
 			(property "Value" "XC7A100T-FGG484"
 				(at 0 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9182,15 +9236,19 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9199,24 +9257,30 @@
 			)
 			(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
 				(at 0 -111.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Name" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9225,11 +9289,13 @@
 			)
 			(property "ki_keywords" "FPGA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XC7A100T-FGG484_1_1"
@@ -11016,17 +11082,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 48.26 180)
+				(pin power_in line
+					(at 25.4 -91.44 180)
 					(length 7.62)
-					(name "IO_L1P_T0_AD0P_15"
+					(name "VCCO_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H13"
+					(number "N21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11143,16 +11209,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 30.48 180)
+					(at 25.4 -40.64 180)
 					(length 7.62)
-					(name "IO_L4N_T0_15"
+					(name "IO_L18N_T2_A23_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "M20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11647,16 +11713,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -40.64 180)
+					(at 25.4 30.48 180)
 					(length 7.62)
-					(name "IO_L18N_T2_A23_15"
+					(name "IO_L4N_T0_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M20"
+					(number "G18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11988,17 +12054,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -91.44 180)
+				(pin bidirectional line
+					(at 25.4 48.26 180)
 					(length 7.62)
-					(name "VCCO_15"
+					(name "IO_L1P_T0_AD0P_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N21"
+					(number "H13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12020,16 +12086,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_0_16"
+					(name "IO_L17N_T2_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F15"
+					(number "A19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12037,17 +12103,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 48.26 180)
+				(pin power_in line
+					(at 25.4 -91.44 180)
 					(length 7.62)
-					(name "IO_L1P_T0_16"
+					(name "VCCO_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F13"
+					(number "F22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12164,16 +12230,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 30.48 180)
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "IO_L4N_T0_16"
+					(name "IO_L14N_T2_SRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E14"
+					(number "D19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12452,16 +12518,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -10.16 180)
+					(at 25.4 30.48 180)
 					(length 7.62)
-					(name "IO_L12N_T1_MRCC_16"
+					(name "IO_L4N_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C17"
+					(number "E14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12524,16 +12590,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_16"
+					(name "IO_0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D19"
+					(number "F15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12632,16 +12698,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -35.56 180)
+					(at 25.4 -10.16 180)
 					(length 7.62)
-					(name "IO_L17N_T2_16"
+					(name "IO_L12N_T1_MRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A19"
+					(number "C17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13009,17 +13075,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -91.44 180)
+				(pin bidirectional line
+					(at 25.4 48.26 180)
 					(length 7.62)
-					(name "VCCO_16"
+					(name "IO_L1P_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F22"
+					(number "F13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13041,16 +13107,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_0_34"
+					(name "IO_L17N_T2_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T3"
+					(number "T6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13545,16 +13611,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U5"
+					(number "T3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13652,17 +13718,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 -35.56 180)
+				(pin power_in line
+					(at 25.4 -88.9 180)
 					(length 7.62)
-					(name "IO_L17N_T2_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T6"
+					(number "V6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13833,16 +13899,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -60.96 180)
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "IO_L22N_T3_34"
+					(name "IO_L14N_T2_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB8"
+					(number "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14012,17 +14078,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -88.9 180)
+				(pin bidirectional line
+					(at 25.4 -60.96 180)
 					(length 7.62)
-					(name "VCCO_34"
+					(name "IO_L22N_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V6"
+					(number "AB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14062,16 +14128,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -15.24 180)
 					(length 7.62)
-					(name "IO_0_35"
+					(name "IO_L13N_T2_MRCC_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F4"
+					(number "J4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14350,16 +14416,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 10.16 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L8N_T1_AD14N_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "F4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14530,16 +14596,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -15.24 180)
+					(at 25.4 10.16 180)
 					(length 7.62)
-					(name "IO_L13N_T2_MRCC_35"
+					(name "IO_L8N_T1_AD14N_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J4"
+					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15082,17 +15148,17 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 50.8 180)
+				(pin power_in line
+					(at 20.32 -25.4 180)
 					(length 7.62)
-					(name "MGTPTXP0_216"
+					(name "MGTAVTT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B4"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15100,17 +15166,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 48.26 180)
+				(pin power_in line
+					(at 20.32 -40.64 180)
 					(length 7.62)
-					(name "MGTPTXN0_216"
+					(name "MGTRREF_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15550,17 +15616,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -25.4 180)
+				(pin bidirectional line
+					(at 20.32 50.8 180)
 					(length 7.62)
-					(name "MGTAVTT"
+					(name "MGTPTXP0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B7"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15640,17 +15706,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -40.64 180)
+				(pin bidirectional line
+					(at 20.32 48.26 180)
 					(length 7.62)
-					(name "MGTRREF_216"
+					(name "MGTPTXN0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F8"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16045,16 +16111,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 50.8 0)
+					(at -25.4 -35.56 0)
 					(length 7.62)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16063,16 +16129,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 48.26 0)
+					(at 25.4 -96.52 180)
 					(length 7.62)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K12"
+					(number "AB19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16585,16 +16651,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 -35.56 0)
+					(at -25.4 50.8 0)
 					(length 7.62)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D12"
+					(number "H12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18043,16 +18109,16 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -96.52 180)
+					(at -25.4 48.26 0)
 					(length 7.62)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB19"
+					(number "K12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18701,14 +18767,18 @@
 		(lib_id "library:XC7A100T-FGG484")
 		(at 127 76.2 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f717b9-2bfb-4e79-9121-14c17cee55c3")
 		(property "Reference" "U4"
 			(at 127 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18717,6 +18787,8 @@
 		)
 		(property "Value" "XC7A100T-FGG484"
 			(at 127 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18725,65 +18797,79 @@
 		)
 		(property "Footprint" "library:Xilinx_FGG484"
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://docs.amd.com/search/all?value-filters=Document_Type_custom~%2522Data+Sheet%2522_%2522Introductory+Resources%257CSelection+Guide%2522_%2522Introductory+Resources%257CWhite+Paper%2522*Product_custom~%2522Adaptive+SoCs+%2526+FPGAs%257CFPGA%257CArtix+7%2522&content-lang=en-US"
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
 			(at 127 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Name" ""
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "AMD"
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "XC7A100T-1FGG484C"
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "IC FPGA 285 I/O 484FBGA"
 			(at 127 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "R19"
@@ -20251,13 +20337,17 @@
 		(lib_id "library:C")
 		(at 238.76 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1449be01-7420-40c1-b34a-0c437d7da434")
 		(property "Reference" "C25"
 			(at 240.03 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20267,6 +20357,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 240.03 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20276,56 +20368,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.7948 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 238.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 238.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 238.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 238.76 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 238.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20347,13 +20451,17 @@
 		(lib_id "library:C")
 		(at 246.38 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e758e8c-376e-4ea9-876e-bd2cf00d5baf")
 		(property "Reference" "C26"
 			(at 247.65 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,6 +20471,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 247.65 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20372,56 +20482,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.4148 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 246.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 246.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 246.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 246.38 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 246.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20443,13 +20565,17 @@
 		(lib_id "library:C")
 		(at 215.9 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "23fef52b-4260-4e52-8f88-8c73cae4b4fd")
 		(property "Reference" "C22"
 			(at 217.17 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,6 +20585,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 217.17 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20468,56 +20596,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.9348 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 215.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 215.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 215.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 215.9 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 215.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20540,14 +20680,18 @@
 		(lib_id "library:XC7A100T-FGG484_1")
 		(at 55.88 76.2 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78edae3c-f75c-470a-98cd-69dcd1218220")
 		(property "Reference" "U4"
 			(at 55.88 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20556,6 +20700,8 @@
 		)
 		(property "Value" "XC7A100T-FGG484"
 			(at 55.88 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20564,65 +20710,79 @@
 		)
 		(property "Footprint" "library:Xilinx_FGG484"
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://docs.amd.com/search/all?value-filters=Document_Type_custom~%2522Data+Sheet%2522_%2522Introductory+Resources%257CSelection+Guide%2522_%2522Introductory+Resources%257CWhite+Paper%2522*Product_custom~%2522Adaptive+SoCs+%2526+FPGAs%257CFPGA%257CArtix+7%2522&content-lang=en-US"
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FGG484"
 			(at 55.88 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Name" ""
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "AMD"
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "XC7A100T-1FGG484C"
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "IC FPGA 285 I/O 484FBGA"
 			(at 55.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "R19"
@@ -22090,13 +22250,17 @@
 		(lib_id "library:C")
 		(at 254 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c27b8e9-51f9-4bc1-b1c2-2752250ef561")
 		(property "Reference" "C27"
 			(at 255.27 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22106,6 +22270,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 255.27 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22115,56 +22281,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.0348 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 254 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22186,13 +22364,17 @@
 		(lib_id "library:C")
 		(at 231.14 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c31f41b4-6378-4af6-b7d4-59065cb774e9")
 		(property "Reference" "C24"
 			(at 232.41 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22202,6 +22384,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 232.41 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22211,56 +22395,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.1748 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 231.14 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 231.14 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22282,23 +22478,29 @@
 		(lib_id "library:GND")
 		(at 254 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f6455f-6469-448e-a3a4-8c62d5926d12")
 		(property "Reference" "#PWR023"
 			(at 254 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 254 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22307,29 +22509,35 @@
 		)
 		(property "Footprint" ""
 			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22348,13 +22556,17 @@
 		(lib_id "library:C")
 		(at 223.52 100.33 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "faba6ef7-132c-4bf7-8771-40da807133f6")
 		(property "Reference" "C23"
 			(at 224.79 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22364,6 +22576,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 224.79 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22373,56 +22587,68 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.5548 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "KEMET"
 			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 223.52 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 16V X7R 0402"
 			(at 223.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

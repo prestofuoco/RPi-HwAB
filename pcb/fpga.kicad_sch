@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "a9e1bdfd-dc99-46a7-a35c-5f032316e715")
 	(paper "A4")
 	(title_block
@@ -863,6 +863,8 @@
 		(uuid "143e814b-c088-43b0-8f2f-ada8c438e494")
 		(property "Sheetname" "FPGA 34, 35"
 			(at 134.62 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,6 +874,8 @@
 		)
 		(property "Sheetfile" "fpga-3.kicad_sch"
 			(at 134.62 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,11 +1124,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 132 132 0.0900)
+			(color 0 132 132 0.09)
 		)
 		(uuid "1a53bf83-d036-4e40-a4d5-3697b8dd72a6")
 		(property "Sheetname" "FPGA 216"
 			(at 165.1 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,6 +1140,8 @@
 		)
 		(property "Sheetfile" "fpga-4.kicad_sch"
 			(at 165.1 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,11 +1250,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 194 0 0.0800)
+			(color 0 194 0 0.08)
 		)
 		(uuid "350bfe7d-9948-4ca7-a542-a75eb385def4")
 		(property "Sheetname" "FPGA 0, 13, 14"
 			(at 165.1 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,6 +1266,8 @@
 		)
 		(property "Sheetfile" "fpga-1.kicad_sch"
 			(at 165.1 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,11 +1336,13 @@
 			(type solid)
 		)
 		(fill
-			(color 194 0 0 0.0500)
+			(color 194 0 0 0.05)
 		)
 		(uuid "94db1840-7840-4b32-9939-76c2575d480c")
 		(property "Sheetname" "FPGA Power"
 			(at 45.72 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,6 +1352,8 @@
 		)
 		(property "Sheetfile" "fpga-pwr.kicad_sch"
 			(at 45.72 188.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,11 +1442,13 @@
 			(type solid)
 		)
 		(fill
-			(color 132 0 132 0.0700)
+			(color 132 0 132 0.07)
 		)
 		(uuid "b633a666-4c3d-4ac9-9e0f-b350177ade0b")
 		(property "Sheetname" "Memory"
 			(at 101.6 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,6 +1458,8 @@
 		)
 		(property "Sheetfile" "memory.kicad_sch"
 			(at 101.6 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,11 +1718,13 @@
 			(type solid)
 		)
 		(fill
-			(color 72 72 72 0.0500)
+			(color 72 72 72 0.05)
 		)
 		(uuid "ef42fd34-c1d8-421f-b8cb-1078e483aec9")
 		(property "Sheetname" "FPGA 15, 16"
 			(at 165.1 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,6 +1734,8 @@
 		)
 		(property "Sheetfile" "fpga-2.kicad_sch"
 			(at 165.1 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
