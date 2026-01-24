@@ -4,8 +4,10 @@ on: [push, workflow_dispatch]
 jobs:
   export:
     runs-on: ubuntu-latest
-    # SWITCHING TO OFFICIAL IMAGE (Fresh updates daily)
-    container: kicad/kicad:nightly
+    container:
+      image: kicad/kicad:nightly
+      # THIS IS THE FIX: Force the container to run as Admin/Root
+      options: --user root
     
     steps:
       - uses: actions/checkout@v4
@@ -14,13 +16,8 @@ jobs:
         run: mkdir -p 3d_models
 
       - name: Export STEP
-        # In the official image, the tool is just named 'kicad-cli'
-        run: |
-          echo "Using Version:"
-          kicad-cli --version
-          
-          echo "Exporting..."
-          kicad-cli pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
+        # In the official image, the command is 'kicad-cli'
+        run: kicad-cli pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
