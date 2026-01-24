@@ -2,9 +2,9 @@ kibot:
   version: 1
 
 outputs:
-  - name: 'step_export'
-    comment: "Export 3D STEP model"
-    type: step
+  - name: 'glb_export'
+    comment: "Export 3D model"
+    type: glb
     dir: 3d_models
     options:
       metric_units: true

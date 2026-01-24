@@ -14,32 +14,25 @@ jobs:
       - name: Install 3D Libraries
         run: |
           apt-get update
-          # Use the standard Debian package name
           apt-get install -y --no-install-recommends kicad-packages3d
 
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
-      - name: Export STEP
+      - name: Export GLB
         env:
           KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
         run: >
-          kicad-cli pcb export step 
+          kicad-cli pcb export gltf 
           --subst-models 
           --include-tracks 
           --include-zones 
           --include-pads 
-          --fill-all-vias 
-          --include-soldermask 
-          --include-silkscreen
-          --fuse-shapes 
-          --user-origin 
-          --min-distance 0.005mm 
-          -o 3d_models/RPi-HwAB.step 
+          -o 3d_models/RPi-HwAB.glb 
           pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: STEP-File
+          name: GLB-File
           path: 3d_models
