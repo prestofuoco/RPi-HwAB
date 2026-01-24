@@ -1,0 +1,12 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: 'step_export'
+    comment: "Export 3D STEP model"
+    type: step
+    dir: 3d_models
+    options:
+      metric_units: true
+      origin: 132.5, 72.0
+      download: true
