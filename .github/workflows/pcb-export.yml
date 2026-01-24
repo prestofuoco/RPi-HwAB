@@ -11,15 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install 3D Libraries
+      - name: install libraries
         run: |
           apt-get update
           apt-get install -y --no-install-recommends kicad-packages3d
 
-      - name: Prepare Directories
+      - name: prep directories
         run: mkdir -p export/3d export/schematic export/layers
 
-      - name: Export GLB
+      - name: 3d
         env:
           KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
         run: >
@@ -34,34 +34,25 @@ jobs:
           -o export/3d/RPi-HwAB.glb 
           pcb/RPi-HwAB-1.kicad_pcb
 
-      - name: Export Schematic PDF
+      - name: schematics
         run: >
           kicad-cli sch export pdf 
           -o export/schematic/RPi-HwAB.pdf 
           pcb/RPi-HwAB-1.kicad_sch
 
-      - name: Export Layout Layers
+      - name: layout
         run: |
-          # Layer 1 (Top Copper)
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.Cu   -o export/layers/L1.svg pcb/RPi-HwAB-1.kicad_pcb
-          
-          # Internal Layers (L2 - L7)
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In1.Cu -o export/layers/L2.svg pcb/RPi-HwAB-1.kicad_pcb
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In2.Cu -o export/layers/L3.svg pcb/RPi-HwAB-1.kicad_pcb
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In3.Cu -o export/layers/L4.svg pcb/RPi-HwAB-1.kicad_pcb
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In4.Cu -o export/layers/L5.svg pcb/RPi-HwAB-1.kicad_pcb
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In5.Cu -o export/layers/L6.svg pcb/RPi-HwAB-1.kicad_pcb
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In6.Cu -o export/layers/L7.svg pcb/RPi-HwAB-1.kicad_pcb
-
-          # Layer 8 (Bottom Copper)
           kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=B.Cu   -o export/layers/L8.svg pcb/RPi-HwAB-1.kicad_pcb
-
-          # Context Layers (Silkscreen & Mask)
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.SilkS -o export/layers/Silk_Top.svg pcb/RPi-HwAB-1.kicad_pcb
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.Mask  -o export/layers/Mask_Top.svg pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Project-Assets
+          name: project-assets
           path: export
