@@ -28,10 +28,12 @@ jobs:
           --include-tracks 
           --include-zones 
           --include-pads 
+          --include-soldermask 
+          --include-silkscreen 
           --user-origin
           -o 3d_models/RPi-HwAB.glb 
           pcb/RPi-HwAB-1.kicad_pcb
-
+          
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
