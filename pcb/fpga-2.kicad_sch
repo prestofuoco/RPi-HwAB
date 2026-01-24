@@ -1888,17 +1888,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -91.44 180)
+				(pin bidirectional line
+					(at 22.86 48.26 180)
 					(length 6.35)
-					(name "VCCO_15"
+					(name "IO_L1P_T0_AD0P_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N21"
+					(number "H13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2015,16 +2015,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -40.64 180)
+					(at 22.86 30.48 180)
 					(length 6.35)
-					(name "IO_L18N_T2_A23_15"
+					(name "IO_L4N_T0_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M20"
+					(number "G18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2519,16 +2519,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 30.48 180)
+					(at 22.86 -40.64 180)
 					(length 6.35)
-					(name "IO_L4N_T0_15"
+					(name "IO_L18N_T2_A23_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "M20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2860,17 +2860,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 48.26 180)
+				(pin power_in line
+					(at 22.86 -91.44 180)
 					(length 6.35)
-					(name "IO_L1P_T0_AD0P_15"
+					(name "VCCO_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H13"
+					(number "N21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2892,16 +2892,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -35.56 180)
+					(at 22.86 -10.16 180)
 					(length 6.35)
-					(name "IO_L17N_T2_16"
+					(name "IO_L12N_T1_MRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A19"
+					(number "C17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2909,17 +2909,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -91.44 180)
+				(pin bidirectional line
+					(at 22.86 48.26 180)
 					(length 6.35)
-					(name "VCCO_16"
+					(name "IO_L1P_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F22"
+					(number "F13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3036,16 +3036,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L14N_T2_SRCC_16"
+					(name "IO_0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D19"
+					(number "F15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3324,16 +3324,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 30.48 180)
+					(at 22.86 -20.32 180)
 					(length 6.35)
-					(name "IO_L4N_T0_16"
+					(name "IO_L14N_T2_SRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E14"
+					(number "D19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3396,16 +3396,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -35.56 180)
 					(length 6.35)
-					(name "IO_0_16"
+					(name "IO_L17N_T2_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F15"
+					(number "A19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3504,16 +3504,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -10.16 180)
+					(at 22.86 30.48 180)
 					(length 6.35)
-					(name "IO_L12N_T1_MRCC_16"
+					(name "IO_L4N_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C17"
+					(number "E14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3881,17 +3881,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 48.26 180)
+				(pin power_in line
+					(at 22.86 -91.44 180)
 					(length 6.35)
-					(name "IO_L1P_T0_16"
+					(name "VCCO_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F13"
+					(number "F22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3912,17 +3912,17 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 -35.56 180)
+				(pin power_in line
+					(at 22.86 -88.9 180)
 					(length 6.35)
-					(name "IO_L17N_T2_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T6"
+					(number "V6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4417,16 +4417,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -35.56 180)
 					(length 6.35)
-					(name "IO_0_34"
+					(name "IO_L17N_T2_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T3"
+					(number "T6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4524,17 +4524,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -88.9 180)
+				(pin bidirectional line
+					(at 22.86 -60.96 180)
 					(length 6.35)
-					(name "VCCO_34"
+					(name "IO_L22N_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V6"
+					(number "AB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4705,16 +4705,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L14N_T2_SRCC_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U5"
+					(number "T3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4885,16 +4885,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -60.96 180)
+					(at 22.86 -20.32 180)
 					(length 6.35)
-					(name "IO_L22N_T3_34"
+					(name "IO_L14N_T2_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB8"
+					(number "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4934,16 +4934,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -15.24 180)
+					(at 22.86 10.16 180)
 					(length 6.35)
-					(name "IO_L13N_T2_MRCC_35"
+					(name "IO_L8N_T1_AD14N_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J4"
+					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5222,16 +5222,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 50.8 180)
+					(at 22.86 -15.24 180)
 					(length 6.35)
-					(name "IO_0_35"
+					(name "IO_L13N_T2_MRCC_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F4"
+					(number "J4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5402,16 +5402,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 22.86 50.8 180)
 					(length 6.35)
-					(name "IO_L8N_T1_AD14N_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "F4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5954,17 +5954,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 19.05 -25.4 180)
+				(pin bidirectional line
+					(at 19.05 50.8 180)
 					(length 6.35)
-					(name "MGTAVTT"
+					(name "MGTPTXP0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B7"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5972,17 +5972,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 19.05 -40.64 180)
+				(pin bidirectional line
+					(at 19.05 48.26 180)
 					(length 6.35)
-					(name "MGTRREF_216"
+					(name "MGTPTXN0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F8"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6422,17 +6422,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 50.8 180)
+				(pin power_in line
+					(at 19.05 -25.4 180)
 					(length 6.35)
-					(name "MGTPTXP0_216"
+					(name "MGTAVTT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B4"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6512,17 +6512,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 48.26 180)
+				(pin power_in line
+					(at 19.05 -40.64 180)
 					(length 6.35)
-					(name "MGTPTXN0_216"
+					(name "MGTRREF_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6917,16 +6917,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 -35.56 0)
+					(at -25.4 50.8 0)
 					(length 6.35)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D12"
+					(number "H12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6935,16 +6935,16 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -96.52 180)
+					(at -25.4 48.26 0)
 					(length 6.35)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB19"
+					(number "K12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7457,16 +7457,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 50.8 0)
+					(at -25.4 -35.56 0)
 					(length 6.35)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8915,16 +8915,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 48.26 0)
+					(at 25.4 -96.52 180)
 					(length 6.35)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K12"
+					(number "AB19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11082,17 +11082,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -91.44 180)
+				(pin bidirectional line
+					(at 25.4 48.26 180)
 					(length 7.62)
-					(name "VCCO_15"
+					(name "IO_L1P_T0_AD0P_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N21"
+					(number "H13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11209,16 +11209,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -40.64 180)
+					(at 25.4 30.48 180)
 					(length 7.62)
-					(name "IO_L18N_T2_A23_15"
+					(name "IO_L4N_T0_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M20"
+					(number "G18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11713,16 +11713,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 30.48 180)
+					(at 25.4 -40.64 180)
 					(length 7.62)
-					(name "IO_L4N_T0_15"
+					(name "IO_L18N_T2_A23_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "M20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12054,17 +12054,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 48.26 180)
+				(pin power_in line
+					(at 25.4 -91.44 180)
 					(length 7.62)
-					(name "IO_L1P_T0_AD0P_15"
+					(name "VCCO_15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H13"
+					(number "N21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12086,16 +12086,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -35.56 180)
+					(at 25.4 -10.16 180)
 					(length 7.62)
-					(name "IO_L17N_T2_16"
+					(name "IO_L12N_T1_MRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A19"
+					(number "C17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12103,17 +12103,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -91.44 180)
+				(pin bidirectional line
+					(at 25.4 48.26 180)
 					(length 7.62)
-					(name "VCCO_16"
+					(name "IO_L1P_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F22"
+					(number "F13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12230,16 +12230,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_16"
+					(name "IO_0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D19"
+					(number "F15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12518,16 +12518,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 30.48 180)
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "IO_L4N_T0_16"
+					(name "IO_L14N_T2_SRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E14"
+					(number "D19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12590,16 +12590,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_0_16"
+					(name "IO_L17N_T2_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F15"
+					(number "A19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12698,16 +12698,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -10.16 180)
+					(at 25.4 30.48 180)
 					(length 7.62)
-					(name "IO_L12N_T1_MRCC_16"
+					(name "IO_L4N_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C17"
+					(number "E14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13075,17 +13075,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 48.26 180)
+				(pin power_in line
+					(at 25.4 -91.44 180)
 					(length 7.62)
-					(name "IO_L1P_T0_16"
+					(name "VCCO_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F13"
+					(number "F22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13106,17 +13106,17 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 -35.56 180)
+				(pin power_in line
+					(at 25.4 -88.9 180)
 					(length 7.62)
-					(name "IO_L17N_T2_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T6"
+					(number "V6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13611,16 +13611,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_0_34"
+					(name "IO_L17N_T2_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T3"
+					(number "T6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13718,17 +13718,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -88.9 180)
+				(pin bidirectional line
+					(at 25.4 -60.96 180)
 					(length 7.62)
-					(name "VCCO_34"
+					(name "IO_L22N_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V6"
+					(number "AB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13899,16 +13899,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U5"
+					(number "T3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14079,16 +14079,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -60.96 180)
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "IO_L22N_T3_34"
+					(name "IO_L14N_T2_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB8"
+					(number "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14128,16 +14128,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -15.24 180)
+					(at 25.4 10.16 180)
 					(length 7.62)
-					(name "IO_L13N_T2_MRCC_35"
+					(name "IO_L8N_T1_AD14N_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J4"
+					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14416,16 +14416,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -15.24 180)
 					(length 7.62)
-					(name "IO_0_35"
+					(name "IO_L13N_T2_MRCC_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F4"
+					(number "J4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14596,16 +14596,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 10.16 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L8N_T1_AD14N_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "F4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15148,17 +15148,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -25.4 180)
+				(pin bidirectional line
+					(at 20.32 50.8 180)
 					(length 7.62)
-					(name "MGTAVTT"
+					(name "MGTPTXP0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B7"
+					(number "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15166,17 +15166,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -40.64 180)
+				(pin bidirectional line
+					(at 20.32 48.26 180)
 					(length 7.62)
-					(name "MGTRREF_216"
+					(name "MGTPTXN0_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F8"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15616,17 +15616,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 50.8 180)
+				(pin power_in line
+					(at 20.32 -25.4 180)
 					(length 7.62)
-					(name "MGTPTXP0_216"
+					(name "MGTAVTT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B4"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15706,17 +15706,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 48.26 180)
+				(pin power_in line
+					(at 20.32 -40.64 180)
 					(length 7.62)
-					(name "MGTPTXN0_216"
+					(name "MGTRREF_216"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16111,16 +16111,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 -35.56 0)
+					(at -25.4 50.8 0)
 					(length 7.62)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D12"
+					(number "H12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16129,16 +16129,16 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -96.52 180)
+					(at -25.4 48.26 0)
 					(length 7.62)
-					(name "GND"
+					(name "VCCAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB19"
+					(number "K12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16651,16 +16651,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 50.8 0)
+					(at -25.4 -35.56 0)
 					(length 7.62)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18109,16 +18109,16 @@
 					)
 				)
 				(pin power_in line
-					(at -25.4 48.26 0)
+					(at 25.4 -96.52 180)
 					(length 7.62)
-					(name "VCCAUX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K12"
+					(number "AB19"
 						(effects
 							(font
 								(size 1.27 1.27)

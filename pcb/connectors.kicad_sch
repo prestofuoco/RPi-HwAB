@@ -3340,7 +3340,7 @@
 	)
 	(rectangle
 		(start 39.37 30.48)
-		(end 152.4 118.11)
+		(end 152.4 109.22)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -3596,6 +3596,10 @@
 		(at 68.58 177.8)
 		(uuid "93150562-a3ca-47f0-bdff-5ce6f1dfd651")
 	)
+	(no_connect
+		(at 106.68 134.62)
+		(uuid "f6acb6b9-4d88-4094-891a-b2bed070f9cd")
+	)
 	(bus_entry
 		(at 232.41 124.46)
 		(size -2.54 2.54)
@@ -3624,16 +3628,7 @@
 		(uuid "1963f865-c8a9-4e61-b0c0-8852578a60dd")
 	)
 	(bus_entry
-		(at 66.04 68.58)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375b2f68-0927-4c48-bc5a-e78737633ead")
-	)
-	(bus_entry
-		(at 71.12 137.16)
+		(at 68.58 142.24)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3651,7 +3646,7 @@
 		(uuid "428988ea-1099-4631-9b63-11dfab3f2c18")
 	)
 	(bus_entry
-		(at 71.12 144.78)
+		(at 68.58 149.86)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3678,16 +3673,25 @@
 		(uuid "54bd1c9e-e43e-4a6d-abf1-2c0d00128526")
 	)
 	(bus_entry
-		(at 66.04 107.95)
+		(at 66.04 121.92)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "712f1977-b984-4d00-a2ba-9b73c9671175")
+		(uuid "5994e34b-ed10-49a7-af8f-d5482b0df525")
 	)
 	(bus_entry
-		(at 71.12 139.7)
+		(at 66.04 127)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722b2133-4e79-4283-9148-3dd70d4af7f9")
+	)
+	(bus_entry
+		(at 68.58 144.78)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3705,22 +3709,13 @@
 		(uuid "9175c28e-87b9-42be-8860-f9e8d58bf673")
 	)
 	(bus_entry
-		(at 66.04 71.12)
+		(at 66.04 124.46)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b45f0de1-565f-4e65-bd8d-b2460352e739")
-	)
-	(bus_entry
-		(at 66.04 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ba0079-4a42-413d-8a46-1e2ef41fb538")
+		(uuid "9625e783-c082-4f49-89df-adaa3abd1a62")
 	)
 	(bus_entry
 		(at 232.41 109.22)
@@ -3750,16 +3745,7 @@
 		(uuid "d91b9d66-24ec-47e8-ad5d-0b62c6ff3078")
 	)
 	(bus_entry
-		(at 66.04 105.41)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc49c1b9-87e0-4162-b961-fe1834df73f2")
-	)
-	(bus_entry
-		(at 71.12 142.24)
+		(at 68.58 147.32)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3775,6 +3761,15 @@
 			(type default)
 		)
 		(uuid "f25bf0e2-d6e5-4fe0-850a-0a0a9338085f")
+	)
+	(bus_entry
+		(at 66.04 129.54)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82b1215-67a7-4575-a877-a94da3cb9f49")
 	)
 	(bus_entry
 		(at 232.41 121.92)
@@ -3819,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 119.38 93.98)
+			(xy 104.14 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3839,23 +3834,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 91.44 93.98)
+			(xy 71.12 93.98) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ac6e9b0-ce8f-4b0d-be22-f5ed87fcb68d")
-	)
-	(wire
-		(pts
-			(xy 68.58 76.2) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4fe688-d4ae-41a6-a30f-3e86dce347ef")
 	)
 	(wire
 		(pts
@@ -3887,26 +3872,6 @@
 			(type default)
 		)
 		(uuid "106d37d8-a6a7-4df3-9742-5492cce92b24")
-	)
-	(wire
-		(pts
-			(xy 121.92 78.74) (xy 121.92 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117964a5-be49-4c0a-8f3a-28c86c6c0222")
-	)
-	(wire
-		(pts
-			(xy 68.58 110.49) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124f48a1-71e0-43e2-a14e-fc22c8819a71")
 	)
 	(wire
 		(pts
@@ -3978,16 +3943,6 @@
 		)
 		(uuid "1d8f17a1-2daf-416c-a303-7d5409f9c20c")
 	)
-	(bus
-		(pts
-			(xy 66.04 73.66) (xy 66.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5be32a-5349-4e28-b8a6-1ece6bbafebf")
-	)
 	(wire
 		(pts
 			(xy 200.66 106.68) (xy 200.66 114.3)
@@ -4010,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 121.92 78.74)
+			(xy 104.14 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +3996,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 121.92 144.78)
+			(xy 99.06 149.86) (xy 121.92 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4099,6 +4054,16 @@
 		)
 		(uuid "33bfc64a-0cef-48f0-a807-a16a12008045")
 	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c3e8f6-6a4a-422f-9f37-5195de9a76f4")
+	)
 	(bus
 		(pts
 			(xy 66.04 50.8) (xy 66.04 48.26)
@@ -4122,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 142.24) (xy 91.44 142.24)
+			(xy 68.58 147.32) (xy 91.44 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4118,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 137.16) (xy 68.58 134.62)
+			(xy 66.04 142.24) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4190,6 +4155,16 @@
 			(type default)
 		)
 		(uuid "469df28b-fcea-4302-b29b-0378282d78d1")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481a8e8e-626b-401d-bdac-a71aaba7d5fa")
 	)
 	(wire
 		(pts
@@ -4233,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 119.38 96.52)
+			(xy 104.14 96.52) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4325,13 +4300,13 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 105.41) (xy 66.04 107.95)
+			(xy 66.04 121.92) (xy 66.04 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6402ca09-6858-4ea6-975d-3dff2ec7c7f6")
+		(uuid "6a16a30b-b1c0-4912-af5d-553a999a2f56")
 	)
 	(bus
 		(pts
@@ -4345,13 +4320,33 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 91.44 73.66)
+			(xy 106.68 134.62) (xy 121.9576 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b641cdf-fe20-44fb-ad2a-463447c421c3")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f000f0c-7d7d-4a5a-aab0-0f8004dd58dc")
+	)
+	(wire
+		(pts
+			(xy 99.06 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc9f7bb-a98d-4679-938a-86759dc80bb9")
 	)
 	(bus
 		(pts
@@ -4362,16 +4357,6 @@
 			(type default)
 		)
 		(uuid "70d2e79f-0211-4b5f-b99d-d0d88b310e0a")
-	)
-	(wire
-		(pts
-			(xy 124.46 76.2) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72234471-2d25-4fe8-af2b-965950598117")
 	)
 	(wire
 		(pts
@@ -4386,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 119.38 91.44)
+			(xy 104.14 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 139.7) (xy 91.44 139.7)
+			(xy 68.58 144.78) (xy 91.44 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4525,16 +4510,6 @@
 		)
 		(uuid "88f8cfe6-64b6-4d60-9abd-b10eaf62cd97")
 	)
-	(bus
-		(pts
-			(xy 66.04 68.58) (xy 66.04 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a2bf2fe-3d81-4577-afa5-cbc675df7350")
-	)
 	(wire
 		(pts
 			(xy 55.88 40.64) (xy 76.2 40.64)
@@ -4558,6 +4533,16 @@
 	)
 	(bus
 		(pts
+			(xy 66.04 127) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cca4261-d417-461e-95b2-95e9ffc64229")
+	)
+	(bus
+		(pts
 			(xy 232.41 104.14) (xy 241.3 104.14)
 		)
 		(stroke
@@ -4566,9 +4551,19 @@
 		)
 		(uuid "8ddd17ec-c68d-41af-9634-b1c39223a2a1")
 	)
+	(bus
+		(pts
+			(xy 63.5 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f006267-640d-49da-81dd-6e7dc497e517")
+	)
 	(wire
 		(pts
-			(xy 71.12 144.78) (xy 91.44 144.78)
+			(xy 68.58 149.86) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4578,7 +4573,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 132.08) (xy 53.34 132.08)
+			(xy 66.04 137.16) (xy 63.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4599,7 +4594,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 91.44 81.28)
+			(xy 71.12 81.28) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4614,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 139.7) (xy 68.58 137.16)
+			(xy 66.04 144.78) (xy 66.04 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4639,23 +4634,13 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 139.7) (xy 68.58 142.24)
+			(xy 66.04 144.78) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99aad789-1235-45d7-aff3-211dcb0e9977")
-	)
-	(wire
-		(pts
-			(xy 68.58 107.95) (xy 121.92 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4b717a-2ca1-4e8c-97f2-c8b551815a84")
 	)
 	(wire
 		(pts
@@ -4677,19 +4662,9 @@
 		)
 		(uuid "9d55540a-69cc-49f5-acdb-915adb26a2fb")
 	)
-	(bus
-		(pts
-			(xy 66.04 71.12) (xy 66.04 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a13a0d50-3ddc-4c5e-aade-16097eb35797")
-	)
 	(wire
 		(pts
-			(xy 99.06 142.24) (xy 121.92 142.24)
+			(xy 99.06 147.32) (xy 121.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4719,6 +4694,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 129.54) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f8bda2-6033-41d6-8b8f-0592f4920f3b")
+	)
+	(wire
+		(pts
 			(xy 106.68 71.12) (xy 104.14 71.12)
 		)
 		(stroke
@@ -4729,7 +4714,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 121.92 137.16)
+			(xy 99.06 142.24) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4777,6 +4762,16 @@
 			(type default)
 		)
 		(uuid "b2d7100b-3429-4641-a055-938e8b11dc1d")
+	)
+	(wire
+		(pts
+			(xy 99.06 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44cfdc5-d3a5-41a9-bf28-101f36f0f054")
 	)
 	(wire
 		(pts
@@ -4879,15 +4874,35 @@
 		)
 		(uuid "c31251df-8796-4d66-b46c-b06bb8722d58")
 	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42fbe20-e062-4cf9-95d3-4959089fa3a8")
+	)
 	(bus
 		(pts
-			(xy 68.58 132.08) (xy 68.58 134.62)
+			(xy 66.04 137.16) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4e7f49c-736f-4e11-bbea-b1bb1a68a4f7")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c524577c-552e-451f-94d2-b4850e58ea65")
 	)
 	(wire
 		(pts
@@ -4951,15 +4966,15 @@
 		)
 		(uuid "ccde8dad-3422-4afa-a6c5-3ffffb74cbb6")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 55.88 66.04) (xy 66.04 66.04)
+			(xy 99.06 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce06aeda-e0d4-45fb-b77c-06d7871544c7")
+		(uuid "ce71aff3-dec7-47b8-9dcd-f39d3bf03979")
 	)
 	(wire
 		(pts
@@ -4992,19 +5007,9 @@
 		)
 		(uuid "d0c4068e-0a9d-4220-a414-b8a9f0b3e043")
 	)
-	(bus
-		(pts
-			(xy 66.04 73.66) (xy 66.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0fbb164-732d-4591-bc27-d9c1e27784e4")
-	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 119.38 81.28)
+			(xy 104.14 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 121.92 139.7)
+			(xy 99.06 144.78) (xy 121.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5082,6 +5087,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "df81e3eb-947b-4712-9631-fe02d949443e")
+	)
+	(wire
+		(pts
+			(xy 68.58 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23a1021-310d-459e-83ca-3fd78f23ba90")
 	)
 	(wire
 		(pts
@@ -5173,6 +5188,16 @@
 		)
 		(uuid "eecb8411-0f33-40f4-b2fc-8c8868aaf2b0")
 	)
+	(bus
+		(pts
+			(xy 66.04 124.46) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef427bea-bb51-4405-bd31-2e5a08f29456")
+	)
 	(wire
 		(pts
 			(xy 200.66 96.52) (xy 200.66 101.6)
@@ -5196,7 +5221,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 137.16) (xy 91.44 137.16)
+			(xy 68.58 142.24) (xy 91.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5224,9 +5249,19 @@
 		)
 		(uuid "f795935f-1f44-42df-b721-175385205610")
 	)
+	(bus
+		(pts
+			(xy 66.04 119.38) (xy 66.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97789cb-aa44-457f-b23d-afdaac989b14")
+	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 91.44 71.12)
+			(xy 71.12 71.12) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5285,7 +5320,7 @@
 		(uuid "0ca4c408-0e0e-4da1-a870-bfe1ff00faf3")
 	)
 	(label "TMS"
-		(at 73.66 139.7 0)
+		(at 71.12 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5315,7 +5350,7 @@
 		(uuid "1f0fb093-68fc-438c-b6a9-cf178c8ef132")
 	)
 	(label "ID_SDA"
-		(at 76.2 81.28 0)
+		(at 71.12 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5325,7 +5360,7 @@
 		(uuid "26adcec4-bab0-416a-b7b0-74dee03b2f3c")
 	)
 	(label "TDO"
-		(at 73.66 144.78 0)
+		(at 71.12 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,7 +5370,7 @@
 		(uuid "2c12e805-1c3c-4176-b14a-109ff3e83c98")
 	)
 	(label "TDI_RPi"
-		(at 119.38 93.98 180)
+		(at 124.46 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5384,8 +5419,18 @@
 		)
 		(uuid "36aac0ce-5496-409b-b213-ffd58df8185f")
 	)
+	(label "SPI_RPi.CS1n"
+		(at 121.9576 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39f34989-1e77-476b-8ed7-b0f0b9348bf1")
+	)
 	(label "TCK_RPi"
-		(at 76.2 93.98 0)
+		(at 71.12 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5404,7 +5449,7 @@
 		)
 		(uuid "45dcfe3e-74aa-4ed4-96be-1948b43efe61")
 	)
-	(label "QSPI0.SIO1"
+	(label "SPI_RPi.SIO1"
 		(at 71.12 73.66 0)
 		(effects
 			(font
@@ -5424,8 +5469,18 @@
 		)
 		(uuid "56c9be22-f50b-414d-aadb-548b55d68e4e")
 	)
+	(label "SPI_RPi.SIO1"
+		(at 121.92 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56e1c394-f189-47d6-9c9d-5cfcd10b167c")
+	)
 	(label "TCK_RPi"
-		(at 121.92 137.16 180)
+		(at 121.92 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5435,7 +5490,7 @@
 		(uuid "61024df4-7678-4a1c-943f-3cbd283629d0")
 	)
 	(label "TMS_RPi"
-		(at 121.92 139.7 180)
+		(at 121.92 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5444,27 +5499,17 @@
 		)
 		(uuid "63d6d0c1-25eb-492d-ab0d-b1a505e85327")
 	)
-	(label "QSPI0.CS0n"
-		(at 71.12 110.49 0)
+	(label "SPI_RPi.CS1n"
+		(at 124.46 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6fb8de84-1382-4865-9cd6-0f3cdaf83561")
+		(uuid "7632f806-59a3-484c-ad70-182d5113ae22")
 	)
-	(label "QSPI0.CS1n"
-		(at 71.12 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "710f2254-d2da-440e-911b-6d6e63579ecd")
-	)
-	(label "QSPI0.SCLK"
+	(label "SPI_RPi.SCLK"
 		(at 71.12 76.2 0)
 		(effects
 			(font
@@ -5475,7 +5520,7 @@
 		(uuid "7bc1769e-1784-4a33-be0b-c90bbcd7a2ef")
 	)
 	(label "TMS_RPi"
-		(at 119.38 91.44 180)
+		(at 124.46 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5485,7 +5530,7 @@
 		(uuid "7d88e429-fa10-4610-b075-3af3b239a5c9")
 	)
 	(label "ID_SCL"
-		(at 119.38 81.28 180)
+		(at 124.46 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5504,8 +5549,18 @@
 		)
 		(uuid "7fa37b34-8fa9-4492-ba62-5f1be51a7761")
 	)
+	(label "SPI_RPi.CS0n"
+		(at 124.46 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fbf5ff7-38e4-49b7-b40f-593c749a284c")
+	)
 	(label "TDO_RPi"
-		(at 121.92 144.78 180)
+		(at 121.92 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5513,6 +5568,16 @@
 			(justify right bottom)
 		)
 		(uuid "835cc995-7a93-458f-ac36-c14d6be9354e")
+	)
+	(label "QSPI0.SIO1"
+		(at 71.12 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "914b67d2-2faa-4c49-afc4-6d9f7e233971")
 	)
 	(label "3V3_FD"
 		(at 195.58 40.64 0)
@@ -5534,6 +5599,16 @@
 		)
 		(uuid "a5f55d8b-a129-4497-ad60-3bc1d757a4ec")
 	)
+	(label "QSPI0.SIO0"
+		(at 71.12 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a68094dd-a48c-45a0-8f5d-13e0c6fc7fcf")
+	)
 	(label "I2C1.SCL"
 		(at 71.12 53.34 0)
 		(effects
@@ -5543,6 +5618,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7321624-d19b-43c6-b0dd-145c4775cbec")
+	)
+	(label "SPI_RPi.SIO0"
+		(at 121.92 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8f2449c-c1c4-4e60-84cd-27bdb6a6993d")
 	)
 	(label "ID_SCL"
 		(at 111.76 180.34 180)
@@ -5555,7 +5640,7 @@
 		(uuid "b7b73d2d-cfac-45b3-9e49-675d40760048")
 	)
 	(label "TDI_RPi"
-		(at 121.92 142.24 180)
+		(at 121.92 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5563,6 +5648,26 @@
 			(justify right bottom)
 		)
 		(uuid "b99a2eea-b7b7-4b3f-9518-dc1adee19010")
+	)
+	(label "SPI_RPi.CS0n"
+		(at 121.92 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc0902d1-894b-4f1d-ad2d-408a9af5f7fa")
+	)
+	(label "SPI_RPi.SCLK"
+		(at 121.92 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c60a0d5c-8972-4071-8442-efcaf07ed0ab")
 	)
 	(label "I2C1.SDA"
 		(at 71.12 50.8 0)
@@ -5585,7 +5690,7 @@
 		(uuid "cc8d1364-36f5-4710-87c3-744e5c78181f")
 	)
 	(label "TDI"
-		(at 73.66 142.24 0)
+		(at 71.12 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5593,6 +5698,26 @@
 			(justify left bottom)
 		)
 		(uuid "cd120d16-f693-4562-ab13-5eeb97bf74c2")
+	)
+	(label "QSPI0.SCLK"
+		(at 71.12 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd31c4cb-ba53-421b-b127-6e4718ece656")
+	)
+	(label "QSPI0.CS0n"
+		(at 71.12 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1262247-3251-450f-8a87-c2b16ac16ba6")
 	)
 	(label "PCIE.CLK_P"
 		(at 208.28 109.22 0)
@@ -5605,7 +5730,7 @@
 		(uuid "d5bbd8b9-aff5-4096-ab04-dbba0159e26d")
 	)
 	(label "TDO_RPi"
-		(at 119.38 96.52 180)
+		(at 124.46 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5625,7 +5750,7 @@
 		(uuid "e229f49d-1833-4b5c-b68d-04664b118f12")
 	)
 	(label "TCK"
-		(at 73.66 137.16 0)
+		(at 71.12 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5654,7 +5779,7 @@
 		)
 		(uuid "f788418e-189e-4934-8746-0500b40a7e53")
 	)
-	(label "QSPI0.SIO0"
+	(label "SPI_RPi.SIO0"
 		(at 71.12 71.12 0)
 		(effects
 			(font
@@ -5666,7 +5791,7 @@
 	)
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
-		(at 53.34 132.08 180)
+		(at 63.5 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5741,6 +5866,17 @@
 		)
 		(uuid "42711b6e-3534-4966-8c12-abdde49cf0cb")
 	)
+	(hierarchical_label "QSPI0{QSPI}"
+		(shape bidirectional)
+		(at 63.5 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "485456b3-7415-4440-84e4-43700f0b99d5")
+	)
 	(hierarchical_label "PCIE.RST_B"
 		(shape output)
 		(at 246.38 139.7 0)
@@ -5784,17 +5920,6 @@
 			(justify left)
 		)
 		(uuid "e9dbf682-3b68-4faf-8a74-505fc1bbc703")
-	)
-	(hierarchical_label "QSPI0{QSPI}"
-		(shape bidirectional)
-		(at 55.88 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f92da6a0-baba-4607-b2fb-8cfe58f44ef9")
 	)
 	(symbol
 		(lib_id "library:GND")
@@ -6288,7 +6413,7 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 95.25 139.7 90)
+		(at 95.25 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6298,7 +6423,7 @@
 		(dnp no)
 		(uuid "09b26490-f467-4381-8484-a5a53026c2b8")
 		(property "Reference" "R26"
-			(at 88.9 138.43 90)
+			(at 88.9 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6308,7 +6433,7 @@
 			)
 		)
 		(property "Value" "100 1%"
-			(at 101.6 138.43 90)
+			(at 101.6 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6318,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.504 138.684 90)
+			(at 95.504 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 139.7 0)
+			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +6465,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 139.7 0)
+			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6476,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 95.25 139.7 0)
+			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +6487,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
-			(at 95.25 139.7 90)
+			(at 95.25 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6498,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 139.7 90)
+			(at 95.25 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +6639,7 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 95.25 137.16 90)
+		(at 95.25 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6522,9 +6647,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22aa84f1-dac9-48e7-a864-fd7e8a65473c")
-		(property "Reference" "R25"
-			(at 88.9 135.89 90)
+		(uuid "1a844b05-88e3-4d4c-b5d4-29101a8fea4d")
+		(property "Reference" "R36"
+			(at 88.9 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6534,7 +6659,7 @@
 			)
 		)
 		(property "Value" "100 1%"
-			(at 101.6 135.89 90)
+			(at 101.6 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6544,7 +6669,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.504 136.144 90)
+			(at 95.504 128.524 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 137.16 0)
+			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,7 +6691,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 137.16 0)
+			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6702,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 95.25 137.16 0)
+			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6713,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
-			(at 95.25 137.16 90)
+			(at 95.25 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6599,7 +6724,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 137.16 90)
+			(at 95.25 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,15 +6735,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "02e9630d-f202-4983-ab92-9f4d5614545e")
+			(uuid "6644c8cc-67aa-4915-aad8-ce248c398100")
 		)
 		(pin "1"
-			(uuid "56859676-6d1f-4bdd-9778-2849e4d08d6a")
+			(uuid "fa130576-481e-46f2-bcb7-a9c25b5681f6")
 		)
 		(instances
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
-					(reference "R25")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6634,8 +6759,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "41f73d51-8075-4d84-9cb2-7bd629bc45a1")
-		(property "Reference" "R27"
+		(uuid "22aa84f1-dac9-48e7-a864-fd7e8a65473c")
+		(property "Reference" "R25"
 			(at 88.9 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,6 +6837,118 @@
 		)
 		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
 			(at 95.25 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02e9630d-f202-4983-ab92-9f4d5614545e")
+		)
+		(pin "1"
+			(uuid "56859676-6d1f-4bdd-9778-2849e4d08d6a")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 95.25 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41f73d51-8075-4d84-9cb2-7bd629bc45a1")
+		(property "Reference" "R27"
+			(at 88.9 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 1%"
+			(at 101.6 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.504 146.304 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 95.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
+			(at 95.25 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +7220,7 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 95.25 144.78 90)
+		(at 95.25 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6993,7 +7230,7 @@
 		(dnp no)
 		(uuid "4a6d9ccd-b168-4c30-b3d5-4ef0a994f7c6")
 		(property "Reference" "R28"
-			(at 88.9 143.51 90)
+			(at 88.9 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7003,7 +7240,7 @@
 			)
 		)
 		(property "Value" "100 1%"
-			(at 101.6 143.51 90)
+			(at 101.6 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7013,7 +7250,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.504 143.764 90)
+			(at 95.504 148.844 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7024,7 +7261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 144.78 0)
+			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7272,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 144.78 0)
+			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7283,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 95.25 144.78 0)
+			(at 95.25 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +7294,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
-			(at 95.25 144.78 90)
+			(at 95.25 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7305,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
-			(at 95.25 144.78 90)
+			(at 95.25 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,6 +8053,118 @@
 		)
 	)
 	(symbol
+		(lib_id "library:R_US")
+		(at 95.25 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b72b7cea-1d0c-4ef9-a041-c50cd6fd5216")
+		(property "Reference" "R34"
+			(at 88.9 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 1%"
+			(at 101.6 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.504 123.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 95.25 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
+			(at 95.25 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "865f349f-8c7a-4963-8f9e-acbde40a25aa")
+		)
+		(pin "1"
+			(uuid "39e0e2cf-dbe2-4d36-a8af-e1a74369e3e1")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:GND")
 		(at 233.68 152.4 0)
 		(mirror y)
@@ -7886,6 +8235,118 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 95.25 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1065a19-5e04-4c29-b1b9-55d185d184ac")
+		(property "Reference" "R37"
+			(at 88.9 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 1%"
+			(at 101.6 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.504 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 95.25 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
+			(at 95.25 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9914d1d6-2b9a-44ea-b1b0-aaf638a19433")
+		)
+		(pin "1"
+			(uuid "0353c7dd-da69-4c89-89ad-1101b3e13e95")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8181,6 +8642,118 @@
 			(project "RPi-HwAB-1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 95.25 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e77e1214-be4f-4c08-9bf5-7d56f56e6c1b")
+		(property "Reference" "R35"
+			(at 88.9 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 1%"
+			(at 101.6 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.504 125.984 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW0402100RFKEDHP"
+			(at 95.25 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "RES SMD 100 OHM 1% 1/5W 0402"
+			(at 95.25 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c98e3fa6-fea3-4fea-8e1e-aabeccfaf17b")
+		)
+		(pin "1"
+			(uuid "6c6532d0-6380-4a40-bffe-bb3e799d1252")
+		)
+		(instances
+			(project "RPi-HwAB-1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6418cef5-c0d2-4573-8432-9553c4202f1e"
+					(reference "R35")
 					(unit 1)
 				)
 			)
