@@ -12,15 +12,25 @@ jobs:
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
-      - name: Check KiCad Version
-        # This confirms we have the right tool before running the big command
+      - name: Auto-Detect and Export
         run: |
-          which kicad-cli-nightly
-          kicad-cli-nightly --version
+          # 1. Hunt for the binary in common locations
+          echo "Searching for KiCad CLI..."
+          KICAD_BIN=$(find /usr/bin /usr/local/bin /opt -name "kicad-cli*" -type f | head -n 1)
+          
+          if [ -z "$KICAD_BIN" ]; then
+            echo "CRITICAL ERROR: Could not find any kicad-cli binary!"
+            exit 1
+          fi
 
-      - name: Raw Step Export
-        # Updated command name: kicad-cli -> kicad-cli-nightly
-        run: kicad-cli-nightly pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
+          echo "✅ Found Binary: $KICAD_BIN"
+          
+          # 2. check version
+          $KICAD_BIN --version
+          
+          # 3. Run the export using the found binary
+          echo "Starting Export..."
+          $KICAD_BIN pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
