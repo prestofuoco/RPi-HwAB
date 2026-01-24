@@ -7,14 +7,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Run KiBot
-        uses: INTI-CMNB/KiBot@v2_nightly
+      - name: Run KiBot Nightly
+        # This bypasses the wrapper and uses the raw Docker image
+        uses: docker://ghcr.io/inti-cmnb/kicad_auto:nightly
         with:
-          config: kibot.yaml
-          board: pcb/RPi-HwAB-1.kicad_pcb
-          schema: pcb/RPi-HwAB-1.kicad_sch
-          install3D: true
-	  image: ghcr.io/inti-cmnb/kicad_auto:nightly
+          # Arguments: -c config, -b board, -e schema, -d output dir, -i (install 3d models)
+          args: -c kibot.yaml -b pcb/RPi-HwAB-1.kicad_pcb -e pcb/RPi-HwAB-1.kicad_sch -d 3d_models -i
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
