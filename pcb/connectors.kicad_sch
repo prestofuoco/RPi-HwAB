@@ -3597,8 +3597,8 @@
 		(uuid "93150562-a3ca-47f0-bdff-5ce6f1dfd651")
 	)
 	(no_connect
-		(at 106.68 134.62)
-		(uuid "f6acb6b9-4d88-4094-891a-b2bed070f9cd")
+		(at 124.46 78.74)
+		(uuid "e2b11941-fbd3-4562-92ac-d064320771e8")
 	)
 	(bus_entry
 		(at 232.41 124.46)
@@ -4317,16 +4317,6 @@
 			(type default)
 		)
 		(uuid "6b2ab7e4-9602-45b2-bf3d-216737f6a6f5")
-	)
-	(wire
-		(pts
-			(xy 106.68 134.62) (xy 121.9576 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b641cdf-fe20-44fb-ad2a-463447c421c3")
 	)
 	(wire
 		(pts
@@ -5418,16 +5408,6 @@
 			(justify left bottom)
 		)
 		(uuid "36aac0ce-5496-409b-b213-ffd58df8185f")
-	)
-	(label "SPI_RPi.CS1n"
-		(at 121.9576 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39f34989-1e77-476b-8ed7-b0f0b9348bf1")
 	)
 	(label "TCK_RPi"
 		(at 71.12 93.98 0)
