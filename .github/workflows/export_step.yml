@@ -4,15 +4,22 @@ on: [push, workflow_dispatch]
 jobs:
   export:
     runs-on: ubuntu-latest
-    # This line runs the entire job INSIDE the KiCad Nightly container
+    # Boot the machine inside the KiCad Nightly environment
     container: ghcr.io/inti-cmnb/kicad_auto:nightly
     
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Run KiBot
-        # Now we can just type the command like a normal human
-        run: kibot -c kibot.yaml -b pcb/RPi-HwAB-1.kicad_pcb -e pcb/RPi-HwAB-1.kicad_sch -d 3d_models -i
+
+      - name: Prepare Output Directory
+        run: mkdir -p 3d_models
+
+      - name: Debug File Paths
+        # Lists files so we can confirm the path is 100% correct in the logs
+        run: ls -R pcb/
+
+      - name: Raw Step Export
+        # The direct command. No wrappers. No config files. Just export.
+        run: kicad-cli pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
