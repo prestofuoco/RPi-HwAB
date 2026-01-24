@@ -4,7 +4,6 @@ on: [push, workflow_dispatch]
 jobs:
   export:
     runs-on: ubuntu-latest
-    # Boot the machine inside the KiCad Nightly environment
     container: ghcr.io/inti-cmnb/kicad_auto:nightly
     
     steps:
@@ -13,13 +12,15 @@ jobs:
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
-      - name: Debug File Paths
-        # Lists files so we can confirm the path is 100% correct in the logs
-        run: ls -R pcb/
+      - name: Check KiCad Version
+        # This confirms we have the right tool before running the big command
+        run: |
+          which kicad-cli-nightly
+          kicad-cli-nightly --version
 
       - name: Raw Step Export
-        # The direct command. No wrappers. No config files. Just export.
-        run: kicad-cli pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
+        # Updated command name: kicad-cli -> kicad-cli-nightly
+        run: kicad-cli-nightly pcb export step --subst-models -o 3d_models/RPi-HwAB.step pcb/RPi-HwAB-1.kicad_pcb
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
