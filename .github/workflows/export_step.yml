@@ -1,0 +1,18 @@
+name: Export 3D Model
+on: [push]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Export STEP
+        uses: kicad/kicad-exports@v8
+        with:
+          config: pcb_step
+          dir: 3d_models
+          board: pcb/RPi-HwAB-1.kicad_pcb
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: STEP-File
+          path: 3d_models
