@@ -21,8 +21,6 @@ jobs:
         run: mkdir -p 3d_models
 
       - name: Export STEP
-        # 1. We set the Environment Variable so V9 finds the installed models
-        # 2. We add the flags for Copper (--include-tracks, etc)
         env:
           KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
         run: >
@@ -32,6 +30,11 @@ jobs:
           --include-zones 
           --include-pads 
           --fill-all-vias 
+          --include-soldermask 
+          --include-silkscreen
+          --fuse-shapes 
+          --user-origin 
+          --min-distance 0.005mm 
           -o 3d_models/RPi-HwAB.step 
           pcb/RPi-HwAB-1.kicad_pcb
 
