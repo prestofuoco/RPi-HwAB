@@ -19,11 +19,11 @@ jobs:
       - name: Prepare Output Directory
         run: mkdir -p 3d_models
 
-      - name: Export GLB
+      - name: Export GLB (Visual Model)
         env:
           KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
         run: >
-          kicad-cli pcb export gltf 
+          kicad-cli pcb export glb 
           --subst-models 
           --include-tracks 
           --include-zones 
