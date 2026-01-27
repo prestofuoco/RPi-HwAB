@@ -2151,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" ""
 			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2184,8 +2184,19 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "LTST-S270KRKT"
+		(property "Manufacturer Product Number" "LTST-C190KRKT"
 			(at 109.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "LED RED CLEAR CHIP SMD"
+			(at 109.22 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,6 +2931,17 @@
 			)
 		)
 		(property "Manufacturer Product Number" "RC0402JR-071KL"
+			(at 109.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "RES 1K OHM 5% 1/16W 0402"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)

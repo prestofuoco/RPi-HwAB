@@ -3351,16 +3351,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 30.48 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L4N_T0_16"
+					(name "IO_0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E14"
+					(number "F15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3495,16 +3495,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -35.56 180)
+					(at 25.4 30.48 180)
 					(length 7.62)
-					(name "IO_L17N_T2_16"
+					(name "IO_L4N_T0_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A19"
+					(number "E14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3783,16 +3783,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 -10.16 180)
 					(length 7.62)
-					(name "IO_0_16"
+					(name "IO_L12N_T1_MRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F15"
+					(number "C17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3855,16 +3855,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -10.16 180)
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "IO_L12N_T1_MRCC_16"
+					(name "IO_L14N_T2_SRCC_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C17"
+					(number "D19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3963,16 +3963,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_16"
+					(name "IO_L17N_T2_16"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D19"
+					(number "A19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4372,16 +4372,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -60.96 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L22N_T3_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB8"
+					(number "T3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4875,17 +4875,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -88.9 180)
+				(pin bidirectional line
+					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "VCCO_34"
+					(name "IO_L14N_T2_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V6"
+					(number "U5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4984,16 +4984,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 -35.56 180)
 					(length 7.62)
-					(name "IO_L14N_T2_SRCC_34"
+					(name "IO_L17N_T2_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U5"
+					(number "T6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5164,16 +5164,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -35.56 180)
+					(at 25.4 -60.96 180)
 					(length 7.62)
-					(name "IO_L17N_T2_34"
+					(name "IO_L22N_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T6"
+					(number "AB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5343,17 +5343,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 25.4 50.8 180)
+				(pin power_in line
+					(at 25.4 -88.9 180)
 					(length 7.62)
-					(name "IO_0_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T3"
+					(number "V6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5393,16 +5393,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 50.8 180)
+					(at 25.4 10.16 180)
 					(length 7.62)
-					(name "IO_0_35"
+					(name "IO_L8N_T1_AD14N_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F4"
+					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5681,16 +5681,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 10.16 180)
+					(at 25.4 -15.24 180)
 					(length 7.62)
-					(name "IO_L8N_T1_AD14N_35"
+					(name "IO_L13N_T2_MRCC_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G2"
+					(number "J4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5861,16 +5861,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -15.24 180)
+					(at 25.4 50.8 180)
 					(length 7.62)
-					(name "IO_L13N_T2_MRCC_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J4"
+					(number "F4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12063,7 +12063,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" "YAGEO"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12074,7 +12074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "CRCW04021K00FKED"
+		(property "Manufacturer Product Number" "RC0402JR-071KL"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12085,7 +12085,7 @@
 				)
 			)
 		)
-		(property "Part Description" "RES 1K OHM 1% 1/16W 0402"
+		(property "Part Description" "RES 1K OHM 5% 1/16W 0402"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
